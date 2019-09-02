@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/chaotang/\346\226\207\346\241\243/Try/log/autoencoder2.ckpt"
+all_model_checkpoint_paths: "/home/chaotang/\346\226\207\346\241\243/Try/log/autoencoder2.ckpt"

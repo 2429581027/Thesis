@@ -1,0 +1,9151 @@
+Namespace(batch_size=16, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='log_part_segmentation', max_epoch=31, model='pointnet2_part_seg', momentum=0.9, num_point=2048, optimizer='adam')
+pid: 2487
+**** EPOCH 000 ****
+2019-06-28 09:33:01.097175
+ -- 010 / 874 --
+mean loss: 3.836633
+accuracy: 0.127972
+ -- 020 / 874 --
+mean loss: 2.684247
+accuracy: 0.378461
+ -- 030 / 874 --
+mean loss: 1.948808
+accuracy: 0.549411
+ -- 040 / 874 --
+mean loss: 1.820622
+accuracy: 0.556396
+ -- 050 / 874 --
+mean loss: 1.877782
+accuracy: 0.558026
+ -- 060 / 874 --
+mean loss: 1.532787
+accuracy: 0.631436
+ -- 070 / 874 --
+mean loss: 1.495760
+accuracy: 0.638229
+ -- 080 / 874 --
+mean loss: 1.568268
+accuracy: 0.636005
+ -- 090 / 874 --
+mean loss: 1.528944
+accuracy: 0.632828
+ -- 100 / 874 --
+mean loss: 1.269210
+accuracy: 0.680872
+ -- 110 / 874 --
+mean loss: 1.374861
+accuracy: 0.671057
+ -- 120 / 874 --
+mean loss: 1.394138
+accuracy: 0.667816
+ -- 130 / 874 --
+mean loss: 1.360494
+accuracy: 0.662155
+ -- 140 / 874 --
+mean loss: 1.298048
+accuracy: 0.665891
+ -- 150 / 874 --
+mean loss: 1.368958
+accuracy: 0.666730
+ -- 160 / 874 --
+mean loss: 1.004045
+accuracy: 0.752628
+ -- 170 / 874 --
+mean loss: 1.147300
+accuracy: 0.715768
+ -- 180 / 874 --
+mean loss: 1.254177
+accuracy: 0.689795
+ -- 190 / 874 --
+mean loss: 1.090526
+accuracy: 0.720386
+ -- 200 / 874 --
+mean loss: 1.009781
+accuracy: 0.737280
+ -- 210 / 874 --
+mean loss: 1.117850
+accuracy: 0.717059
+ -- 220 / 874 --
+mean loss: 1.094252
+accuracy: 0.734750
+ -- 230 / 874 --
+mean loss: 1.040672
+accuracy: 0.732626
+ -- 240 / 874 --
+mean loss: 1.255826
+accuracy: 0.677350
+ -- 250 / 874 --
+mean loss: 0.893698
+accuracy: 0.762259
+ -- 260 / 874 --
+mean loss: 0.863244
+accuracy: 0.781055
+ -- 270 / 874 --
+mean loss: 1.036258
+accuracy: 0.745859
+ -- 280 / 874 --
+mean loss: 0.863858
+accuracy: 0.799036
+ -- 290 / 874 --
+mean loss: 0.910554
+accuracy: 0.764023
+ -- 300 / 874 --
+mean loss: 0.881353
+accuracy: 0.768451
+ -- 310 / 874 --
+mean loss: 0.799007
+accuracy: 0.782651
+ -- 320 / 874 --
+mean loss: 0.948139
+accuracy: 0.742682
+ -- 330 / 874 --
+mean loss: 0.899081
+accuracy: 0.759015
+ -- 340 / 874 --
+mean loss: 0.776815
+accuracy: 0.785010
+ -- 350 / 874 --
+mean loss: 0.826470
+accuracy: 0.772070
+ -- 360 / 874 --
+mean loss: 0.938557
+accuracy: 0.775305
+ -- 370 / 874 --
+mean loss: 0.835943
+accuracy: 0.772852
+ -- 380 / 874 --
+mean loss: 0.856243
+accuracy: 0.786874
+ -- 390 / 874 --
+mean loss: 0.789254
+accuracy: 0.786389
+ -- 400 / 874 --
+mean loss: 0.676842
+accuracy: 0.825143
+ -- 410 / 874 --
+mean loss: 0.731648
+accuracy: 0.794971
+ -- 420 / 874 --
+mean loss: 0.733702
+accuracy: 0.803683
+ -- 430 / 874 --
+mean loss: 0.870741
+accuracy: 0.778033
+ -- 440 / 874 --
+mean loss: 0.820956
+accuracy: 0.780151
+ -- 450 / 874 --
+mean loss: 0.954766
+accuracy: 0.746906
+ -- 460 / 874 --
+mean loss: 0.768239
+accuracy: 0.788565
+ -- 470 / 874 --
+mean loss: 0.649521
+accuracy: 0.823795
+ -- 480 / 874 --
+mean loss: 0.683179
+accuracy: 0.816425
+ -- 490 / 874 --
+mean loss: 0.674739
+accuracy: 0.830307
+ -- 500 / 874 --
+mean loss: 0.657061
+accuracy: 0.827457
+ -- 510 / 874 --
+mean loss: 0.923513
+accuracy: 0.767957
+ -- 520 / 874 --
+mean loss: 0.726675
+accuracy: 0.807031
+ -- 530 / 874 --
+mean loss: 0.756160
+accuracy: 0.810056
+ -- 540 / 874 --
+mean loss: 0.599143
+accuracy: 0.833041
+ -- 550 / 874 --
+mean loss: 0.718687
+accuracy: 0.811746
+ -- 560 / 874 --
+mean loss: 0.518696
+accuracy: 0.859592
+ -- 570 / 874 --
+mean loss: 0.669486
+accuracy: 0.827368
+ -- 580 / 874 --
+mean loss: 0.716180
+accuracy: 0.824698
+ -- 590 / 874 --
+mean loss: 0.647273
+accuracy: 0.835519
+ -- 600 / 874 --
+mean loss: 0.587926
+accuracy: 0.834418
+ -- 610 / 874 --
+mean loss: 0.674335
+accuracy: 0.822635
+ -- 620 / 874 --
+mean loss: 0.645332
+accuracy: 0.820343
+ -- 630 / 874 --
+mean loss: 0.636363
+accuracy: 0.829022
+ -- 640 / 874 --
+mean loss: 0.641380
+accuracy: 0.836136
+ -- 650 / 874 --
+mean loss: 0.795641
+accuracy: 0.784378
+ -- 660 / 874 --
+mean loss: 0.620331
+accuracy: 0.825323
+ -- 670 / 874 --
+mean loss: 0.611141
+accuracy: 0.832571
+ -- 680 / 874 --
+mean loss: 0.609234
+accuracy: 0.833444
+ -- 690 / 874 --
+mean loss: 0.763952
+accuracy: 0.810974
+ -- 700 / 874 --
+mean loss: 0.750961
+accuracy: 0.803680
+ -- 710 / 874 --
+mean loss: 0.726369
+accuracy: 0.795245
+ -- 720 / 874 --
+mean loss: 0.646326
+accuracy: 0.829852
+ -- 730 / 874 --
+mean loss: 0.607462
+accuracy: 0.841934
+ -- 740 / 874 --
+mean loss: 0.571437
+accuracy: 0.844315
+ -- 750 / 874 --
+mean loss: 0.596839
+accuracy: 0.836945
+ -- 760 / 874 --
+mean loss: 0.623153
+accuracy: 0.830847
+ -- 770 / 874 --
+mean loss: 0.545638
+accuracy: 0.848434
+ -- 780 / 874 --
+mean loss: 0.670167
+accuracy: 0.815472
+ -- 790 / 874 --
+mean loss: 0.624978
+accuracy: 0.831723
+ -- 800 / 874 --
+mean loss: 0.666966
+accuracy: 0.833987
+ -- 810 / 874 --
+mean loss: 0.619139
+accuracy: 0.825064
+ -- 820 / 874 --
+mean loss: 0.628005
+accuracy: 0.824622
+ -- 830 / 874 --
+mean loss: 0.484106
+accuracy: 0.859033
+ -- 840 / 874 --
+mean loss: 0.491615
+accuracy: 0.859412
+ -- 850 / 874 --
+mean loss: 0.539605
+accuracy: 0.857663
+ -- 860 / 874 --
+mean loss: 0.678872
+accuracy: 0.819324
+ -- 870 / 874 --
+mean loss: 0.514938
+accuracy: 0.853479
+2019-06-28 09:40:14.007119
+---- EPOCH 000 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.508361
+eval accuracy: 0.884332
+eval avg class acc: 0.571568
+eval mIoU of Airplane:	 0.686705
+eval mIoU of Bag:	 0.479848
+eval mIoU of Cap:	 0.365656
+eval mIoU of Car:	 0.348714
+eval mIoU of Chair:	 0.852280
+eval mIoU of Earphone:	 0.471032
+eval mIoU of Guitar:	 0.812472
+eval mIoU of Knife:	 0.770818
+eval mIoU of Lamp:	 0.675887
+eval mIoU of Laptop:	 0.951388
+eval mIoU of Motorbike:	 0.169231
+eval mIoU of Mug:	 0.486103
+eval mIoU of Pistol:	 0.538647
+eval mIoU of Rocket:	 0.229050
+eval mIoU of Skateboard:	 0.567707
+eval mIoU of Table:	 0.765342
+eval mean mIoU: 0.573180
+eval mean mIoU (all shapes): 0.727168
+Model saved in file: log_part_segmentation/model.ckpt
+**** EPOCH 001 ****
+2019-06-28 09:41:18.692054
+ -- 010 / 874 --
+mean loss: 0.621369
+accuracy: 0.851474
+ -- 020 / 874 --
+mean loss: 0.547963
+accuracy: 0.848169
+ -- 030 / 874 --
+mean loss: 0.580719
+accuracy: 0.836362
+ -- 040 / 874 --
+mean loss: 0.540826
+accuracy: 0.835138
+ -- 050 / 874 --
+mean loss: 0.541010
+accuracy: 0.840482
+ -- 060 / 874 --
+mean loss: 0.526082
+accuracy: 0.860855
+ -- 070 / 874 --
+mean loss: 0.508165
+accuracy: 0.859702
+ -- 080 / 874 --
+mean loss: 0.633666
+accuracy: 0.831046
+ -- 090 / 874 --
+mean loss: 0.607772
+accuracy: 0.837051
+ -- 100 / 874 --
+mean loss: 0.529549
+accuracy: 0.850461
+ -- 110 / 874 --
+mean loss: 0.586666
+accuracy: 0.830328
+ -- 120 / 874 --
+mean loss: 0.642754
+accuracy: 0.822101
+ -- 130 / 874 --
+mean loss: 0.569924
+accuracy: 0.860388
+ -- 140 / 874 --
+mean loss: 0.597717
+accuracy: 0.850287
+ -- 150 / 874 --
+mean loss: 0.574880
+accuracy: 0.833218
+ -- 160 / 874 --
+mean loss: 0.501115
+accuracy: 0.868817
+ -- 170 / 874 --
+mean loss: 0.622562
+accuracy: 0.828851
+ -- 180 / 874 --
+mean loss: 0.471184
+accuracy: 0.860263
+ -- 190 / 874 --
+mean loss: 0.580812
+accuracy: 0.839383
+ -- 200 / 874 --
+mean loss: 0.454661
+accuracy: 0.881366
+ -- 210 / 874 --
+mean loss: 0.460613
+accuracy: 0.880359
+ -- 220 / 874 --
+mean loss: 0.475105
+accuracy: 0.860559
+ -- 230 / 874 --
+mean loss: 0.535451
+accuracy: 0.855667
+ -- 240 / 874 --
+mean loss: 0.601767
+accuracy: 0.848209
+ -- 250 / 874 --
+mean loss: 0.505819
+accuracy: 0.867966
+ -- 260 / 874 --
+mean loss: 0.602321
+accuracy: 0.843616
+ -- 270 / 874 --
+mean loss: 0.443124
+accuracy: 0.864624
+ -- 280 / 874 --
+mean loss: 0.566915
+accuracy: 0.839978
+ -- 290 / 874 --
+mean loss: 0.475011
+accuracy: 0.861069
+ -- 300 / 874 --
+mean loss: 0.510240
+accuracy: 0.860089
+ -- 310 / 874 --
+mean loss: 0.489919
+accuracy: 0.860928
+ -- 320 / 874 --
+mean loss: 0.475057
+accuracy: 0.862906
+ -- 330 / 874 --
+mean loss: 0.574217
+accuracy: 0.854016
+ -- 340 / 874 --
+mean loss: 0.539825
+accuracy: 0.837985
+ -- 350 / 874 --
+mean loss: 0.446341
+accuracy: 0.876184
+ -- 360 / 874 --
+mean loss: 0.575225
+accuracy: 0.839285
+ -- 370 / 874 --
+mean loss: 0.450472
+accuracy: 0.868604
+ -- 380 / 874 --
+mean loss: 0.540039
+accuracy: 0.846317
+ -- 390 / 874 --
+mean loss: 0.414757
+accuracy: 0.874902
+ -- 400 / 874 --
+mean loss: 0.494058
+accuracy: 0.866183
+ -- 410 / 874 --
+mean loss: 0.667956
+accuracy: 0.832239
+ -- 420 / 874 --
+mean loss: 0.436486
+accuracy: 0.870630
+ -- 430 / 874 --
+mean loss: 0.555782
+accuracy: 0.848462
+ -- 440 / 874 --
+mean loss: 0.596277
+accuracy: 0.846216
+ -- 450 / 874 --
+mean loss: 0.488046
+accuracy: 0.865875
+ -- 460 / 874 --
+mean loss: 0.431936
+accuracy: 0.873541
+ -- 470 / 874 --
+mean loss: 0.518164
+accuracy: 0.860205
+ -- 480 / 874 --
+mean loss: 0.523365
+accuracy: 0.839200
+ -- 490 / 874 --
+mean loss: 0.400174
+accuracy: 0.881863
+ -- 500 / 874 --
+mean loss: 0.479882
+accuracy: 0.852469
+ -- 510 / 874 --
+mean loss: 0.377186
+accuracy: 0.885089
+ -- 520 / 874 --
+mean loss: 0.433464
+accuracy: 0.869641
+ -- 530 / 874 --
+mean loss: 0.379026
+accuracy: 0.882080
+ -- 540 / 874 --
+mean loss: 0.464122
+accuracy: 0.875757
+ -- 550 / 874 --
+mean loss: 0.512632
+accuracy: 0.846603
+ -- 560 / 874 --
+mean loss: 0.496126
+accuracy: 0.857281
+ -- 570 / 874 --
+mean loss: 0.455624
+accuracy: 0.866434
+ -- 580 / 874 --
+mean loss: 0.435449
+accuracy: 0.862140
+ -- 590 / 874 --
+mean loss: 0.425201
+accuracy: 0.882098
+ -- 600 / 874 --
+mean loss: 0.444142
+accuracy: 0.865073
+ -- 610 / 874 --
+mean loss: 0.498790
+accuracy: 0.853842
+ -- 620 / 874 --
+mean loss: 0.513550
+accuracy: 0.853674
+ -- 630 / 874 --
+mean loss: 0.461579
+accuracy: 0.880048
+ -- 640 / 874 --
+mean loss: 0.464531
+accuracy: 0.863617
+ -- 650 / 874 --
+mean loss: 0.473451
+accuracy: 0.858224
+ -- 660 / 874 --
+mean loss: 0.501002
+accuracy: 0.853549
+ -- 670 / 874 --
+mean loss: 0.442336
+accuracy: 0.885114
+ -- 680 / 874 --
+mean loss: 0.415289
+accuracy: 0.873926
+ -- 690 / 874 --
+mean loss: 0.474700
+accuracy: 0.865308
+ -- 700 / 874 --
+mean loss: 0.392769
+accuracy: 0.881555
+ -- 710 / 874 --
+mean loss: 0.489626
+accuracy: 0.855789
+ -- 720 / 874 --
+mean loss: 0.337074
+accuracy: 0.901001
+ -- 730 / 874 --
+mean loss: 0.416554
+accuracy: 0.888284
+ -- 740 / 874 --
+mean loss: 0.508295
+accuracy: 0.862430
+ -- 750 / 874 --
+mean loss: 0.425255
+accuracy: 0.871375
+ -- 760 / 874 --
+mean loss: 0.549893
+accuracy: 0.847107
+ -- 770 / 874 --
+mean loss: 0.460818
+accuracy: 0.867484
+ -- 780 / 874 --
+mean loss: 0.473403
+accuracy: 0.854416
+ -- 790 / 874 --
+mean loss: 0.435333
+accuracy: 0.877454
+ -- 800 / 874 --
+mean loss: 0.525241
+accuracy: 0.850998
+ -- 810 / 874 --
+mean loss: 0.488876
+accuracy: 0.855664
+ -- 820 / 874 --
+mean loss: 0.478972
+accuracy: 0.853088
+ -- 830 / 874 --
+mean loss: 0.410226
+accuracy: 0.883911
+ -- 840 / 874 --
+mean loss: 0.458703
+accuracy: 0.874783
+ -- 850 / 874 --
+mean loss: 0.372149
+accuracy: 0.890320
+ -- 860 / 874 --
+mean loss: 0.429768
+accuracy: 0.877356
+ -- 870 / 874 --
+mean loss: 0.494729
+accuracy: 0.848877
+2019-06-28 09:44:12.959910
+---- EPOCH 001 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.441605
+eval accuracy: 0.896026
+eval avg class acc: 0.630191
+eval mIoU of Airplane:	 0.711146
+eval mIoU of Bag:	 0.474836
+eval mIoU of Cap:	 0.373201
+eval mIoU of Car:	 0.575384
+eval mIoU of Chair:	 0.856891
+eval mIoU of Earphone:	 0.584953
+eval mIoU of Guitar:	 0.867810
+eval mIoU of Knife:	 0.798827
+eval mIoU of Lamp:	 0.742261
+eval mIoU of Laptop:	 0.948969
+eval mIoU of Motorbike:	 0.171556
+eval mIoU of Mug:	 0.489195
+eval mIoU of Pistol:	 0.574647
+eval mIoU of Rocket:	 0.228535
+eval mIoU of Skateboard:	 0.578123
+eval mIoU of Table:	 0.765025
+eval mean mIoU: 0.608835
+eval mean mIoU (all shapes): 0.755244
+**** EPOCH 002 ****
+2019-06-28 09:44:23.954587
+ -- 010 / 874 --
+mean loss: 0.438792
+accuracy: 0.869781
+ -- 020 / 874 --
+mean loss: 0.454380
+accuracy: 0.867645
+ -- 030 / 874 --
+mean loss: 0.414717
+accuracy: 0.883694
+ -- 040 / 874 --
+mean loss: 0.404954
+accuracy: 0.881113
+ -- 050 / 874 --
+mean loss: 0.512426
+accuracy: 0.857877
+ -- 060 / 874 --
+mean loss: 0.357629
+accuracy: 0.889160
+ -- 070 / 874 --
+mean loss: 0.340119
+accuracy: 0.895370
+ -- 080 / 874 --
+mean loss: 0.308726
+accuracy: 0.899411
+ -- 090 / 874 --
+mean loss: 0.355319
+accuracy: 0.893451
+ -- 100 / 874 --
+mean loss: 0.388042
+accuracy: 0.893039
+ -- 110 / 874 --
+mean loss: 0.388048
+accuracy: 0.882407
+ -- 120 / 874 --
+mean loss: 0.375618
+accuracy: 0.885397
+ -- 130 / 874 --
+mean loss: 0.477850
+accuracy: 0.870987
+ -- 140 / 874 --
+mean loss: 0.426705
+accuracy: 0.880176
+ -- 150 / 874 --
+mean loss: 0.413545
+accuracy: 0.876221
+ -- 160 / 874 --
+mean loss: 0.495255
+accuracy: 0.863419
+ -- 170 / 874 --
+mean loss: 0.465302
+accuracy: 0.865436
+ -- 180 / 874 --
+mean loss: 0.360492
+accuracy: 0.899094
+ -- 190 / 874 --
+mean loss: 0.418372
+accuracy: 0.878879
+ -- 200 / 874 --
+mean loss: 0.585780
+accuracy: 0.829218
+ -- 210 / 874 --
+mean loss: 0.451625
+accuracy: 0.865424
+ -- 220 / 874 --
+mean loss: 0.609258
+accuracy: 0.848651
+ -- 230 / 874 --
+mean loss: 0.478330
+accuracy: 0.851053
+ -- 240 / 874 --
+mean loss: 0.582858
+accuracy: 0.850101
+ -- 250 / 874 --
+mean loss: 0.464407
+accuracy: 0.872641
+ -- 260 / 874 --
+mean loss: 0.578679
+accuracy: 0.834451
+ -- 270 / 874 --
+mean loss: 0.388964
+accuracy: 0.885422
+ -- 280 / 874 --
+mean loss: 0.497034
+accuracy: 0.859100
+ -- 290 / 874 --
+mean loss: 0.358091
+accuracy: 0.883957
+ -- 300 / 874 --
+mean loss: 0.531233
+accuracy: 0.853186
+ -- 310 / 874 --
+mean loss: 0.464497
+accuracy: 0.861987
+ -- 320 / 874 --
+mean loss: 0.643632
+accuracy: 0.844458
+ -- 330 / 874 --
+mean loss: 0.384636
+accuracy: 0.892191
+ -- 340 / 874 --
+mean loss: 0.393693
+accuracy: 0.888696
+ -- 350 / 874 --
+mean loss: 0.481765
+accuracy: 0.862390
+ -- 360 / 874 --
+mean loss: 0.461837
+accuracy: 0.868518
+ -- 370 / 874 --
+mean loss: 0.377722
+accuracy: 0.884183
+ -- 380 / 874 --
+mean loss: 0.554478
+accuracy: 0.844928
+ -- 390 / 874 --
+mean loss: 0.515716
+accuracy: 0.848282
+ -- 400 / 874 --
+mean loss: 0.438185
+accuracy: 0.868359
+ -- 410 / 874 --
+mean loss: 0.387547
+accuracy: 0.878812
+ -- 420 / 874 --
+mean loss: 0.488074
+accuracy: 0.862030
+ -- 430 / 874 --
+mean loss: 0.367115
+accuracy: 0.886847
+ -- 440 / 874 --
+mean loss: 0.420095
+accuracy: 0.872614
+ -- 450 / 874 --
+mean loss: 0.363562
+accuracy: 0.887958
+ -- 460 / 874 --
+mean loss: 0.328613
+accuracy: 0.895132
+ -- 470 / 874 --
+mean loss: 0.287553
+accuracy: 0.910165
+ -- 480 / 874 --
+mean loss: 0.436713
+accuracy: 0.876593
+ -- 490 / 874 --
+mean loss: 0.402438
+accuracy: 0.879172
+ -- 500 / 874 --
+mean loss: 0.421527
+accuracy: 0.888864
+ -- 510 / 874 --
+mean loss: 0.354134
+accuracy: 0.891177
+ -- 520 / 874 --
+mean loss: 0.409336
+accuracy: 0.877817
+ -- 530 / 874 --
+mean loss: 0.354345
+accuracy: 0.884973
+ -- 540 / 874 --
+mean loss: 0.459477
+accuracy: 0.877933
+ -- 550 / 874 --
+mean loss: 0.374383
+accuracy: 0.882593
+ -- 560 / 874 --
+mean loss: 0.391675
+accuracy: 0.887167
+ -- 570 / 874 --
+mean loss: 0.382957
+accuracy: 0.887006
+ -- 580 / 874 --
+mean loss: 0.339955
+accuracy: 0.892596
+ -- 590 / 874 --
+mean loss: 0.368421
+accuracy: 0.877786
+ -- 600 / 874 --
+mean loss: 0.330426
+accuracy: 0.902127
+ -- 610 / 874 --
+mean loss: 0.306818
+accuracy: 0.911819
+ -- 620 / 874 --
+mean loss: 0.561226
+accuracy: 0.861127
+ -- 630 / 874 --
+mean loss: 0.389192
+accuracy: 0.892416
+ -- 640 / 874 --
+mean loss: 0.414246
+accuracy: 0.879175
+ -- 650 / 874 --
+mean loss: 0.356815
+accuracy: 0.887280
+ -- 660 / 874 --
+mean loss: 0.296945
+accuracy: 0.904968
+ -- 670 / 874 --
+mean loss: 0.387974
+accuracy: 0.890161
+ -- 680 / 874 --
+mean loss: 0.402770
+accuracy: 0.878021
+ -- 690 / 874 --
+mean loss: 0.443984
+accuracy: 0.873138
+ -- 700 / 874 --
+mean loss: 0.383841
+accuracy: 0.888483
+ -- 710 / 874 --
+mean loss: 0.532768
+accuracy: 0.851547
+ -- 720 / 874 --
+mean loss: 0.410565
+accuracy: 0.882700
+ -- 730 / 874 --
+mean loss: 0.347901
+accuracy: 0.896262
+ -- 740 / 874 --
+mean loss: 0.324440
+accuracy: 0.906989
+ -- 750 / 874 --
+mean loss: 0.377847
+accuracy: 0.902325
+ -- 760 / 874 --
+mean loss: 0.373251
+accuracy: 0.885959
+ -- 770 / 874 --
+mean loss: 0.373606
+accuracy: 0.889929
+ -- 780 / 874 --
+mean loss: 0.379159
+accuracy: 0.884393
+ -- 790 / 874 --
+mean loss: 0.381536
+accuracy: 0.894510
+ -- 800 / 874 --
+mean loss: 0.363464
+accuracy: 0.888535
+ -- 810 / 874 --
+mean loss: 0.342857
+accuracy: 0.897269
+ -- 820 / 874 --
+mean loss: 0.325607
+accuracy: 0.898608
+ -- 830 / 874 --
+mean loss: 0.304153
+accuracy: 0.905673
+ -- 840 / 874 --
+mean loss: 0.420776
+accuracy: 0.874689
+ -- 850 / 874 --
+mean loss: 0.422218
+accuracy: 0.876324
+ -- 860 / 874 --
+mean loss: 0.329985
+accuracy: 0.900073
+ -- 870 / 874 --
+mean loss: 0.392895
+accuracy: 0.875888
+2019-06-28 09:47:17.920736
+---- EPOCH 002 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.478770
+eval accuracy: 0.896516
+eval avg class acc: 0.643561
+eval mIoU of Airplane:	 0.715161
+eval mIoU of Bag:	 0.570266
+eval mIoU of Cap:	 0.764700
+eval mIoU of Car:	 0.561098
+eval mIoU of Chair:	 0.875669
+eval mIoU of Earphone:	 0.617270
+eval mIoU of Guitar:	 0.860121
+eval mIoU of Knife:	 0.640946
+eval mIoU of Lamp:	 0.660179
+eval mIoU of Laptop:	 0.941239
+eval mIoU of Motorbike:	 0.231910
+eval mIoU of Mug:	 0.557887
+eval mIoU of Pistol:	 0.598147
+eval mIoU of Rocket:	 0.233210
+eval mIoU of Skateboard:	 0.582302
+eval mIoU of Table:	 0.777901
+eval mean mIoU: 0.636751
+eval mean mIoU (all shapes): 0.754648
+**** EPOCH 003 ****
+2019-06-28 09:47:29.127874
+ -- 010 / 874 --
+mean loss: 0.314233
+accuracy: 0.896695
+ -- 020 / 874 --
+mean loss: 0.394199
+accuracy: 0.899634
+ -- 030 / 874 --
+mean loss: 0.458171
+accuracy: 0.873282
+ -- 040 / 874 --
+mean loss: 0.357584
+accuracy: 0.902954
+ -- 050 / 874 --
+mean loss: 0.295494
+accuracy: 0.909741
+ -- 060 / 874 --
+mean loss: 0.500590
+accuracy: 0.871219
+ -- 070 / 874 --
+mean loss: 0.399555
+accuracy: 0.881332
+ -- 080 / 874 --
+mean loss: 0.372330
+accuracy: 0.896542
+ -- 090 / 874 --
+mean loss: 0.370010
+accuracy: 0.894855
+ -- 100 / 874 --
+mean loss: 0.307976
+accuracy: 0.902704
+ -- 110 / 874 --
+mean loss: 0.319473
+accuracy: 0.892822
+ -- 120 / 874 --
+mean loss: 0.363526
+accuracy: 0.886679
+ -- 130 / 874 --
+mean loss: 0.363931
+accuracy: 0.895724
+ -- 140 / 874 --
+mean loss: 0.319319
+accuracy: 0.896109
+ -- 150 / 874 --
+mean loss: 0.342757
+accuracy: 0.892300
+ -- 160 / 874 --
+mean loss: 0.300981
+accuracy: 0.902298
+ -- 170 / 874 --
+mean loss: 0.317569
+accuracy: 0.906094
+ -- 180 / 874 --
+mean loss: 0.366617
+accuracy: 0.892728
+ -- 190 / 874 --
+mean loss: 0.455531
+accuracy: 0.868338
+ -- 200 / 874 --
+mean loss: 0.337563
+accuracy: 0.894086
+ -- 210 / 874 --
+mean loss: 0.422053
+accuracy: 0.866757
+ -- 220 / 874 --
+mean loss: 0.355578
+accuracy: 0.889151
+ -- 230 / 874 --
+mean loss: 0.344434
+accuracy: 0.891226
+ -- 240 / 874 --
+mean loss: 0.325072
+accuracy: 0.902728
+ -- 250 / 874 --
+mean loss: 0.435988
+accuracy: 0.878223
+ -- 260 / 874 --
+mean loss: 0.432819
+accuracy: 0.871292
+ -- 270 / 874 --
+mean loss: 0.370044
+accuracy: 0.884659
+ -- 280 / 874 --
+mean loss: 0.405929
+accuracy: 0.869522
+ -- 290 / 874 --
+mean loss: 0.500953
+accuracy: 0.868115
+ -- 300 / 874 --
+mean loss: 0.295404
+accuracy: 0.904059
+ -- 310 / 874 --
+mean loss: 0.338060
+accuracy: 0.894809
+ -- 320 / 874 --
+mean loss: 0.387237
+accuracy: 0.887970
+ -- 330 / 874 --
+mean loss: 0.420495
+accuracy: 0.875488
+ -- 340 / 874 --
+mean loss: 0.396499
+accuracy: 0.880539
+ -- 350 / 874 --
+mean loss: 0.286693
+accuracy: 0.906754
+ -- 360 / 874 --
+mean loss: 0.376019
+accuracy: 0.875470
+ -- 370 / 874 --
+mean loss: 0.406382
+accuracy: 0.880832
+ -- 380 / 874 --
+mean loss: 0.387630
+accuracy: 0.888351
+ -- 390 / 874 --
+mean loss: 0.457279
+accuracy: 0.871576
+ -- 400 / 874 --
+mean loss: 0.324199
+accuracy: 0.901730
+ -- 410 / 874 --
+mean loss: 0.412352
+accuracy: 0.886819
+ -- 420 / 874 --
+mean loss: 0.430585
+accuracy: 0.870532
+ -- 430 / 874 --
+mean loss: 0.335515
+accuracy: 0.897156
+ -- 440 / 874 --
+mean loss: 0.433973
+accuracy: 0.892770
+ -- 450 / 874 --
+mean loss: 0.357611
+accuracy: 0.896057
+ -- 460 / 874 --
+mean loss: 0.391554
+accuracy: 0.877402
+ -- 470 / 874 --
+mean loss: 0.424094
+accuracy: 0.879309
+ -- 480 / 874 --
+mean loss: 0.417377
+accuracy: 0.885953
+ -- 490 / 874 --
+mean loss: 0.340831
+accuracy: 0.899771
+ -- 500 / 874 --
+mean loss: 0.422679
+accuracy: 0.870770
+ -- 510 / 874 --
+mean loss: 0.411394
+accuracy: 0.884256
+ -- 520 / 874 --
+mean loss: 0.521411
+accuracy: 0.856274
+ -- 530 / 874 --
+mean loss: 0.391006
+accuracy: 0.881277
+ -- 540 / 874 --
+mean loss: 0.354423
+accuracy: 0.889774
+ -- 550 / 874 --
+mean loss: 0.361701
+accuracy: 0.895874
+ -- 560 / 874 --
+mean loss: 0.336749
+accuracy: 0.887543
+ -- 570 / 874 --
+mean loss: 0.450142
+accuracy: 0.872150
+ -- 580 / 874 --
+mean loss: 0.473998
+accuracy: 0.871320
+ -- 590 / 874 --
+mean loss: 0.307024
+accuracy: 0.907260
+ -- 600 / 874 --
+mean loss: 0.364192
+accuracy: 0.893988
+ -- 610 / 874 --
+mean loss: 0.416612
+accuracy: 0.877158
+ -- 620 / 874 --
+mean loss: 0.342679
+accuracy: 0.898822
+ -- 630 / 874 --
+mean loss: 0.399554
+accuracy: 0.886664
+ -- 640 / 874 --
+mean loss: 0.375088
+accuracy: 0.886459
+ -- 650 / 874 --
+mean loss: 0.381772
+accuracy: 0.883026
+ -- 660 / 874 --
+mean loss: 0.381710
+accuracy: 0.891782
+ -- 670 / 874 --
+mean loss: 0.294002
+accuracy: 0.908426
+ -- 680 / 874 --
+mean loss: 0.357428
+accuracy: 0.893842
+ -- 690 / 874 --
+mean loss: 0.364335
+accuracy: 0.881479
+ -- 700 / 874 --
+mean loss: 0.470234
+accuracy: 0.867163
+ -- 710 / 874 --
+mean loss: 0.325500
+accuracy: 0.894250
+ -- 720 / 874 --
+mean loss: 0.384053
+accuracy: 0.882217
+ -- 730 / 874 --
+mean loss: 0.557556
+accuracy: 0.866547
+ -- 740 / 874 --
+mean loss: 0.478115
+accuracy: 0.862439
+ -- 750 / 874 --
+mean loss: 0.322006
+accuracy: 0.900439
+ -- 760 / 874 --
+mean loss: 0.325765
+accuracy: 0.896783
+ -- 770 / 874 --
+mean loss: 0.293910
+accuracy: 0.908530
+ -- 780 / 874 --
+mean loss: 0.311434
+accuracy: 0.902444
+ -- 790 / 874 --
+mean loss: 0.411430
+accuracy: 0.882993
+ -- 800 / 874 --
+mean loss: 0.372203
+accuracy: 0.890048
+ -- 810 / 874 --
+mean loss: 0.340906
+accuracy: 0.900632
+ -- 820 / 874 --
+mean loss: 0.286639
+accuracy: 0.899142
+ -- 830 / 874 --
+mean loss: 0.339696
+accuracy: 0.892230
+ -- 840 / 874 --
+mean loss: 0.296377
+accuracy: 0.909064
+ -- 850 / 874 --
+mean loss: 0.379326
+accuracy: 0.879315
+ -- 860 / 874 --
+mean loss: 0.278627
+accuracy: 0.908173
+ -- 870 / 874 --
+mean loss: 0.345925
+accuracy: 0.895993
+2019-06-28 09:50:23.251939
+---- EPOCH 003 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.380907
+eval accuracy: 0.912546
+eval avg class acc: 0.702470
+eval mIoU of Airplane:	 0.731671
+eval mIoU of Bag:	 0.628126
+eval mIoU of Cap:	 0.783912
+eval mIoU of Car:	 0.641631
+eval mIoU of Chair:	 0.874152
+eval mIoU of Earphone:	 0.675769
+eval mIoU of Guitar:	 0.855807
+eval mIoU of Knife:	 0.786036
+eval mIoU of Lamp:	 0.750949
+eval mIoU of Laptop:	 0.951635
+eval mIoU of Motorbike:	 0.238782
+eval mIoU of Mug:	 0.878723
+eval mIoU of Pistol:	 0.621165
+eval mIoU of Rocket:	 0.259409
+eval mIoU of Skateboard:	 0.572128
+eval mIoU of Table:	 0.789977
+eval mean mIoU: 0.689992
+eval mean mIoU (all shapes): 0.782715
+**** EPOCH 004 ****
+2019-06-28 09:50:34.195510
+ -- 010 / 874 --
+mean loss: 0.318126
+accuracy: 0.900867
+ -- 020 / 874 --
+mean loss: 0.302573
+accuracy: 0.907474
+ -- 030 / 874 --
+mean loss: 0.411960
+accuracy: 0.883282
+ -- 040 / 874 --
+mean loss: 0.370516
+accuracy: 0.894254
+ -- 050 / 874 --
+mean loss: 0.318456
+accuracy: 0.904431
+ -- 060 / 874 --
+mean loss: 0.354818
+accuracy: 0.892734
+ -- 070 / 874 --
+mean loss: 0.315875
+accuracy: 0.900836
+ -- 080 / 874 --
+mean loss: 0.269924
+accuracy: 0.913037
+ -- 090 / 874 --
+mean loss: 0.334320
+accuracy: 0.895828
+ -- 100 / 874 --
+mean loss: 0.344792
+accuracy: 0.893079
+ -- 110 / 874 --
+mean loss: 0.334145
+accuracy: 0.897604
+ -- 120 / 874 --
+mean loss: 0.304596
+accuracy: 0.906018
+ -- 130 / 874 --
+mean loss: 0.456505
+accuracy: 0.859952
+ -- 140 / 874 --
+mean loss: 0.339093
+accuracy: 0.894095
+ -- 150 / 874 --
+mean loss: 0.330901
+accuracy: 0.890686
+ -- 160 / 874 --
+mean loss: 0.392374
+accuracy: 0.880420
+ -- 170 / 874 --
+mean loss: 0.450072
+accuracy: 0.876993
+ -- 180 / 874 --
+mean loss: 0.316810
+accuracy: 0.902588
+ -- 190 / 874 --
+mean loss: 0.399275
+accuracy: 0.891394
+ -- 200 / 874 --
+mean loss: 0.387702
+accuracy: 0.889676
+ -- 210 / 874 --
+mean loss: 0.422112
+accuracy: 0.880289
+ -- 220 / 874 --
+mean loss: 0.364379
+accuracy: 0.893863
+ -- 230 / 874 --
+mean loss: 0.323775
+accuracy: 0.895480
+ -- 240 / 874 --
+mean loss: 0.282531
+accuracy: 0.913995
+ -- 250 / 874 --
+mean loss: 0.420274
+accuracy: 0.876920
+ -- 260 / 874 --
+mean loss: 0.362331
+accuracy: 0.898318
+ -- 270 / 874 --
+mean loss: 0.297372
+accuracy: 0.904230
+ -- 280 / 874 --
+mean loss: 0.323430
+accuracy: 0.895392
+ -- 290 / 874 --
+mean loss: 0.324325
+accuracy: 0.893457
+ -- 300 / 874 --
+mean loss: 0.352484
+accuracy: 0.890436
+ -- 310 / 874 --
+mean loss: 0.310650
+accuracy: 0.897696
+ -- 320 / 874 --
+mean loss: 0.279455
+accuracy: 0.911499
+ -- 330 / 874 --
+mean loss: 0.271122
+accuracy: 0.917230
+ -- 340 / 874 --
+mean loss: 0.472735
+accuracy: 0.871130
+ -- 350 / 874 --
+mean loss: 0.299644
+accuracy: 0.908612
+ -- 360 / 874 --
+mean loss: 0.392922
+accuracy: 0.889557
+ -- 370 / 874 --
+mean loss: 0.357995
+accuracy: 0.890903
+ -- 380 / 874 --
+mean loss: 0.406978
+accuracy: 0.891287
+ -- 390 / 874 --
+mean loss: 0.349222
+accuracy: 0.891995
+ -- 400 / 874 --
+mean loss: 0.335852
+accuracy: 0.893997
+ -- 410 / 874 --
+mean loss: 0.325928
+accuracy: 0.900742
+ -- 420 / 874 --
+mean loss: 0.405830
+accuracy: 0.871942
+ -- 430 / 874 --
+mean loss: 0.319686
+accuracy: 0.900903
+ -- 440 / 874 --
+mean loss: 0.400497
+accuracy: 0.883502
+ -- 450 / 874 --
+mean loss: 0.297396
+accuracy: 0.910532
+ -- 460 / 874 --
+mean loss: 0.275514
+accuracy: 0.911978
+ -- 470 / 874 --
+mean loss: 0.324287
+accuracy: 0.898438
+ -- 480 / 874 --
+mean loss: 0.313858
+accuracy: 0.906155
+ -- 490 / 874 --
+mean loss: 0.243914
+accuracy: 0.918896
+ -- 500 / 874 --
+mean loss: 0.337718
+accuracy: 0.898083
+ -- 510 / 874 --
+mean loss: 0.344465
+accuracy: 0.897092
+ -- 520 / 874 --
+mean loss: 0.378419
+accuracy: 0.895020
+ -- 530 / 874 --
+mean loss: 0.368707
+accuracy: 0.892026
+ -- 540 / 874 --
+mean loss: 0.327330
+accuracy: 0.900732
+ -- 550 / 874 --
+mean loss: 0.289111
+accuracy: 0.906833
+ -- 560 / 874 --
+mean loss: 0.376519
+accuracy: 0.900119
+ -- 570 / 874 --
+mean loss: 0.256719
+accuracy: 0.919290
+ -- 580 / 874 --
+mean loss: 0.286823
+accuracy: 0.904443
+ -- 590 / 874 --
+mean loss: 0.312958
+accuracy: 0.902374
+ -- 600 / 874 --
+mean loss: 0.240821
+accuracy: 0.921286
+ -- 610 / 874 --
+mean loss: 0.302111
+accuracy: 0.908368
+ -- 620 / 874 --
+mean loss: 0.198621
+accuracy: 0.931622
+ -- 630 / 874 --
+mean loss: 0.298863
+accuracy: 0.904706
+ -- 640 / 874 --
+mean loss: 0.359072
+accuracy: 0.898462
+ -- 650 / 874 --
+mean loss: 0.240547
+accuracy: 0.919876
+ -- 660 / 874 --
+mean loss: 0.315302
+accuracy: 0.901978
+ -- 670 / 874 --
+mean loss: 0.223894
+accuracy: 0.931665
+ -- 680 / 874 --
+mean loss: 0.242564
+accuracy: 0.923810
+ -- 690 / 874 --
+mean loss: 0.218401
+accuracy: 0.932413
+ -- 700 / 874 --
+mean loss: 0.430049
+accuracy: 0.885468
+ -- 710 / 874 --
+mean loss: 0.582378
+accuracy: 0.871265
+ -- 720 / 874 --
+mean loss: 0.484490
+accuracy: 0.848578
+ -- 730 / 874 --
+mean loss: 0.340601
+accuracy: 0.887140
+ -- 740 / 874 --
+mean loss: 0.377705
+accuracy: 0.895163
+ -- 750 / 874 --
+mean loss: 0.318994
+accuracy: 0.890884
+ -- 760 / 874 --
+mean loss: 0.287381
+accuracy: 0.917874
+ -- 770 / 874 --
+mean loss: 0.309531
+accuracy: 0.911908
+ -- 780 / 874 --
+mean loss: 0.331886
+accuracy: 0.900458
+ -- 790 / 874 --
+mean loss: 0.396126
+accuracy: 0.882706
+ -- 800 / 874 --
+mean loss: 0.280369
+accuracy: 0.906824
+ -- 810 / 874 --
+mean loss: 0.292185
+accuracy: 0.909964
+ -- 820 / 874 --
+mean loss: 0.435109
+accuracy: 0.881137
+ -- 830 / 874 --
+mean loss: 0.385953
+accuracy: 0.887726
+ -- 840 / 874 --
+mean loss: 0.325100
+accuracy: 0.894528
+ -- 850 / 874 --
+mean loss: 0.257906
+accuracy: 0.916721
+ -- 860 / 874 --
+mean loss: 0.304556
+accuracy: 0.903281
+ -- 870 / 874 --
+mean loss: 0.322202
+accuracy: 0.902307
+2019-06-28 09:53:28.410155
+---- EPOCH 004 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.321026
+eval accuracy: 0.912575
+eval avg class acc: 0.679066
+eval mIoU of Airplane:	 0.739262
+eval mIoU of Bag:	 0.511015
+eval mIoU of Cap:	 0.785155
+eval mIoU of Car:	 0.627830
+eval mIoU of Chair:	 0.883885
+eval mIoU of Earphone:	 0.611631
+eval mIoU of Guitar:	 0.874023
+eval mIoU of Knife:	 0.729108
+eval mIoU of Lamp:	 0.769423
+eval mIoU of Laptop:	 0.952106
+eval mIoU of Motorbike:	 0.247167
+eval mIoU of Mug:	 0.763779
+eval mIoU of Pistol:	 0.659596
+eval mIoU of Rocket:	 0.243182
+eval mIoU of Skateboard:	 0.596060
+eval mIoU of Table:	 0.797175
+eval mean mIoU: 0.674400
+eval mean mIoU (all shapes): 0.787169
+**** EPOCH 005 ****
+2019-06-28 09:53:39.561683
+ -- 010 / 874 --
+mean loss: 0.264587
+accuracy: 0.912967
+ -- 020 / 874 --
+mean loss: 0.404383
+accuracy: 0.876651
+ -- 030 / 874 --
+mean loss: 0.258876
+accuracy: 0.911115
+ -- 040 / 874 --
+mean loss: 0.356404
+accuracy: 0.888562
+ -- 050 / 874 --
+mean loss: 0.361419
+accuracy: 0.900525
+ -- 060 / 874 --
+mean loss: 0.282580
+accuracy: 0.911053
+ -- 070 / 874 --
+mean loss: 0.302835
+accuracy: 0.917853
+ -- 080 / 874 --
+mean loss: 0.289074
+accuracy: 0.904794
+ -- 090 / 874 --
+mean loss: 0.441292
+accuracy: 0.881146
+ -- 100 / 874 --
+mean loss: 0.357621
+accuracy: 0.885654
+ -- 110 / 874 --
+mean loss: 0.275284
+accuracy: 0.921936
+ -- 120 / 874 --
+mean loss: 0.263367
+accuracy: 0.912631
+ -- 130 / 874 --
+mean loss: 0.373773
+accuracy: 0.895160
+ -- 140 / 874 --
+mean loss: 0.359045
+accuracy: 0.897546
+ -- 150 / 874 --
+mean loss: 0.360520
+accuracy: 0.895746
+ -- 160 / 874 --
+mean loss: 0.262692
+accuracy: 0.915286
+ -- 170 / 874 --
+mean loss: 0.409857
+accuracy: 0.879211
+ -- 180 / 874 --
+mean loss: 0.339873
+accuracy: 0.891650
+ -- 190 / 874 --
+mean loss: 0.327050
+accuracy: 0.902139
+ -- 200 / 874 --
+mean loss: 0.309911
+accuracy: 0.916455
+ -- 210 / 874 --
+mean loss: 0.285991
+accuracy: 0.909641
+ -- 220 / 874 --
+mean loss: 0.280553
+accuracy: 0.907349
+ -- 230 / 874 --
+mean loss: 0.328610
+accuracy: 0.898541
+ -- 240 / 874 --
+mean loss: 0.271031
+accuracy: 0.914514
+ -- 250 / 874 --
+mean loss: 0.338840
+accuracy: 0.892117
+ -- 260 / 874 --
+mean loss: 0.289604
+accuracy: 0.914633
+ -- 270 / 874 --
+mean loss: 0.310191
+accuracy: 0.906808
+ -- 280 / 874 --
+mean loss: 0.327306
+accuracy: 0.890872
+ -- 290 / 874 --
+mean loss: 0.402495
+accuracy: 0.885980
+ -- 300 / 874 --
+mean loss: 0.394668
+accuracy: 0.892233
+ -- 310 / 874 --
+mean loss: 0.363542
+accuracy: 0.889005
+ -- 320 / 874 --
+mean loss: 0.280951
+accuracy: 0.910013
+ -- 330 / 874 --
+mean loss: 0.258968
+accuracy: 0.914258
+ -- 340 / 874 --
+mean loss: 0.253368
+accuracy: 0.920068
+ -- 350 / 874 --
+mean loss: 0.314733
+accuracy: 0.905820
+ -- 360 / 874 --
+mean loss: 0.294991
+accuracy: 0.904193
+ -- 370 / 874 --
+mean loss: 0.355661
+accuracy: 0.900940
+ -- 380 / 874 --
+mean loss: 0.323358
+accuracy: 0.889569
+ -- 390 / 874 --
+mean loss: 0.254435
+accuracy: 0.920828
+ -- 400 / 874 --
+mean loss: 0.386168
+accuracy: 0.895673
+ -- 410 / 874 --
+mean loss: 0.405085
+accuracy: 0.893442
+ -- 420 / 874 --
+mean loss: 0.278159
+accuracy: 0.908081
+ -- 430 / 874 --
+mean loss: 0.422501
+accuracy: 0.884625
+ -- 440 / 874 --
+mean loss: 0.379415
+accuracy: 0.887900
+ -- 450 / 874 --
+mean loss: 0.360621
+accuracy: 0.898688
+ -- 460 / 874 --
+mean loss: 0.340929
+accuracy: 0.895486
+ -- 470 / 874 --
+mean loss: 0.320885
+accuracy: 0.900668
+ -- 480 / 874 --
+mean loss: 0.329021
+accuracy: 0.889645
+ -- 490 / 874 --
+mean loss: 0.317596
+accuracy: 0.900757
+ -- 500 / 874 --
+mean loss: 0.332412
+accuracy: 0.890121
+ -- 510 / 874 --
+mean loss: 0.307853
+accuracy: 0.897220
+ -- 520 / 874 --
+mean loss: 0.356710
+accuracy: 0.905927
+ -- 530 / 874 --
+mean loss: 0.275395
+accuracy: 0.912259
+ -- 540 / 874 --
+mean loss: 0.308378
+accuracy: 0.905252
+ -- 550 / 874 --
+mean loss: 0.388560
+accuracy: 0.885278
+ -- 560 / 874 --
+mean loss: 0.273522
+accuracy: 0.917361
+ -- 570 / 874 --
+mean loss: 0.336701
+accuracy: 0.901749
+ -- 580 / 874 --
+mean loss: 0.352790
+accuracy: 0.893259
+ -- 590 / 874 --
+mean loss: 0.408438
+accuracy: 0.885876
+ -- 600 / 874 --
+mean loss: 0.333019
+accuracy: 0.896051
+ -- 610 / 874 --
+mean loss: 0.344882
+accuracy: 0.889456
+ -- 620 / 874 --
+mean loss: 0.367851
+accuracy: 0.892453
+ -- 630 / 874 --
+mean loss: 0.371520
+accuracy: 0.897913
+ -- 640 / 874 --
+mean loss: 0.311622
+accuracy: 0.898398
+ -- 650 / 874 --
+mean loss: 0.296635
+accuracy: 0.901987
+ -- 660 / 874 --
+mean loss: 0.349967
+accuracy: 0.890118
+ -- 670 / 874 --
+mean loss: 0.314106
+accuracy: 0.902087
+ -- 680 / 874 --
+mean loss: 0.398108
+accuracy: 0.883240
+ -- 690 / 874 --
+mean loss: 0.271804
+accuracy: 0.907748
+ -- 700 / 874 --
+mean loss: 0.309507
+accuracy: 0.897833
+ -- 710 / 874 --
+mean loss: 0.400612
+accuracy: 0.881573
+ -- 720 / 874 --
+mean loss: 0.330310
+accuracy: 0.893918
+ -- 730 / 874 --
+mean loss: 0.379091
+accuracy: 0.888965
+ -- 740 / 874 --
+mean loss: 0.308043
+accuracy: 0.911755
+ -- 750 / 874 --
+mean loss: 0.425277
+accuracy: 0.888663
+ -- 760 / 874 --
+mean loss: 0.282061
+accuracy: 0.914127
+ -- 770 / 874 --
+mean loss: 0.372266
+accuracy: 0.880621
+ -- 780 / 874 --
+mean loss: 0.307166
+accuracy: 0.903271
+ -- 790 / 874 --
+mean loss: 0.254883
+accuracy: 0.915820
+ -- 800 / 874 --
+mean loss: 0.541440
+accuracy: 0.863669
+ -- 810 / 874 --
+mean loss: 0.352526
+accuracy: 0.882742
+ -- 820 / 874 --
+mean loss: 0.270068
+accuracy: 0.916345
+ -- 830 / 874 --
+mean loss: 0.324970
+accuracy: 0.896075
+ -- 840 / 874 --
+mean loss: 0.327131
+accuracy: 0.892535
+ -- 850 / 874 --
+mean loss: 0.328149
+accuracy: 0.907410
+ -- 860 / 874 --
+mean loss: 0.285669
+accuracy: 0.917026
+ -- 870 / 874 --
+mean loss: 0.319404
+accuracy: 0.897400
+2019-06-28 09:56:33.992211
+---- EPOCH 005 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.338590
+eval accuracy: 0.912932
+eval avg class acc: 0.700360
+eval mIoU of Airplane:	 0.738072
+eval mIoU of Bag:	 0.739559
+eval mIoU of Cap:	 0.841381
+eval mIoU of Car:	 0.646866
+eval mIoU of Chair:	 0.879461
+eval mIoU of Earphone:	 0.419801
+eval mIoU of Guitar:	 0.875913
+eval mIoU of Knife:	 0.793947
+eval mIoU of Lamp:	 0.772076
+eval mIoU of Laptop:	 0.948725
+eval mIoU of Motorbike:	 0.232300
+eval mIoU of Mug:	 0.894464
+eval mIoU of Pistol:	 0.721170
+eval mIoU of Rocket:	 0.249238
+eval mIoU of Skateboard:	 0.583172
+eval mIoU of Table:	 0.793688
+eval mean mIoU: 0.695615
+eval mean mIoU (all shapes): 0.790725
+**** EPOCH 006 ****
+2019-06-28 09:56:45.300350
+ -- 010 / 874 --
+mean loss: 0.327397
+accuracy: 0.902359
+ -- 020 / 874 --
+mean loss: 0.370984
+accuracy: 0.894376
+ -- 030 / 874 --
+mean loss: 0.283293
+accuracy: 0.910355
+ -- 040 / 874 --
+mean loss: 0.249438
+accuracy: 0.915948
+ -- 050 / 874 --
+mean loss: 0.267602
+accuracy: 0.912946
+ -- 060 / 874 --
+mean loss: 0.238611
+accuracy: 0.917734
+ -- 070 / 874 --
+mean loss: 0.281685
+accuracy: 0.913730
+ -- 080 / 874 --
+mean loss: 0.317418
+accuracy: 0.902335
+ -- 090 / 874 --
+mean loss: 0.292849
+accuracy: 0.898846
+ -- 100 / 874 --
+mean loss: 0.316509
+accuracy: 0.901788
+ -- 110 / 874 --
+mean loss: 0.257233
+accuracy: 0.913199
+ -- 120 / 874 --
+mean loss: 0.316328
+accuracy: 0.899188
+ -- 130 / 874 --
+mean loss: 0.353745
+accuracy: 0.896524
+ -- 140 / 874 --
+mean loss: 0.292548
+accuracy: 0.903674
+ -- 150 / 874 --
+mean loss: 0.253976
+accuracy: 0.920010
+ -- 160 / 874 --
+mean loss: 0.305300
+accuracy: 0.904523
+ -- 170 / 874 --
+mean loss: 0.286869
+accuracy: 0.908585
+ -- 180 / 874 --
+mean loss: 0.341221
+accuracy: 0.899991
+ -- 190 / 874 --
+mean loss: 0.312619
+accuracy: 0.906351
+ -- 200 / 874 --
+mean loss: 0.330630
+accuracy: 0.905151
+ -- 210 / 874 --
+mean loss: 0.243235
+accuracy: 0.924255
+ -- 220 / 874 --
+mean loss: 0.262877
+accuracy: 0.912418
+ -- 230 / 874 --
+mean loss: 0.292583
+accuracy: 0.909149
+ -- 240 / 874 --
+mean loss: 0.256473
+accuracy: 0.914380
+ -- 250 / 874 --
+mean loss: 0.296968
+accuracy: 0.908905
+ -- 260 / 874 --
+mean loss: 0.357990
+accuracy: 0.897690
+ -- 270 / 874 --
+mean loss: 0.224008
+accuracy: 0.933560
+ -- 280 / 874 --
+mean loss: 0.242895
+accuracy: 0.917233
+ -- 290 / 874 --
+mean loss: 0.246344
+accuracy: 0.923883
+ -- 300 / 874 --
+mean loss: 0.330049
+accuracy: 0.900528
+ -- 310 / 874 --
+mean loss: 0.310511
+accuracy: 0.902115
+ -- 320 / 874 --
+mean loss: 0.294530
+accuracy: 0.908234
+ -- 330 / 874 --
+mean loss: 0.433452
+accuracy: 0.868756
+ -- 340 / 874 --
+mean loss: 0.418633
+accuracy: 0.890967
+ -- 350 / 874 --
+mean loss: 0.225719
+accuracy: 0.923083
+ -- 360 / 874 --
+mean loss: 0.311281
+accuracy: 0.897873
+ -- 370 / 874 --
+mean loss: 0.265080
+accuracy: 0.917938
+ -- 380 / 874 --
+mean loss: 0.330408
+accuracy: 0.903104
+ -- 390 / 874 --
+mean loss: 0.288378
+accuracy: 0.902551
+ -- 400 / 874 --
+mean loss: 0.315754
+accuracy: 0.899796
+ -- 410 / 874 --
+mean loss: 0.317292
+accuracy: 0.913058
+ -- 420 / 874 --
+mean loss: 0.359839
+accuracy: 0.893665
+ -- 430 / 874 --
+mean loss: 0.299177
+accuracy: 0.908807
+ -- 440 / 874 --
+mean loss: 0.288957
+accuracy: 0.908704
+ -- 450 / 874 --
+mean loss: 0.312993
+accuracy: 0.903070
+ -- 460 / 874 --
+mean loss: 0.352310
+accuracy: 0.891031
+ -- 470 / 874 --
+mean loss: 0.291055
+accuracy: 0.916684
+ -- 480 / 874 --
+mean loss: 0.264844
+accuracy: 0.915741
+ -- 490 / 874 --
+mean loss: 0.302109
+accuracy: 0.908624
+ -- 500 / 874 --
+mean loss: 0.358479
+accuracy: 0.898218
+ -- 510 / 874 --
+mean loss: 0.335822
+accuracy: 0.902026
+ -- 520 / 874 --
+mean loss: 0.314414
+accuracy: 0.902585
+ -- 530 / 874 --
+mean loss: 0.265673
+accuracy: 0.914471
+ -- 540 / 874 --
+mean loss: 0.238529
+accuracy: 0.924005
+ -- 550 / 874 --
+mean loss: 0.256198
+accuracy: 0.916406
+ -- 560 / 874 --
+mean loss: 0.286703
+accuracy: 0.913293
+ -- 570 / 874 --
+mean loss: 0.339715
+accuracy: 0.910291
+ -- 580 / 874 --
+mean loss: 0.369801
+accuracy: 0.895947
+ -- 590 / 874 --
+mean loss: 0.291160
+accuracy: 0.906476
+ -- 600 / 874 --
+mean loss: 0.382117
+accuracy: 0.897351
+ -- 610 / 874 --
+mean loss: 0.333866
+accuracy: 0.896692
+ -- 620 / 874 --
+mean loss: 0.287521
+accuracy: 0.906561
+ -- 630 / 874 --
+mean loss: 0.345956
+accuracy: 0.902124
+ -- 640 / 874 --
+mean loss: 0.272477
+accuracy: 0.917279
+ -- 650 / 874 --
+mean loss: 0.299393
+accuracy: 0.910492
+ -- 660 / 874 --
+mean loss: 0.320531
+accuracy: 0.903241
+ -- 670 / 874 --
+mean loss: 0.270969
+accuracy: 0.913934
+ -- 680 / 874 --
+mean loss: 0.310407
+accuracy: 0.896857
+ -- 690 / 874 --
+mean loss: 0.265669
+accuracy: 0.912650
+ -- 700 / 874 --
+mean loss: 0.261133
+accuracy: 0.916467
+ -- 710 / 874 --
+mean loss: 0.301478
+accuracy: 0.908591
+ -- 720 / 874 --
+mean loss: 0.449211
+accuracy: 0.886514
+ -- 730 / 874 --
+mean loss: 0.292126
+accuracy: 0.907419
+ -- 740 / 874 --
+mean loss: 0.281295
+accuracy: 0.915799
+ -- 750 / 874 --
+mean loss: 0.278926
+accuracy: 0.905826
+ -- 760 / 874 --
+mean loss: 0.289788
+accuracy: 0.910150
+ -- 770 / 874 --
+mean loss: 0.300915
+accuracy: 0.901666
+ -- 780 / 874 --
+mean loss: 0.352173
+accuracy: 0.903357
+ -- 790 / 874 --
+mean loss: 0.350288
+accuracy: 0.907227
+ -- 800 / 874 --
+mean loss: 0.258344
+accuracy: 0.915704
+ -- 810 / 874 --
+mean loss: 0.324648
+accuracy: 0.888107
+ -- 820 / 874 --
+mean loss: 0.318964
+accuracy: 0.896259
+ -- 830 / 874 --
+mean loss: 0.338203
+accuracy: 0.896100
+ -- 840 / 874 --
+mean loss: 0.292208
+accuracy: 0.909671
+ -- 850 / 874 --
+mean loss: 0.302289
+accuracy: 0.902570
+ -- 860 / 874 --
+mean loss: 0.285017
+accuracy: 0.902118
+ -- 870 / 874 --
+mean loss: 0.262158
+accuracy: 0.918216
+2019-06-28 09:59:39.547358
+---- EPOCH 006 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.382886
+eval accuracy: 0.915664
+eval avg class acc: 0.747075
+eval mIoU of Airplane:	 0.747973
+eval mIoU of Bag:	 0.701223
+eval mIoU of Cap:	 0.785339
+eval mIoU of Car:	 0.622443
+eval mIoU of Chair:	 0.882094
+eval mIoU of Earphone:	 0.614234
+eval mIoU of Guitar:	 0.882539
+eval mIoU of Knife:	 0.813919
+eval mIoU of Lamp:	 0.752205
+eval mIoU of Laptop:	 0.929865
+eval mIoU of Motorbike:	 0.249861
+eval mIoU of Mug:	 0.799407
+eval mIoU of Pistol:	 0.743139
+eval mIoU of Rocket:	 0.419483
+eval mIoU of Skateboard:	 0.599079
+eval mIoU of Table:	 0.791969
+eval mean mIoU: 0.708423
+eval mean mIoU (all shapes): 0.789914
+**** EPOCH 007 ****
+2019-06-28 09:59:50.744074
+ -- 010 / 874 --
+mean loss: 0.319664
+accuracy: 0.900494
+ -- 020 / 874 --
+mean loss: 0.260535
+accuracy: 0.918341
+ -- 030 / 874 --
+mean loss: 0.308588
+accuracy: 0.904321
+ -- 040 / 874 --
+mean loss: 0.276475
+accuracy: 0.909854
+ -- 050 / 874 --
+mean loss: 0.287228
+accuracy: 0.904926
+ -- 060 / 874 --
+mean loss: 0.268948
+accuracy: 0.917773
+ -- 070 / 874 --
+mean loss: 0.301028
+accuracy: 0.903171
+ -- 080 / 874 --
+mean loss: 0.320777
+accuracy: 0.903238
+ -- 090 / 874 --
+mean loss: 0.291683
+accuracy: 0.904654
+ -- 100 / 874 --
+mean loss: 0.271684
+accuracy: 0.912796
+ -- 110 / 874 --
+mean loss: 0.260413
+accuracy: 0.917673
+ -- 120 / 874 --
+mean loss: 0.271653
+accuracy: 0.911243
+ -- 130 / 874 --
+mean loss: 0.307983
+accuracy: 0.908249
+ -- 140 / 874 --
+mean loss: 0.303838
+accuracy: 0.910690
+ -- 150 / 874 --
+mean loss: 0.304504
+accuracy: 0.902036
+ -- 160 / 874 --
+mean loss: 0.272500
+accuracy: 0.913208
+ -- 170 / 874 --
+mean loss: 0.230004
+accuracy: 0.916113
+ -- 180 / 874 --
+mean loss: 0.250713
+accuracy: 0.916772
+ -- 190 / 874 --
+mean loss: 0.229518
+accuracy: 0.923688
+ -- 200 / 874 --
+mean loss: 0.290642
+accuracy: 0.906921
+ -- 210 / 874 --
+mean loss: 0.237549
+accuracy: 0.917493
+ -- 220 / 874 --
+mean loss: 0.211239
+accuracy: 0.929544
+ -- 230 / 874 --
+mean loss: 0.264482
+accuracy: 0.907776
+ -- 240 / 874 --
+mean loss: 0.221994
+accuracy: 0.918884
+ -- 250 / 874 --
+mean loss: 0.271131
+accuracy: 0.911890
+ -- 260 / 874 --
+mean loss: 0.235950
+accuracy: 0.916861
+ -- 270 / 874 --
+mean loss: 0.255306
+accuracy: 0.915906
+ -- 280 / 874 --
+mean loss: 0.300316
+accuracy: 0.909540
+ -- 290 / 874 --
+mean loss: 0.329487
+accuracy: 0.895081
+ -- 300 / 874 --
+mean loss: 0.301824
+accuracy: 0.911526
+ -- 310 / 874 --
+mean loss: 0.315402
+accuracy: 0.898056
+ -- 320 / 874 --
+mean loss: 0.380493
+accuracy: 0.891812
+ -- 330 / 874 --
+mean loss: 0.324496
+accuracy: 0.895590
+ -- 340 / 874 --
+mean loss: 0.403106
+accuracy: 0.890225
+ -- 350 / 874 --
+mean loss: 0.275702
+accuracy: 0.912732
+ -- 360 / 874 --
+mean loss: 0.240044
+accuracy: 0.924551
+ -- 370 / 874 --
+mean loss: 0.297088
+accuracy: 0.917511
+ -- 380 / 874 --
+mean loss: 0.334140
+accuracy: 0.902881
+ -- 390 / 874 --
+mean loss: 0.274914
+accuracy: 0.916339
+ -- 400 / 874 --
+mean loss: 0.366444
+accuracy: 0.895630
+ -- 410 / 874 --
+mean loss: 0.238186
+accuracy: 0.920554
+ -- 420 / 874 --
+mean loss: 0.257815
+accuracy: 0.917288
+ -- 430 / 874 --
+mean loss: 0.312675
+accuracy: 0.905396
+ -- 440 / 874 --
+mean loss: 0.242212
+accuracy: 0.920041
+ -- 450 / 874 --
+mean loss: 0.243941
+accuracy: 0.918103
+ -- 460 / 874 --
+mean loss: 0.248577
+accuracy: 0.917630
+ -- 470 / 874 --
+mean loss: 0.253592
+accuracy: 0.913754
+ -- 480 / 874 --
+mean loss: 0.322862
+accuracy: 0.904385
+ -- 490 / 874 --
+mean loss: 0.323262
+accuracy: 0.902151
+ -- 500 / 874 --
+mean loss: 0.301428
+accuracy: 0.904276
+ -- 510 / 874 --
+mean loss: 0.265509
+accuracy: 0.913419
+ -- 520 / 874 --
+mean loss: 0.313631
+accuracy: 0.891550
+ -- 530 / 874 --
+mean loss: 0.276192
+accuracy: 0.905759
+ -- 540 / 874 --
+mean loss: 0.249938
+accuracy: 0.916376
+ -- 550 / 874 --
+mean loss: 0.303553
+accuracy: 0.915500
+ -- 560 / 874 --
+mean loss: 0.279655
+accuracy: 0.917865
+ -- 570 / 874 --
+mean loss: 0.251423
+accuracy: 0.911234
+ -- 580 / 874 --
+mean loss: 0.426506
+accuracy: 0.878818
+ -- 590 / 874 --
+mean loss: 0.293083
+accuracy: 0.909045
+ -- 600 / 874 --
+mean loss: 0.284714
+accuracy: 0.911688
+ -- 610 / 874 --
+mean loss: 0.312380
+accuracy: 0.906393
+ -- 620 / 874 --
+mean loss: 0.269114
+accuracy: 0.908798
+ -- 630 / 874 --
+mean loss: 0.285674
+accuracy: 0.907910
+ -- 640 / 874 --
+mean loss: 0.312371
+accuracy: 0.905276
+ -- 650 / 874 --
+mean loss: 0.258756
+accuracy: 0.917517
+ -- 660 / 874 --
+mean loss: 0.266707
+accuracy: 0.918646
+ -- 670 / 874 --
+mean loss: 0.261362
+accuracy: 0.915652
+ -- 680 / 874 --
+mean loss: 0.215223
+accuracy: 0.921417
+ -- 690 / 874 --
+mean loss: 0.311408
+accuracy: 0.913937
+ -- 700 / 874 --
+mean loss: 0.209704
+accuracy: 0.931598
+ -- 710 / 874 --
+mean loss: 0.339001
+accuracy: 0.896448
+ -- 720 / 874 --
+mean loss: 0.330268
+accuracy: 0.899857
+ -- 730 / 874 --
+mean loss: 0.400352
+accuracy: 0.883191
+ -- 740 / 874 --
+mean loss: 0.301219
+accuracy: 0.908453
+ -- 750 / 874 --
+mean loss: 0.249825
+accuracy: 0.914233
+ -- 760 / 874 --
+mean loss: 0.281097
+accuracy: 0.906625
+ -- 770 / 874 --
+mean loss: 0.290810
+accuracy: 0.906204
+ -- 780 / 874 --
+mean loss: 0.352534
+accuracy: 0.913229
+ -- 790 / 874 --
+mean loss: 0.284779
+accuracy: 0.907452
+ -- 800 / 874 --
+mean loss: 0.290652
+accuracy: 0.911801
+ -- 810 / 874 --
+mean loss: 0.323669
+accuracy: 0.909143
+ -- 820 / 874 --
+mean loss: 0.291331
+accuracy: 0.905728
+ -- 830 / 874 --
+mean loss: 0.254233
+accuracy: 0.922845
+ -- 840 / 874 --
+mean loss: 0.254922
+accuracy: 0.915454
+ -- 850 / 874 --
+mean loss: 0.278457
+accuracy: 0.913986
+ -- 860 / 874 --
+mean loss: 0.257850
+accuracy: 0.916455
+ -- 870 / 874 --
+mean loss: 0.307091
+accuracy: 0.907370
+2019-06-28 10:02:44.768192
+---- EPOCH 007 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.306303
+eval accuracy: 0.916304
+eval avg class acc: 0.722499
+eval mIoU of Airplane:	 0.741106
+eval mIoU of Bag:	 0.707382
+eval mIoU of Cap:	 0.830361
+eval mIoU of Car:	 0.673348
+eval mIoU of Chair:	 0.887204
+eval mIoU of Earphone:	 0.650135
+eval mIoU of Guitar:	 0.815994
+eval mIoU of Knife:	 0.746373
+eval mIoU of Lamp:	 0.778613
+eval mIoU of Laptop:	 0.933284
+eval mIoU of Motorbike:	 0.286592
+eval mIoU of Mug:	 0.898553
+eval mIoU of Pistol:	 0.679640
+eval mIoU of Rocket:	 0.308060
+eval mIoU of Skateboard:	 0.521651
+eval mIoU of Table:	 0.808640
+eval mean mIoU: 0.704183
+eval mean mIoU (all shapes): 0.795301
+**** EPOCH 008 ****
+2019-06-28 10:02:56.122332
+ -- 010 / 874 --
+mean loss: 0.208364
+accuracy: 0.928729
+ -- 020 / 874 --
+mean loss: 0.193702
+accuracy: 0.936096
+ -- 030 / 874 --
+mean loss: 0.280592
+accuracy: 0.903128
+ -- 040 / 874 --
+mean loss: 0.262690
+accuracy: 0.916022
+ -- 050 / 874 --
+mean loss: 0.217161
+accuracy: 0.923590
+ -- 060 / 874 --
+mean loss: 0.231609
+accuracy: 0.924957
+ -- 070 / 874 --
+mean loss: 0.320725
+accuracy: 0.905716
+ -- 080 / 874 --
+mean loss: 0.379725
+accuracy: 0.883081
+ -- 090 / 874 --
+mean loss: 0.280641
+accuracy: 0.912747
+ -- 100 / 874 --
+mean loss: 0.261491
+accuracy: 0.917795
+ -- 110 / 874 --
+mean loss: 0.332013
+accuracy: 0.901382
+ -- 120 / 874 --
+mean loss: 0.287624
+accuracy: 0.917230
+ -- 130 / 874 --
+mean loss: 0.248633
+accuracy: 0.926840
+ -- 140 / 874 --
+mean loss: 0.250412
+accuracy: 0.922623
+ -- 150 / 874 --
+mean loss: 0.241247
+accuracy: 0.922113
+ -- 160 / 874 --
+mean loss: 0.256084
+accuracy: 0.919455
+ -- 170 / 874 --
+mean loss: 0.406652
+accuracy: 0.882330
+ -- 180 / 874 --
+mean loss: 0.231488
+accuracy: 0.920490
+ -- 190 / 874 --
+mean loss: 0.223774
+accuracy: 0.924829
+ -- 200 / 874 --
+mean loss: 0.223218
+accuracy: 0.924341
+ -- 210 / 874 --
+mean loss: 0.297658
+accuracy: 0.917670
+ -- 220 / 874 --
+mean loss: 0.251162
+accuracy: 0.920035
+ -- 230 / 874 --
+mean loss: 0.276564
+accuracy: 0.913727
+ -- 240 / 874 --
+mean loss: 0.205795
+accuracy: 0.932416
+ -- 250 / 874 --
+mean loss: 0.383231
+accuracy: 0.905099
+ -- 260 / 874 --
+mean loss: 0.339446
+accuracy: 0.904431
+ -- 270 / 874 --
+mean loss: 0.255958
+accuracy: 0.915768
+ -- 280 / 874 --
+mean loss: 0.308879
+accuracy: 0.903281
+ -- 290 / 874 --
+mean loss: 0.272347
+accuracy: 0.912253
+ -- 300 / 874 --
+mean loss: 0.242698
+accuracy: 0.924680
+ -- 310 / 874 --
+mean loss: 0.299308
+accuracy: 0.911679
+ -- 320 / 874 --
+mean loss: 0.299416
+accuracy: 0.898642
+ -- 330 / 874 --
+mean loss: 0.291490
+accuracy: 0.902414
+ -- 340 / 874 --
+mean loss: 0.218215
+accuracy: 0.928506
+ -- 350 / 874 --
+mean loss: 0.289112
+accuracy: 0.904883
+ -- 360 / 874 --
+mean loss: 0.346049
+accuracy: 0.906439
+ -- 370 / 874 --
+mean loss: 0.303550
+accuracy: 0.903745
+ -- 380 / 874 --
+mean loss: 0.242226
+accuracy: 0.925674
+ -- 390 / 874 --
+mean loss: 0.344707
+accuracy: 0.887659
+ -- 400 / 874 --
+mean loss: 0.336363
+accuracy: 0.899588
+ -- 410 / 874 --
+mean loss: 0.295450
+accuracy: 0.902155
+ -- 420 / 874 --
+mean loss: 0.353032
+accuracy: 0.905255
+ -- 430 / 874 --
+mean loss: 0.287421
+accuracy: 0.910672
+ -- 440 / 874 --
+mean loss: 0.307140
+accuracy: 0.906909
+ -- 450 / 874 --
+mean loss: 0.308680
+accuracy: 0.903046
+ -- 460 / 874 --
+mean loss: 0.246131
+accuracy: 0.921109
+ -- 470 / 874 --
+mean loss: 0.417583
+accuracy: 0.902893
+ -- 480 / 874 --
+mean loss: 0.292167
+accuracy: 0.914667
+ -- 490 / 874 --
+mean loss: 0.272255
+accuracy: 0.920001
+ -- 500 / 874 --
+mean loss: 0.316651
+accuracy: 0.905713
+ -- 510 / 874 --
+mean loss: 0.234286
+accuracy: 0.918051
+ -- 520 / 874 --
+mean loss: 0.385007
+accuracy: 0.886810
+ -- 530 / 874 --
+mean loss: 0.312632
+accuracy: 0.894562
+ -- 540 / 874 --
+mean loss: 0.272285
+accuracy: 0.914240
+ -- 550 / 874 --
+mean loss: 0.318409
+accuracy: 0.901328
+ -- 560 / 874 --
+mean loss: 0.273533
+accuracy: 0.910275
+ -- 570 / 874 --
+mean loss: 0.244400
+accuracy: 0.921527
+ -- 580 / 874 --
+mean loss: 0.304620
+accuracy: 0.915289
+ -- 590 / 874 --
+mean loss: 0.332315
+accuracy: 0.903827
+ -- 600 / 874 --
+mean loss: 0.292317
+accuracy: 0.912244
+ -- 610 / 874 --
+mean loss: 0.235007
+accuracy: 0.924521
+ -- 620 / 874 --
+mean loss: 0.234066
+accuracy: 0.919714
+ -- 630 / 874 --
+mean loss: 0.271629
+accuracy: 0.909012
+ -- 640 / 874 --
+mean loss: 0.232242
+accuracy: 0.923120
+ -- 650 / 874 --
+mean loss: 0.327153
+accuracy: 0.901633
+ -- 660 / 874 --
+mean loss: 0.301505
+accuracy: 0.908276
+ -- 670 / 874 --
+mean loss: 0.288440
+accuracy: 0.911478
+ -- 680 / 874 --
+mean loss: 0.232124
+accuracy: 0.923251
+ -- 690 / 874 --
+mean loss: 0.236975
+accuracy: 0.923993
+ -- 700 / 874 --
+mean loss: 0.220182
+accuracy: 0.931735
+ -- 710 / 874 --
+mean loss: 0.239555
+accuracy: 0.916055
+ -- 720 / 874 --
+mean loss: 0.226028
+accuracy: 0.924130
+ -- 730 / 874 --
+mean loss: 0.274895
+accuracy: 0.921524
+ -- 740 / 874 --
+mean loss: 0.232713
+accuracy: 0.922049
+ -- 750 / 874 --
+mean loss: 0.227710
+accuracy: 0.920215
+ -- 760 / 874 --
+mean loss: 0.278649
+accuracy: 0.917444
+ -- 770 / 874 --
+mean loss: 0.320692
+accuracy: 0.896060
+ -- 780 / 874 --
+mean loss: 0.315109
+accuracy: 0.910495
+ -- 790 / 874 --
+mean loss: 0.356053
+accuracy: 0.887003
+ -- 800 / 874 --
+mean loss: 0.229198
+accuracy: 0.925961
+ -- 810 / 874 --
+mean loss: 0.300828
+accuracy: 0.911307
+ -- 820 / 874 --
+mean loss: 0.282254
+accuracy: 0.909268
+ -- 830 / 874 --
+mean loss: 0.238292
+accuracy: 0.921555
+ -- 840 / 874 --
+mean loss: 0.325382
+accuracy: 0.909637
+ -- 850 / 874 --
+mean loss: 0.268108
+accuracy: 0.920221
+ -- 860 / 874 --
+mean loss: 0.294509
+accuracy: 0.916684
+ -- 870 / 874 --
+mean loss: 0.268685
+accuracy: 0.917227
+2019-06-28 10:05:50.243260
+---- EPOCH 008 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.313434
+eval accuracy: 0.918821
+eval avg class acc: 0.751091
+eval mIoU of Airplane:	 0.738317
+eval mIoU of Bag:	 0.695477
+eval mIoU of Cap:	 0.831039
+eval mIoU of Car:	 0.659264
+eval mIoU of Chair:	 0.878386
+eval mIoU of Earphone:	 0.656381
+eval mIoU of Guitar:	 0.863697
+eval mIoU of Knife:	 0.792351
+eval mIoU of Lamp:	 0.785715
+eval mIoU of Laptop:	 0.951071
+eval mIoU of Motorbike:	 0.363081
+eval mIoU of Mug:	 0.817279
+eval mIoU of Pistol:	 0.724338
+eval mIoU of Rocket:	 0.407024
+eval mIoU of Skateboard:	 0.657384
+eval mIoU of Table:	 0.795197
+eval mean mIoU: 0.726000
+eval mean mIoU (all shapes): 0.796028
+**** EPOCH 009 ****
+2019-06-28 10:06:01.453510
+ -- 010 / 874 --
+mean loss: 0.239196
+accuracy: 0.921872
+ -- 020 / 874 --
+mean loss: 0.232265
+accuracy: 0.921881
+ -- 030 / 874 --
+mean loss: 0.368906
+accuracy: 0.897592
+ -- 040 / 874 --
+mean loss: 0.291500
+accuracy: 0.914581
+ -- 050 / 874 --
+mean loss: 0.218879
+accuracy: 0.923541
+ -- 060 / 874 --
+mean loss: 0.325074
+accuracy: 0.903015
+ -- 070 / 874 --
+mean loss: 0.269778
+accuracy: 0.913242
+ -- 080 / 874 --
+mean loss: 0.397215
+accuracy: 0.898834
+ -- 090 / 874 --
+mean loss: 0.320259
+accuracy: 0.893338
+ -- 100 / 874 --
+mean loss: 0.322879
+accuracy: 0.901291
+ -- 110 / 874 --
+mean loss: 0.267241
+accuracy: 0.910126
+ -- 120 / 874 --
+mean loss: 0.263853
+accuracy: 0.917276
+ -- 130 / 874 --
+mean loss: 0.244560
+accuracy: 0.917715
+ -- 140 / 874 --
+mean loss: 0.332543
+accuracy: 0.902176
+ -- 150 / 874 --
+mean loss: 0.434104
+accuracy: 0.880396
+ -- 160 / 874 --
+mean loss: 0.351555
+accuracy: 0.890732
+ -- 170 / 874 --
+mean loss: 0.279523
+accuracy: 0.910953
+ -- 180 / 874 --
+mean loss: 0.347401
+accuracy: 0.882520
+ -- 190 / 874 --
+mean loss: 0.292932
+accuracy: 0.916956
+ -- 200 / 874 --
+mean loss: 0.257929
+accuracy: 0.916251
+ -- 210 / 874 --
+mean loss: 0.294231
+accuracy: 0.908847
+ -- 220 / 874 --
+mean loss: 0.275118
+accuracy: 0.913904
+ -- 230 / 874 --
+mean loss: 0.224676
+accuracy: 0.924921
+ -- 240 / 874 --
+mean loss: 0.218004
+accuracy: 0.923224
+ -- 250 / 874 --
+mean loss: 0.302509
+accuracy: 0.911597
+ -- 260 / 874 --
+mean loss: 0.257820
+accuracy: 0.917459
+ -- 270 / 874 --
+mean loss: 0.242122
+accuracy: 0.921045
+ -- 280 / 874 --
+mean loss: 0.210970
+accuracy: 0.931616
+ -- 290 / 874 --
+mean loss: 0.241235
+accuracy: 0.920233
+ -- 300 / 874 --
+mean loss: 0.291668
+accuracy: 0.916092
+ -- 310 / 874 --
+mean loss: 0.250560
+accuracy: 0.915408
+ -- 320 / 874 --
+mean loss: 0.247988
+accuracy: 0.918304
+ -- 330 / 874 --
+mean loss: 0.298276
+accuracy: 0.901477
+ -- 340 / 874 --
+mean loss: 0.216063
+accuracy: 0.927469
+ -- 350 / 874 --
+mean loss: 0.226658
+accuracy: 0.923892
+ -- 360 / 874 --
+mean loss: 0.323258
+accuracy: 0.911652
+ -- 370 / 874 --
+mean loss: 0.326711
+accuracy: 0.892670
+ -- 380 / 874 --
+mean loss: 0.225487
+accuracy: 0.925589
+ -- 390 / 874 --
+mean loss: 0.315369
+accuracy: 0.906085
+ -- 400 / 874 --
+mean loss: 0.224308
+accuracy: 0.928308
+ -- 410 / 874 --
+mean loss: 0.431870
+accuracy: 0.886975
+ -- 420 / 874 --
+mean loss: 0.323698
+accuracy: 0.904687
+ -- 430 / 874 --
+mean loss: 0.291603
+accuracy: 0.907578
+ -- 440 / 874 --
+mean loss: 0.330538
+accuracy: 0.899753
+ -- 450 / 874 --
+mean loss: 0.243591
+accuracy: 0.924158
+ -- 460 / 874 --
+mean loss: 0.230290
+accuracy: 0.926086
+ -- 470 / 874 --
+mean loss: 0.254813
+accuracy: 0.918927
+ -- 480 / 874 --
+mean loss: 0.243568
+accuracy: 0.916687
+ -- 490 / 874 --
+mean loss: 0.324601
+accuracy: 0.898141
+ -- 500 / 874 --
+mean loss: 0.217140
+accuracy: 0.928665
+ -- 510 / 874 --
+mean loss: 0.216969
+accuracy: 0.928531
+ -- 520 / 874 --
+mean loss: 0.285898
+accuracy: 0.916144
+ -- 530 / 874 --
+mean loss: 0.216021
+accuracy: 0.926895
+ -- 540 / 874 --
+mean loss: 0.248957
+accuracy: 0.916180
+ -- 550 / 874 --
+mean loss: 0.251938
+accuracy: 0.915887
+ -- 560 / 874 --
+mean loss: 0.210487
+accuracy: 0.932312
+ -- 570 / 874 --
+mean loss: 0.349084
+accuracy: 0.900970
+ -- 580 / 874 --
+mean loss: 0.196587
+accuracy: 0.936838
+ -- 590 / 874 --
+mean loss: 0.221856
+accuracy: 0.927713
+ -- 600 / 874 --
+mean loss: 0.226127
+accuracy: 0.925912
+ -- 610 / 874 --
+mean loss: 0.249919
+accuracy: 0.924298
+ -- 620 / 874 --
+mean loss: 0.188333
+accuracy: 0.938724
+ -- 630 / 874 --
+mean loss: 0.269131
+accuracy: 0.909848
+ -- 640 / 874 --
+mean loss: 0.399908
+accuracy: 0.882025
+ -- 650 / 874 --
+mean loss: 0.248079
+accuracy: 0.926111
+ -- 660 / 874 --
+mean loss: 0.275496
+accuracy: 0.907065
+ -- 670 / 874 --
+mean loss: 0.287595
+accuracy: 0.912836
+ -- 680 / 874 --
+mean loss: 0.264538
+accuracy: 0.920770
+ -- 690 / 874 --
+mean loss: 0.307475
+accuracy: 0.901474
+ -- 700 / 874 --
+mean loss: 0.269174
+accuracy: 0.911954
+ -- 710 / 874 --
+mean loss: 0.247603
+accuracy: 0.921289
+ -- 720 / 874 --
+mean loss: 0.247584
+accuracy: 0.913531
+ -- 730 / 874 --
+mean loss: 0.277377
+accuracy: 0.909164
+ -- 740 / 874 --
+mean loss: 0.258590
+accuracy: 0.913654
+ -- 750 / 874 --
+mean loss: 0.261544
+accuracy: 0.918628
+ -- 760 / 874 --
+mean loss: 0.292801
+accuracy: 0.909833
+ -- 770 / 874 --
+mean loss: 0.367457
+accuracy: 0.887823
+ -- 780 / 874 --
+mean loss: 0.343263
+accuracy: 0.898792
+ -- 790 / 874 --
+mean loss: 0.278948
+accuracy: 0.916629
+ -- 800 / 874 --
+mean loss: 0.245273
+accuracy: 0.919183
+ -- 810 / 874 --
+mean loss: 0.191957
+accuracy: 0.935367
+ -- 820 / 874 --
+mean loss: 0.224060
+accuracy: 0.932092
+ -- 830 / 874 --
+mean loss: 0.211547
+accuracy: 0.932202
+ -- 840 / 874 --
+mean loss: 0.208406
+accuracy: 0.927316
+ -- 850 / 874 --
+mean loss: 0.273670
+accuracy: 0.911667
+ -- 860 / 874 --
+mean loss: 0.322236
+accuracy: 0.900198
+ -- 870 / 874 --
+mean loss: 0.356309
+accuracy: 0.898563
+2019-06-28 10:08:55.523703
+---- EPOCH 009 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.337173
+eval accuracy: 0.914365
+eval avg class acc: 0.750540
+eval mIoU of Airplane:	 0.766750
+eval mIoU of Bag:	 0.574148
+eval mIoU of Cap:	 0.829733
+eval mIoU of Car:	 0.637412
+eval mIoU of Chair:	 0.886615
+eval mIoU of Earphone:	 0.623961
+eval mIoU of Guitar:	 0.881036
+eval mIoU of Knife:	 0.795050
+eval mIoU of Lamp:	 0.757790
+eval mIoU of Laptop:	 0.956685
+eval mIoU of Motorbike:	 0.479070
+eval mIoU of Mug:	 0.898755
+eval mIoU of Pistol:	 0.606399
+eval mIoU of Rocket:	 0.397209
+eval mIoU of Skateboard:	 0.664415
+eval mIoU of Table:	 0.763368
+eval mean mIoU: 0.719900
+eval mean mIoU (all shapes): 0.789853
+**** EPOCH 010 ****
+2019-06-28 10:09:06.787866
+ -- 010 / 874 --
+mean loss: 0.271570
+accuracy: 0.911084
+ -- 020 / 874 --
+mean loss: 0.302539
+accuracy: 0.914749
+ -- 030 / 874 --
+mean loss: 0.294369
+accuracy: 0.906885
+ -- 040 / 874 --
+mean loss: 0.312954
+accuracy: 0.902530
+ -- 050 / 874 --
+mean loss: 0.241856
+accuracy: 0.918488
+ -- 060 / 874 --
+mean loss: 0.280399
+accuracy: 0.910977
+ -- 070 / 874 --
+mean loss: 0.257052
+accuracy: 0.916443
+ -- 080 / 874 --
+mean loss: 0.311056
+accuracy: 0.907074
+ -- 090 / 874 --
+mean loss: 0.323468
+accuracy: 0.895926
+ -- 100 / 874 --
+mean loss: 0.288201
+accuracy: 0.912140
+ -- 110 / 874 --
+mean loss: 0.297134
+accuracy: 0.900430
+ -- 120 / 874 --
+mean loss: 0.286332
+accuracy: 0.912918
+ -- 130 / 874 --
+mean loss: 0.243223
+accuracy: 0.917981
+ -- 140 / 874 --
+mean loss: 0.215359
+accuracy: 0.927740
+ -- 150 / 874 --
+mean loss: 0.253878
+accuracy: 0.920435
+ -- 160 / 874 --
+mean loss: 0.261084
+accuracy: 0.911322
+ -- 170 / 874 --
+mean loss: 0.228033
+accuracy: 0.921347
+ -- 180 / 874 --
+mean loss: 0.232242
+accuracy: 0.921335
+ -- 190 / 874 --
+mean loss: 0.242650
+accuracy: 0.920609
+ -- 200 / 874 --
+mean loss: 0.261491
+accuracy: 0.910757
+ -- 210 / 874 --
+mean loss: 0.204169
+accuracy: 0.929941
+ -- 220 / 874 --
+mean loss: 0.254079
+accuracy: 0.913635
+ -- 230 / 874 --
+mean loss: 0.224536
+accuracy: 0.921869
+ -- 240 / 874 --
+mean loss: 0.235356
+accuracy: 0.926126
+ -- 250 / 874 --
+mean loss: 0.237824
+accuracy: 0.915176
+ -- 260 / 874 --
+mean loss: 0.255261
+accuracy: 0.913312
+ -- 270 / 874 --
+mean loss: 0.248770
+accuracy: 0.918268
+ -- 280 / 874 --
+mean loss: 0.311687
+accuracy: 0.907803
+ -- 290 / 874 --
+mean loss: 0.255838
+accuracy: 0.926144
+ -- 300 / 874 --
+mean loss: 0.266519
+accuracy: 0.917874
+ -- 310 / 874 --
+mean loss: 0.256203
+accuracy: 0.917365
+ -- 320 / 874 --
+mean loss: 0.213124
+accuracy: 0.927914
+ -- 330 / 874 --
+mean loss: 0.212950
+accuracy: 0.926169
+ -- 340 / 874 --
+mean loss: 0.220886
+accuracy: 0.930066
+ -- 350 / 874 --
+mean loss: 0.344327
+accuracy: 0.911612
+ -- 360 / 874 --
+mean loss: 0.330893
+accuracy: 0.894708
+ -- 370 / 874 --
+mean loss: 0.313826
+accuracy: 0.911157
+ -- 380 / 874 --
+mean loss: 0.303571
+accuracy: 0.904089
+ -- 390 / 874 --
+mean loss: 0.256703
+accuracy: 0.914755
+ -- 400 / 874 --
+mean loss: 0.270361
+accuracy: 0.912057
+ -- 410 / 874 --
+mean loss: 0.348580
+accuracy: 0.903226
+ -- 420 / 874 --
+mean loss: 0.341764
+accuracy: 0.901208
+ -- 430 / 874 --
+mean loss: 0.279356
+accuracy: 0.908746
+ -- 440 / 874 --
+mean loss: 0.211797
+accuracy: 0.933359
+ -- 450 / 874 --
+mean loss: 0.230762
+accuracy: 0.920071
+ -- 460 / 874 --
+mean loss: 0.280762
+accuracy: 0.911768
+ -- 470 / 874 --
+mean loss: 0.231741
+accuracy: 0.920898
+ -- 480 / 874 --
+mean loss: 0.305678
+accuracy: 0.907642
+ -- 490 / 874 --
+mean loss: 0.184617
+accuracy: 0.940366
+ -- 500 / 874 --
+mean loss: 0.266865
+accuracy: 0.917932
+ -- 510 / 874 --
+mean loss: 0.247925
+accuracy: 0.918735
+ -- 520 / 874 --
+mean loss: 0.329879
+accuracy: 0.898486
+ -- 530 / 874 --
+mean loss: 0.215174
+accuracy: 0.928528
+ -- 540 / 874 --
+mean loss: 0.232004
+accuracy: 0.927997
+ -- 550 / 874 --
+mean loss: 0.197368
+accuracy: 0.935861
+ -- 560 / 874 --
+mean loss: 0.238629
+accuracy: 0.927731
+ -- 570 / 874 --
+mean loss: 0.201549
+accuracy: 0.930133
+ -- 580 / 874 --
+mean loss: 0.253371
+accuracy: 0.917770
+ -- 590 / 874 --
+mean loss: 0.204924
+accuracy: 0.931219
+ -- 600 / 874 --
+mean loss: 0.278699
+accuracy: 0.910257
+ -- 610 / 874 --
+mean loss: 0.299562
+accuracy: 0.908517
+ -- 620 / 874 --
+mean loss: 0.395330
+accuracy: 0.890472
+ -- 630 / 874 --
+mean loss: 0.231035
+accuracy: 0.923776
+ -- 640 / 874 --
+mean loss: 0.311391
+accuracy: 0.910532
+ -- 650 / 874 --
+mean loss: 0.279831
+accuracy: 0.922543
+ -- 660 / 874 --
+mean loss: 0.271169
+accuracy: 0.914783
+ -- 670 / 874 --
+mean loss: 0.253472
+accuracy: 0.918658
+ -- 680 / 874 --
+mean loss: 0.207081
+accuracy: 0.929031
+ -- 690 / 874 --
+mean loss: 0.259988
+accuracy: 0.916553
+ -- 700 / 874 --
+mean loss: 0.239203
+accuracy: 0.920535
+ -- 710 / 874 --
+mean loss: 0.266123
+accuracy: 0.917654
+ -- 720 / 874 --
+mean loss: 0.256104
+accuracy: 0.917923
+ -- 730 / 874 --
+mean loss: 0.255207
+accuracy: 0.915958
+ -- 740 / 874 --
+mean loss: 0.245871
+accuracy: 0.916312
+ -- 750 / 874 --
+mean loss: 0.292287
+accuracy: 0.910834
+ -- 760 / 874 --
+mean loss: 0.298031
+accuracy: 0.899460
+ -- 770 / 874 --
+mean loss: 0.305036
+accuracy: 0.908997
+ -- 780 / 874 --
+mean loss: 0.365137
+accuracy: 0.902136
+ -- 790 / 874 --
+mean loss: 0.247835
+accuracy: 0.923651
+ -- 800 / 874 --
+mean loss: 0.259592
+accuracy: 0.918793
+ -- 810 / 874 --
+mean loss: 0.251378
+accuracy: 0.918170
+ -- 820 / 874 --
+mean loss: 0.230481
+accuracy: 0.921741
+ -- 830 / 874 --
+mean loss: 0.292249
+accuracy: 0.913962
+ -- 840 / 874 --
+mean loss: 0.210594
+accuracy: 0.929910
+ -- 850 / 874 --
+mean loss: 0.249493
+accuracy: 0.920016
+ -- 860 / 874 --
+mean loss: 0.225063
+accuracy: 0.923941
+ -- 870 / 874 --
+mean loss: 0.223751
+accuracy: 0.926926
+2019-06-28 10:12:00.832405
+---- EPOCH 010 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.295830
+eval accuracy: 0.919058
+eval avg class acc: 0.745935
+eval mIoU of Airplane:	 0.733823
+eval mIoU of Bag:	 0.671377
+eval mIoU of Cap:	 0.829794
+eval mIoU of Car:	 0.686781
+eval mIoU of Chair:	 0.888711
+eval mIoU of Earphone:	 0.698217
+eval mIoU of Guitar:	 0.883079
+eval mIoU of Knife:	 0.734445
+eval mIoU of Lamp:	 0.791575
+eval mIoU of Laptop:	 0.955420
+eval mIoU of Motorbike:	 0.247030
+eval mIoU of Mug:	 0.918161
+eval mIoU of Pistol:	 0.742029
+eval mIoU of Rocket:	 0.381974
+eval mIoU of Skateboard:	 0.638483
+eval mIoU of Table:	 0.799419
+eval mean mIoU: 0.725020
+eval mean mIoU (all shapes): 0.800270
+Model saved in file: log_part_segmentation/model.ckpt
+**** EPOCH 011 ****
+2019-06-28 10:12:12.490746
+ -- 010 / 874 --
+mean loss: 0.216979
+accuracy: 0.927713
+ -- 020 / 874 --
+mean loss: 0.214121
+accuracy: 0.929825
+ -- 030 / 874 --
+mean loss: 0.250959
+accuracy: 0.919556
+ -- 040 / 874 --
+mean loss: 0.253258
+accuracy: 0.915283
+ -- 050 / 874 --
+mean loss: 0.223763
+accuracy: 0.923932
+ -- 060 / 874 --
+mean loss: 0.217082
+accuracy: 0.925021
+ -- 070 / 874 --
+mean loss: 0.217125
+accuracy: 0.927228
+ -- 080 / 874 --
+mean loss: 0.285828
+accuracy: 0.912881
+ -- 090 / 874 --
+mean loss: 0.196415
+accuracy: 0.932642
+ -- 100 / 874 --
+mean loss: 0.268993
+accuracy: 0.906299
+ -- 110 / 874 --
+mean loss: 0.228203
+accuracy: 0.924963
+ -- 120 / 874 --
+mean loss: 0.291893
+accuracy: 0.911533
+ -- 130 / 874 --
+mean loss: 0.307571
+accuracy: 0.900400
+ -- 140 / 874 --
+mean loss: 0.239136
+accuracy: 0.925687
+ -- 150 / 874 --
+mean loss: 0.233858
+accuracy: 0.923138
+ -- 160 / 874 --
+mean loss: 0.256796
+accuracy: 0.915836
+ -- 170 / 874 --
+mean loss: 0.227148
+accuracy: 0.924661
+ -- 180 / 874 --
+mean loss: 0.282857
+accuracy: 0.913855
+ -- 190 / 874 --
+mean loss: 0.245954
+accuracy: 0.917517
+ -- 200 / 874 --
+mean loss: 0.220768
+accuracy: 0.923495
+ -- 210 / 874 --
+mean loss: 0.250149
+accuracy: 0.916583
+ -- 220 / 874 --
+mean loss: 0.468291
+accuracy: 0.894437
+ -- 230 / 874 --
+mean loss: 0.296799
+accuracy: 0.908926
+ -- 240 / 874 --
+mean loss: 0.227636
+accuracy: 0.925009
+ -- 250 / 874 --
+mean loss: 0.278446
+accuracy: 0.908008
+ -- 260 / 874 --
+mean loss: 0.229631
+accuracy: 0.921530
+ -- 270 / 874 --
+mean loss: 0.252800
+accuracy: 0.919122
+ -- 280 / 874 --
+mean loss: 0.179908
+accuracy: 0.940732
+ -- 290 / 874 --
+mean loss: 0.227874
+accuracy: 0.926981
+ -- 300 / 874 --
+mean loss: 0.214858
+accuracy: 0.923163
+ -- 310 / 874 --
+mean loss: 0.259898
+accuracy: 0.910669
+ -- 320 / 874 --
+mean loss: 0.212701
+accuracy: 0.929379
+ -- 330 / 874 --
+mean loss: 0.249594
+accuracy: 0.912656
+ -- 340 / 874 --
+mean loss: 0.230980
+accuracy: 0.920801
+ -- 350 / 874 --
+mean loss: 0.250303
+accuracy: 0.914688
+ -- 360 / 874 --
+mean loss: 0.198599
+accuracy: 0.931174
+ -- 370 / 874 --
+mean loss: 0.274232
+accuracy: 0.912637
+ -- 380 / 874 --
+mean loss: 0.236195
+accuracy: 0.918799
+ -- 390 / 874 --
+mean loss: 0.265759
+accuracy: 0.915286
+ -- 400 / 874 --
+mean loss: 0.308989
+accuracy: 0.905499
+ -- 410 / 874 --
+mean loss: 0.285337
+accuracy: 0.911383
+ -- 420 / 874 --
+mean loss: 0.273220
+accuracy: 0.911722
+ -- 430 / 874 --
+mean loss: 0.352716
+accuracy: 0.902762
+ -- 440 / 874 --
+mean loss: 0.256833
+accuracy: 0.917447
+ -- 450 / 874 --
+mean loss: 0.240749
+accuracy: 0.919415
+ -- 460 / 874 --
+mean loss: 0.229623
+accuracy: 0.924509
+ -- 470 / 874 --
+mean loss: 0.271975
+accuracy: 0.917987
+ -- 480 / 874 --
+mean loss: 0.247700
+accuracy: 0.921884
+ -- 490 / 874 --
+mean loss: 0.333488
+accuracy: 0.912738
+ -- 500 / 874 --
+mean loss: 0.231055
+accuracy: 0.929044
+ -- 510 / 874 --
+mean loss: 0.250465
+accuracy: 0.920428
+ -- 520 / 874 --
+mean loss: 0.230407
+accuracy: 0.917551
+ -- 530 / 874 --
+mean loss: 0.215408
+accuracy: 0.924152
+ -- 540 / 874 --
+mean loss: 0.200371
+accuracy: 0.931934
+ -- 550 / 874 --
+mean loss: 0.278309
+accuracy: 0.912030
+ -- 560 / 874 --
+mean loss: 0.190380
+accuracy: 0.937924
+ -- 570 / 874 --
+mean loss: 0.187734
+accuracy: 0.938824
+ -- 580 / 874 --
+mean loss: 0.246379
+accuracy: 0.920975
+ -- 590 / 874 --
+mean loss: 0.227119
+accuracy: 0.928784
+ -- 600 / 874 --
+mean loss: 0.215123
+accuracy: 0.930182
+ -- 610 / 874 --
+mean loss: 0.290670
+accuracy: 0.918106
+ -- 620 / 874 --
+mean loss: 0.287536
+accuracy: 0.913452
+ -- 630 / 874 --
+mean loss: 0.219436
+accuracy: 0.925232
+ -- 640 / 874 --
+mean loss: 0.249569
+accuracy: 0.917789
+ -- 650 / 874 --
+mean loss: 0.199902
+accuracy: 0.936902
+ -- 660 / 874 --
+mean loss: 0.265862
+accuracy: 0.915234
+ -- 670 / 874 --
+mean loss: 0.256237
+accuracy: 0.916345
+ -- 680 / 874 --
+mean loss: 0.223843
+accuracy: 0.926416
+ -- 690 / 874 --
+mean loss: 0.242407
+accuracy: 0.921585
+ -- 700 / 874 --
+mean loss: 0.232875
+accuracy: 0.926559
+ -- 710 / 874 --
+mean loss: 0.295464
+accuracy: 0.901892
+ -- 720 / 874 --
+mean loss: 0.313053
+accuracy: 0.913327
+ -- 730 / 874 --
+mean loss: 0.279767
+accuracy: 0.909723
+ -- 740 / 874 --
+mean loss: 0.283197
+accuracy: 0.909915
+ -- 750 / 874 --
+mean loss: 0.291725
+accuracy: 0.916391
+ -- 760 / 874 --
+mean loss: 0.255498
+accuracy: 0.924060
+ -- 770 / 874 --
+mean loss: 0.266738
+accuracy: 0.920670
+ -- 780 / 874 --
+mean loss: 0.269778
+accuracy: 0.912735
+ -- 790 / 874 --
+mean loss: 0.439001
+accuracy: 0.873486
+ -- 800 / 874 --
+mean loss: 0.248103
+accuracy: 0.915784
+ -- 810 / 874 --
+mean loss: 0.257276
+accuracy: 0.918472
+ -- 820 / 874 --
+mean loss: 0.268317
+accuracy: 0.909775
+ -- 830 / 874 --
+mean loss: 0.309797
+accuracy: 0.895102
+ -- 840 / 874 --
+mean loss: 0.264856
+accuracy: 0.914481
+ -- 850 / 874 --
+mean loss: 0.216509
+accuracy: 0.928024
+ -- 860 / 874 --
+mean loss: 0.209749
+accuracy: 0.929858
+ -- 870 / 874 --
+mean loss: 0.205997
+accuracy: 0.925748
+2019-06-28 10:15:06.855020
+---- EPOCH 011 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.270855
+eval accuracy: 0.922823
+eval avg class acc: 0.776824
+eval mIoU of Airplane:	 0.736418
+eval mIoU of Bag:	 0.729417
+eval mIoU of Cap:	 0.793729
+eval mIoU of Car:	 0.641512
+eval mIoU of Chair:	 0.887987
+eval mIoU of Earphone:	 0.676400
+eval mIoU of Guitar:	 0.895064
+eval mIoU of Knife:	 0.791349
+eval mIoU of Lamp:	 0.810947
+eval mIoU of Laptop:	 0.955398
+eval mIoU of Motorbike:	 0.425584
+eval mIoU of Mug:	 0.938433
+eval mIoU of Pistol:	 0.735678
+eval mIoU of Rocket:	 0.456547
+eval mIoU of Skateboard:	 0.660207
+eval mIoU of Table:	 0.799505
+eval mean mIoU: 0.745886
+eval mean mIoU (all shapes): 0.806035
+**** EPOCH 012 ****
+2019-06-28 10:15:18.167240
+ -- 010 / 874 --
+mean loss: 0.424186
+accuracy: 0.884009
+ -- 020 / 874 --
+mean loss: 0.277137
+accuracy: 0.911719
+ -- 030 / 874 --
+mean loss: 0.208766
+accuracy: 0.932385
+ -- 040 / 874 --
+mean loss: 0.267521
+accuracy: 0.912958
+ -- 050 / 874 --
+mean loss: 0.208031
+accuracy: 0.930188
+ -- 060 / 874 --
+mean loss: 0.188648
+accuracy: 0.934399
+ -- 070 / 874 --
+mean loss: 0.230080
+accuracy: 0.919720
+ -- 080 / 874 --
+mean loss: 0.227305
+accuracy: 0.927060
+ -- 090 / 874 --
+mean loss: 0.241838
+accuracy: 0.922656
+ -- 100 / 874 --
+mean loss: 0.224900
+accuracy: 0.925430
+ -- 110 / 874 --
+mean loss: 0.245926
+accuracy: 0.920447
+ -- 120 / 874 --
+mean loss: 0.312738
+accuracy: 0.914011
+ -- 130 / 874 --
+mean loss: 0.208829
+accuracy: 0.931790
+ -- 140 / 874 --
+mean loss: 0.284324
+accuracy: 0.908847
+ -- 150 / 874 --
+mean loss: 0.242001
+accuracy: 0.919620
+ -- 160 / 874 --
+mean loss: 0.178977
+accuracy: 0.940121
+ -- 170 / 874 --
+mean loss: 0.220754
+accuracy: 0.923538
+ -- 180 / 874 --
+mean loss: 0.210818
+accuracy: 0.924323
+ -- 190 / 874 --
+mean loss: 0.242605
+accuracy: 0.925729
+ -- 200 / 874 --
+mean loss: 0.206320
+accuracy: 0.929868
+ -- 210 / 874 --
+mean loss: 0.221661
+accuracy: 0.924939
+ -- 220 / 874 --
+mean loss: 0.176281
+accuracy: 0.939511
+ -- 230 / 874 --
+mean loss: 0.284687
+accuracy: 0.909378
+ -- 240 / 874 --
+mean loss: 0.245030
+accuracy: 0.916245
+ -- 250 / 874 --
+mean loss: 0.241809
+accuracy: 0.926804
+ -- 260 / 874 --
+mean loss: 0.282234
+accuracy: 0.916193
+ -- 270 / 874 --
+mean loss: 0.259871
+accuracy: 0.915607
+ -- 280 / 874 --
+mean loss: 0.230813
+accuracy: 0.919943
+ -- 290 / 874 --
+mean loss: 0.218824
+accuracy: 0.925497
+ -- 300 / 874 --
+mean loss: 0.262673
+accuracy: 0.911005
+ -- 310 / 874 --
+mean loss: 0.270014
+accuracy: 0.914008
+ -- 320 / 874 --
+mean loss: 0.294972
+accuracy: 0.909171
+ -- 330 / 874 --
+mean loss: 0.220139
+accuracy: 0.925183
+ -- 340 / 874 --
+mean loss: 0.273361
+accuracy: 0.912756
+ -- 350 / 874 --
+mean loss: 0.194051
+accuracy: 0.933954
+ -- 360 / 874 --
+mean loss: 0.228927
+accuracy: 0.920792
+ -- 370 / 874 --
+mean loss: 0.236813
+accuracy: 0.921671
+ -- 380 / 874 --
+mean loss: 0.227347
+accuracy: 0.923618
+ -- 390 / 874 --
+mean loss: 0.229119
+accuracy: 0.925769
+ -- 400 / 874 --
+mean loss: 0.213780
+accuracy: 0.931253
+ -- 410 / 874 --
+mean loss: 0.211007
+accuracy: 0.927917
+ -- 420 / 874 --
+mean loss: 0.205777
+accuracy: 0.928687
+ -- 430 / 874 --
+mean loss: 0.190761
+accuracy: 0.933997
+ -- 440 / 874 --
+mean loss: 0.217014
+accuracy: 0.932156
+ -- 450 / 874 --
+mean loss: 0.261963
+accuracy: 0.916190
+ -- 460 / 874 --
+mean loss: 0.229377
+accuracy: 0.926657
+ -- 470 / 874 --
+mean loss: 0.217598
+accuracy: 0.924847
+ -- 480 / 874 --
+mean loss: 0.197067
+accuracy: 0.936945
+ -- 490 / 874 --
+mean loss: 0.280948
+accuracy: 0.904840
+ -- 500 / 874 --
+mean loss: 0.179922
+accuracy: 0.939667
+ -- 510 / 874 --
+mean loss: 0.261803
+accuracy: 0.919211
+ -- 520 / 874 --
+mean loss: 0.258994
+accuracy: 0.914075
+ -- 530 / 874 --
+mean loss: 0.234236
+accuracy: 0.920709
+ -- 540 / 874 --
+mean loss: 0.237064
+accuracy: 0.925143
+ -- 550 / 874 --
+mean loss: 0.330381
+accuracy: 0.902109
+ -- 560 / 874 --
+mean loss: 0.226562
+accuracy: 0.924573
+ -- 570 / 874 --
+mean loss: 0.369283
+accuracy: 0.897089
+ -- 580 / 874 --
+mean loss: 0.270788
+accuracy: 0.909549
+ -- 590 / 874 --
+mean loss: 0.284919
+accuracy: 0.919366
+ -- 600 / 874 --
+mean loss: 0.224938
+accuracy: 0.924759
+ -- 610 / 874 --
+mean loss: 0.210157
+accuracy: 0.928979
+ -- 620 / 874 --
+mean loss: 0.246171
+accuracy: 0.919415
+ -- 630 / 874 --
+mean loss: 0.194248
+accuracy: 0.936615
+ -- 640 / 874 --
+mean loss: 0.338632
+accuracy: 0.904309
+ -- 650 / 874 --
+mean loss: 0.285619
+accuracy: 0.914264
+ -- 660 / 874 --
+mean loss: 0.354390
+accuracy: 0.896454
+ -- 670 / 874 --
+mean loss: 0.347160
+accuracy: 0.898166
+ -- 680 / 874 --
+mean loss: 0.279350
+accuracy: 0.916083
+ -- 690 / 874 --
+mean loss: 0.304324
+accuracy: 0.909235
+ -- 700 / 874 --
+mean loss: 0.311799
+accuracy: 0.906857
+ -- 710 / 874 --
+mean loss: 0.312649
+accuracy: 0.900266
+ -- 720 / 874 --
+mean loss: 0.226225
+accuracy: 0.925287
+ -- 730 / 874 --
+mean loss: 0.250478
+accuracy: 0.922952
+ -- 740 / 874 --
+mean loss: 0.236067
+accuracy: 0.917557
+ -- 750 / 874 --
+mean loss: 0.267550
+accuracy: 0.909753
+ -- 760 / 874 --
+mean loss: 0.218350
+accuracy: 0.923044
+ -- 770 / 874 --
+mean loss: 0.213147
+accuracy: 0.921323
+ -- 780 / 874 --
+mean loss: 0.212570
+accuracy: 0.928488
+ -- 790 / 874 --
+mean loss: 0.230795
+accuracy: 0.926172
+ -- 800 / 874 --
+mean loss: 0.210014
+accuracy: 0.933429
+ -- 810 / 874 --
+mean loss: 0.261331
+accuracy: 0.913641
+ -- 820 / 874 --
+mean loss: 0.201727
+accuracy: 0.932617
+ -- 830 / 874 --
+mean loss: 0.254502
+accuracy: 0.924777
+ -- 840 / 874 --
+mean loss: 0.274718
+accuracy: 0.916769
+ -- 850 / 874 --
+mean loss: 0.250917
+accuracy: 0.921613
+ -- 860 / 874 --
+mean loss: 0.313776
+accuracy: 0.919104
+ -- 870 / 874 --
+mean loss: 0.240927
+accuracy: 0.919293
+2019-06-28 10:18:12.226194
+---- EPOCH 012 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.304094
+eval accuracy: 0.920286
+eval avg class acc: 0.776190
+eval mIoU of Airplane:	 0.746113
+eval mIoU of Bag:	 0.785624
+eval mIoU of Cap:	 0.876429
+eval mIoU of Car:	 0.656837
+eval mIoU of Chair:	 0.889813
+eval mIoU of Earphone:	 0.708720
+eval mIoU of Guitar:	 0.890143
+eval mIoU of Knife:	 0.824309
+eval mIoU of Lamp:	 0.794292
+eval mIoU of Laptop:	 0.955624
+eval mIoU of Motorbike:	 0.312776
+eval mIoU of Mug:	 0.859198
+eval mIoU of Pistol:	 0.717690
+eval mIoU of Rocket:	 0.448188
+eval mIoU of Skateboard:	 0.674753
+eval mIoU of Table:	 0.801700
+eval mean mIoU: 0.746388
+eval mean mIoU (all shapes): 0.805662
+**** EPOCH 013 ****
+2019-06-28 10:18:23.508515
+ -- 010 / 874 --
+mean loss: 0.218388
+accuracy: 0.926660
+ -- 020 / 874 --
+mean loss: 0.232808
+accuracy: 0.924301
+ -- 030 / 874 --
+mean loss: 0.289850
+accuracy: 0.914020
+ -- 040 / 874 --
+mean loss: 0.220606
+accuracy: 0.927072
+ -- 050 / 874 --
+mean loss: 0.338324
+accuracy: 0.898712
+ -- 060 / 874 --
+mean loss: 0.224768
+accuracy: 0.922849
+ -- 070 / 874 --
+mean loss: 0.324805
+accuracy: 0.900769
+ -- 080 / 874 --
+mean loss: 0.246921
+accuracy: 0.923938
+ -- 090 / 874 --
+mean loss: 0.265841
+accuracy: 0.918936
+ -- 100 / 874 --
+mean loss: 0.279512
+accuracy: 0.917307
+ -- 110 / 874 --
+mean loss: 0.214561
+accuracy: 0.928726
+ -- 120 / 874 --
+mean loss: 0.254415
+accuracy: 0.916574
+ -- 130 / 874 --
+mean loss: 0.291879
+accuracy: 0.908484
+ -- 140 / 874 --
+mean loss: 0.230733
+accuracy: 0.919797
+ -- 150 / 874 --
+mean loss: 0.244625
+accuracy: 0.919034
+ -- 160 / 874 --
+mean loss: 0.227319
+accuracy: 0.923898
+ -- 170 / 874 --
+mean loss: 0.202066
+accuracy: 0.927869
+ -- 180 / 874 --
+mean loss: 0.221990
+accuracy: 0.925339
+ -- 190 / 874 --
+mean loss: 0.216297
+accuracy: 0.927512
+ -- 200 / 874 --
+mean loss: 0.226720
+accuracy: 0.922089
+ -- 210 / 874 --
+mean loss: 0.311823
+accuracy: 0.906012
+ -- 220 / 874 --
+mean loss: 0.184606
+accuracy: 0.934259
+ -- 230 / 874 --
+mean loss: 0.189099
+accuracy: 0.933163
+ -- 240 / 874 --
+mean loss: 0.199197
+accuracy: 0.931046
+ -- 250 / 874 --
+mean loss: 0.215696
+accuracy: 0.929669
+ -- 260 / 874 --
+mean loss: 0.261292
+accuracy: 0.918579
+ -- 270 / 874 --
+mean loss: 0.239035
+accuracy: 0.925250
+ -- 280 / 874 --
+mean loss: 0.201865
+accuracy: 0.934479
+ -- 290 / 874 --
+mean loss: 0.239541
+accuracy: 0.920572
+ -- 300 / 874 --
+mean loss: 0.258379
+accuracy: 0.923196
+ -- 310 / 874 --
+mean loss: 0.255794
+accuracy: 0.920065
+ -- 320 / 874 --
+mean loss: 0.225869
+accuracy: 0.921045
+ -- 330 / 874 --
+mean loss: 0.254093
+accuracy: 0.912869
+ -- 340 / 874 --
+mean loss: 0.279528
+accuracy: 0.908539
+ -- 350 / 874 --
+mean loss: 0.288464
+accuracy: 0.907553
+ -- 360 / 874 --
+mean loss: 0.219608
+accuracy: 0.922089
+ -- 370 / 874 --
+mean loss: 0.192957
+accuracy: 0.933710
+ -- 380 / 874 --
+mean loss: 0.252472
+accuracy: 0.910736
+ -- 390 / 874 --
+mean loss: 0.257997
+accuracy: 0.912866
+ -- 400 / 874 --
+mean loss: 0.261123
+accuracy: 0.916129
+ -- 410 / 874 --
+mean loss: 0.358200
+accuracy: 0.901746
+ -- 420 / 874 --
+mean loss: 0.249425
+accuracy: 0.923932
+ -- 430 / 874 --
+mean loss: 0.205295
+accuracy: 0.932965
+ -- 440 / 874 --
+mean loss: 0.229183
+accuracy: 0.921796
+ -- 450 / 874 --
+mean loss: 0.201752
+accuracy: 0.927631
+ -- 460 / 874 --
+mean loss: 0.254936
+accuracy: 0.913974
+ -- 470 / 874 --
+mean loss: 0.226227
+accuracy: 0.929413
+ -- 480 / 874 --
+mean loss: 0.230749
+accuracy: 0.931750
+ -- 490 / 874 --
+mean loss: 0.310426
+accuracy: 0.921552
+ -- 500 / 874 --
+mean loss: 0.261075
+accuracy: 0.911020
+ -- 510 / 874 --
+mean loss: 0.211161
+accuracy: 0.930536
+ -- 520 / 874 --
+mean loss: 0.237743
+accuracy: 0.923111
+ -- 530 / 874 --
+mean loss: 0.231974
+accuracy: 0.922925
+ -- 540 / 874 --
+mean loss: 0.173856
+accuracy: 0.943658
+ -- 550 / 874 --
+mean loss: 0.303453
+accuracy: 0.903198
+ -- 560 / 874 --
+mean loss: 0.255324
+accuracy: 0.917480
+ -- 570 / 874 --
+mean loss: 0.290619
+accuracy: 0.911560
+ -- 580 / 874 --
+mean loss: 0.230343
+accuracy: 0.927319
+ -- 590 / 874 --
+mean loss: 0.189880
+accuracy: 0.930823
+ -- 600 / 874 --
+mean loss: 0.237143
+accuracy: 0.917719
+ -- 610 / 874 --
+mean loss: 0.295798
+accuracy: 0.906989
+ -- 620 / 874 --
+mean loss: 0.233037
+accuracy: 0.918787
+ -- 630 / 874 --
+mean loss: 0.259966
+accuracy: 0.915787
+ -- 640 / 874 --
+mean loss: 0.267425
+accuracy: 0.910538
+ -- 650 / 874 --
+mean loss: 0.212713
+accuracy: 0.929776
+ -- 660 / 874 --
+mean loss: 0.234811
+accuracy: 0.923520
+ -- 670 / 874 --
+mean loss: 0.270286
+accuracy: 0.910446
+ -- 680 / 874 --
+mean loss: 0.191770
+accuracy: 0.933951
+ -- 690 / 874 --
+mean loss: 0.310901
+accuracy: 0.903360
+ -- 700 / 874 --
+mean loss: 0.230834
+accuracy: 0.922806
+ -- 710 / 874 --
+mean loss: 0.294656
+accuracy: 0.907419
+ -- 720 / 874 --
+mean loss: 0.312311
+accuracy: 0.903720
+ -- 730 / 874 --
+mean loss: 0.246527
+accuracy: 0.921500
+ -- 740 / 874 --
+mean loss: 0.275537
+accuracy: 0.904218
+ -- 750 / 874 --
+mean loss: 0.268568
+accuracy: 0.910818
+ -- 760 / 874 --
+mean loss: 0.288911
+accuracy: 0.915729
+ -- 770 / 874 --
+mean loss: 0.380884
+accuracy: 0.903369
+ -- 780 / 874 --
+mean loss: 0.259631
+accuracy: 0.919391
+ -- 790 / 874 --
+mean loss: 0.387950
+accuracy: 0.902274
+ -- 800 / 874 --
+mean loss: 0.348423
+accuracy: 0.893524
+ -- 810 / 874 --
+mean loss: 0.378684
+accuracy: 0.890625
+ -- 820 / 874 --
+mean loss: 0.240981
+accuracy: 0.921954
+ -- 830 / 874 --
+mean loss: 0.316444
+accuracy: 0.904172
+ -- 840 / 874 --
+mean loss: 0.255200
+accuracy: 0.916901
+ -- 850 / 874 --
+mean loss: 0.224447
+accuracy: 0.926550
+ -- 860 / 874 --
+mean loss: 0.262778
+accuracy: 0.913617
+ -- 870 / 874 --
+mean loss: 0.210114
+accuracy: 0.932278
+2019-06-28 10:21:17.568039
+---- EPOCH 013 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.316118
+eval accuracy: 0.918750
+eval avg class acc: 0.714156
+eval mIoU of Airplane:	 0.758624
+eval mIoU of Bag:	 0.530680
+eval mIoU of Cap:	 0.833158
+eval mIoU of Car:	 0.681672
+eval mIoU of Chair:	 0.891343
+eval mIoU of Earphone:	 0.303138
+eval mIoU of Guitar:	 0.837356
+eval mIoU of Knife:	 0.784842
+eval mIoU of Lamp:	 0.806647
+eval mIoU of Laptop:	 0.953118
+eval mIoU of Motorbike:	 0.291125
+eval mIoU of Mug:	 0.766840
+eval mIoU of Pistol:	 0.746774
+eval mIoU of Rocket:	 0.328273
+eval mIoU of Skateboard:	 0.674008
+eval mIoU of Table:	 0.807371
+eval mean mIoU: 0.687186
+eval mean mIoU (all shapes): 0.802646
+**** EPOCH 014 ****
+2019-06-28 10:21:28.724621
+ -- 010 / 874 --
+mean loss: 0.250316
+accuracy: 0.917056
+ -- 020 / 874 --
+mean loss: 0.261514
+accuracy: 0.914752
+ -- 030 / 874 --
+mean loss: 0.219978
+accuracy: 0.924350
+ -- 040 / 874 --
+mean loss: 0.223443
+accuracy: 0.925769
+ -- 050 / 874 --
+mean loss: 0.234977
+accuracy: 0.921857
+ -- 060 / 874 --
+mean loss: 0.199262
+accuracy: 0.932535
+ -- 070 / 874 --
+mean loss: 0.234642
+accuracy: 0.921939
+ -- 080 / 874 --
+mean loss: 0.237611
+accuracy: 0.921109
+ -- 090 / 874 --
+mean loss: 0.251982
+accuracy: 0.923962
+ -- 100 / 874 --
+mean loss: 0.242207
+accuracy: 0.923642
+ -- 110 / 874 --
+mean loss: 0.218308
+accuracy: 0.928671
+ -- 120 / 874 --
+mean loss: 0.256049
+accuracy: 0.917441
+ -- 130 / 874 --
+mean loss: 0.219345
+accuracy: 0.926953
+ -- 140 / 874 --
+mean loss: 0.199639
+accuracy: 0.930130
+ -- 150 / 874 --
+mean loss: 0.191731
+accuracy: 0.935818
+ -- 160 / 874 --
+mean loss: 0.245206
+accuracy: 0.920975
+ -- 170 / 874 --
+mean loss: 0.217736
+accuracy: 0.925089
+ -- 180 / 874 --
+mean loss: 0.225657
+accuracy: 0.920291
+ -- 190 / 874 --
+mean loss: 0.248293
+accuracy: 0.918079
+ -- 200 / 874 --
+mean loss: 0.262408
+accuracy: 0.917990
+ -- 210 / 874 --
+mean loss: 0.201290
+accuracy: 0.926669
+ -- 220 / 874 --
+mean loss: 0.244496
+accuracy: 0.922073
+ -- 230 / 874 --
+mean loss: 0.246897
+accuracy: 0.917191
+ -- 240 / 874 --
+mean loss: 0.182715
+accuracy: 0.937097
+ -- 250 / 874 --
+mean loss: 0.257746
+accuracy: 0.913461
+ -- 260 / 874 --
+mean loss: 0.169404
+accuracy: 0.942950
+ -- 270 / 874 --
+mean loss: 0.282165
+accuracy: 0.916843
+ -- 280 / 874 --
+mean loss: 0.202888
+accuracy: 0.933032
+ -- 290 / 874 --
+mean loss: 0.282762
+accuracy: 0.911011
+ -- 300 / 874 --
+mean loss: 0.264710
+accuracy: 0.916492
+ -- 310 / 874 --
+mean loss: 0.293039
+accuracy: 0.915872
+ -- 320 / 874 --
+mean loss: 0.166295
+accuracy: 0.942966
+ -- 330 / 874 --
+mean loss: 0.252838
+accuracy: 0.913785
+ -- 340 / 874 --
+mean loss: 0.294922
+accuracy: 0.913779
+ -- 350 / 874 --
+mean loss: 0.257252
+accuracy: 0.919788
+ -- 360 / 874 --
+mean loss: 0.242390
+accuracy: 0.924078
+ -- 370 / 874 --
+mean loss: 0.263652
+accuracy: 0.921179
+ -- 380 / 874 --
+mean loss: 0.273345
+accuracy: 0.918704
+ -- 390 / 874 --
+mean loss: 0.224213
+accuracy: 0.920245
+ -- 400 / 874 --
+mean loss: 0.198545
+accuracy: 0.932016
+ -- 410 / 874 --
+mean loss: 0.228760
+accuracy: 0.933057
+ -- 420 / 874 --
+mean loss: 0.211112
+accuracy: 0.930899
+ -- 430 / 874 --
+mean loss: 0.191481
+accuracy: 0.933929
+ -- 440 / 874 --
+mean loss: 0.172572
+accuracy: 0.941409
+ -- 450 / 874 --
+mean loss: 0.267518
+accuracy: 0.927344
+ -- 460 / 874 --
+mean loss: 0.241260
+accuracy: 0.919662
+ -- 470 / 874 --
+mean loss: 0.205617
+accuracy: 0.927600
+ -- 480 / 874 --
+mean loss: 0.272423
+accuracy: 0.917059
+ -- 490 / 874 --
+mean loss: 0.250512
+accuracy: 0.922339
+ -- 500 / 874 --
+mean loss: 0.233506
+accuracy: 0.929324
+ -- 510 / 874 --
+mean loss: 0.209794
+accuracy: 0.931223
+ -- 520 / 874 --
+mean loss: 0.205815
+accuracy: 0.928528
+ -- 530 / 874 --
+mean loss: 0.213468
+accuracy: 0.927759
+ -- 540 / 874 --
+mean loss: 0.254441
+accuracy: 0.915332
+ -- 550 / 874 --
+mean loss: 0.204260
+accuracy: 0.924823
+ -- 560 / 874 --
+mean loss: 0.228413
+accuracy: 0.917169
+ -- 570 / 874 --
+mean loss: 0.189638
+accuracy: 0.932242
+ -- 580 / 874 --
+mean loss: 0.230693
+accuracy: 0.922806
+ -- 590 / 874 --
+mean loss: 0.219329
+accuracy: 0.929379
+ -- 600 / 874 --
+mean loss: 0.189558
+accuracy: 0.932034
+ -- 610 / 874 --
+mean loss: 0.216603
+accuracy: 0.927197
+ -- 620 / 874 --
+mean loss: 0.207803
+accuracy: 0.933987
+ -- 630 / 874 --
+mean loss: 0.181911
+accuracy: 0.937643
+ -- 640 / 874 --
+mean loss: 0.200655
+accuracy: 0.937210
+ -- 650 / 874 --
+mean loss: 0.185486
+accuracy: 0.934387
+ -- 660 / 874 --
+mean loss: 0.269455
+accuracy: 0.923166
+ -- 670 / 874 --
+mean loss: 0.194727
+accuracy: 0.931833
+ -- 680 / 874 --
+mean loss: 0.215817
+accuracy: 0.936078
+ -- 690 / 874 --
+mean loss: 0.212585
+accuracy: 0.927786
+ -- 700 / 874 --
+mean loss: 0.195769
+accuracy: 0.936606
+ -- 710 / 874 --
+mean loss: 0.272659
+accuracy: 0.915948
+ -- 720 / 874 --
+mean loss: 0.211969
+accuracy: 0.922641
+ -- 730 / 874 --
+mean loss: 0.170681
+accuracy: 0.939221
+ -- 740 / 874 --
+mean loss: 0.216155
+accuracy: 0.928677
+ -- 750 / 874 --
+mean loss: 0.179651
+accuracy: 0.941809
+ -- 760 / 874 --
+mean loss: 0.211326
+accuracy: 0.927460
+ -- 770 / 874 --
+mean loss: 0.185277
+accuracy: 0.938931
+ -- 780 / 874 --
+mean loss: 0.162476
+accuracy: 0.947495
+ -- 790 / 874 --
+mean loss: 0.207086
+accuracy: 0.931509
+ -- 800 / 874 --
+mean loss: 0.220914
+accuracy: 0.933017
+ -- 810 / 874 --
+mean loss: 0.152820
+accuracy: 0.945755
+ -- 820 / 874 --
+mean loss: 0.192050
+accuracy: 0.939270
+ -- 830 / 874 --
+mean loss: 0.221607
+accuracy: 0.924216
+ -- 840 / 874 --
+mean loss: 0.236192
+accuracy: 0.914877
+ -- 850 / 874 --
+mean loss: 0.215369
+accuracy: 0.933234
+ -- 860 / 874 --
+mean loss: 0.222174
+accuracy: 0.925488
+ -- 870 / 874 --
+mean loss: 0.214682
+accuracy: 0.927487
+2019-06-28 10:24:22.935322
+---- EPOCH 014 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.251787
+eval accuracy: 0.928965
+eval avg class acc: 0.766113
+eval mIoU of Airplane:	 0.780152
+eval mIoU of Bag:	 0.761487
+eval mIoU of Cap:	 0.799410
+eval mIoU of Car:	 0.724082
+eval mIoU of Chair:	 0.897690
+eval mIoU of Earphone:	 0.672809
+eval mIoU of Guitar:	 0.888439
+eval mIoU of Knife:	 0.841720
+eval mIoU of Lamp:	 0.816310
+eval mIoU of Laptop:	 0.956507
+eval mIoU of Motorbike:	 0.294336
+eval mIoU of Mug:	 0.940953
+eval mIoU of Pistol:	 0.708205
+eval mIoU of Rocket:	 0.454876
+eval mIoU of Skateboard:	 0.694455
+eval mIoU of Table:	 0.814644
+eval mean mIoU: 0.752880
+eval mean mIoU (all shapes): 0.822015
+**** EPOCH 015 ****
+2019-06-28 10:24:34.175608
+ -- 010 / 874 --
+mean loss: 0.168253
+accuracy: 0.940756
+ -- 020 / 874 --
+mean loss: 0.212969
+accuracy: 0.928198
+ -- 030 / 874 --
+mean loss: 0.167785
+accuracy: 0.942999
+ -- 040 / 874 --
+mean loss: 0.233656
+accuracy: 0.920654
+ -- 050 / 874 --
+mean loss: 0.250749
+accuracy: 0.915488
+ -- 060 / 874 --
+mean loss: 0.286757
+accuracy: 0.910788
+ -- 070 / 874 --
+mean loss: 0.180614
+accuracy: 0.936374
+ -- 080 / 874 --
+mean loss: 0.212881
+accuracy: 0.934946
+ -- 090 / 874 --
+mean loss: 0.199753
+accuracy: 0.933987
+ -- 100 / 874 --
+mean loss: 0.256726
+accuracy: 0.921362
+ -- 110 / 874 --
+mean loss: 0.223879
+accuracy: 0.927670
+ -- 120 / 874 --
+mean loss: 0.185664
+accuracy: 0.934592
+ -- 130 / 874 --
+mean loss: 0.207122
+accuracy: 0.930048
+ -- 140 / 874 --
+mean loss: 0.171835
+accuracy: 0.941565
+ -- 150 / 874 --
+mean loss: 0.182595
+accuracy: 0.937427
+ -- 160 / 874 --
+mean loss: 0.258614
+accuracy: 0.914966
+ -- 170 / 874 --
+mean loss: 0.243136
+accuracy: 0.919507
+ -- 180 / 874 --
+mean loss: 0.216898
+accuracy: 0.923431
+ -- 190 / 874 --
+mean loss: 0.218786
+accuracy: 0.936020
+ -- 200 / 874 --
+mean loss: 0.198676
+accuracy: 0.930588
+ -- 210 / 874 --
+mean loss: 0.233812
+accuracy: 0.922852
+ -- 220 / 874 --
+mean loss: 0.181407
+accuracy: 0.939294
+ -- 230 / 874 --
+mean loss: 0.204501
+accuracy: 0.928088
+ -- 240 / 874 --
+mean loss: 0.204387
+accuracy: 0.933847
+ -- 250 / 874 --
+mean loss: 0.206982
+accuracy: 0.927576
+ -- 260 / 874 --
+mean loss: 0.199008
+accuracy: 0.934280
+ -- 270 / 874 --
+mean loss: 0.218620
+accuracy: 0.927124
+ -- 280 / 874 --
+mean loss: 0.207507
+accuracy: 0.926117
+ -- 290 / 874 --
+mean loss: 0.202795
+accuracy: 0.928204
+ -- 300 / 874 --
+mean loss: 0.183565
+accuracy: 0.935400
+ -- 310 / 874 --
+mean loss: 0.221321
+accuracy: 0.923318
+ -- 320 / 874 --
+mean loss: 0.203071
+accuracy: 0.933694
+ -- 330 / 874 --
+mean loss: 0.191879
+accuracy: 0.931915
+ -- 340 / 874 --
+mean loss: 0.219133
+accuracy: 0.922668
+ -- 350 / 874 --
+mean loss: 0.191084
+accuracy: 0.936432
+ -- 360 / 874 --
+mean loss: 0.188115
+accuracy: 0.933344
+ -- 370 / 874 --
+mean loss: 0.196398
+accuracy: 0.934042
+ -- 380 / 874 --
+mean loss: 0.199239
+accuracy: 0.932260
+ -- 390 / 874 --
+mean loss: 0.220081
+accuracy: 0.929187
+ -- 400 / 874 --
+mean loss: 0.171039
+accuracy: 0.940326
+ -- 410 / 874 --
+mean loss: 0.207873
+accuracy: 0.934760
+ -- 420 / 874 --
+mean loss: 0.162439
+accuracy: 0.945410
+ -- 430 / 874 --
+mean loss: 0.202776
+accuracy: 0.926401
+ -- 440 / 874 --
+mean loss: 0.265981
+accuracy: 0.921790
+ -- 450 / 874 --
+mean loss: 0.235631
+accuracy: 0.923178
+ -- 460 / 874 --
+mean loss: 0.202192
+accuracy: 0.929669
+ -- 470 / 874 --
+mean loss: 0.196899
+accuracy: 0.932498
+ -- 480 / 874 --
+mean loss: 0.180209
+accuracy: 0.935928
+ -- 490 / 874 --
+mean loss: 0.234114
+accuracy: 0.920645
+ -- 500 / 874 --
+mean loss: 0.205704
+accuracy: 0.931934
+ -- 510 / 874 --
+mean loss: 0.225430
+accuracy: 0.926953
+ -- 520 / 874 --
+mean loss: 0.198324
+accuracy: 0.929355
+ -- 530 / 874 --
+mean loss: 0.197980
+accuracy: 0.934439
+ -- 540 / 874 --
+mean loss: 0.233107
+accuracy: 0.922498
+ -- 550 / 874 --
+mean loss: 0.224455
+accuracy: 0.926834
+ -- 560 / 874 --
+mean loss: 0.194035
+accuracy: 0.933347
+ -- 570 / 874 --
+mean loss: 0.205568
+accuracy: 0.932108
+ -- 580 / 874 --
+mean loss: 0.253969
+accuracy: 0.924100
+ -- 590 / 874 --
+mean loss: 0.223641
+accuracy: 0.924713
+ -- 600 / 874 --
+mean loss: 0.209885
+accuracy: 0.929474
+ -- 610 / 874 --
+mean loss: 0.272446
+accuracy: 0.915134
+ -- 620 / 874 --
+mean loss: 0.196203
+accuracy: 0.935184
+ -- 630 / 874 --
+mean loss: 0.205531
+accuracy: 0.929739
+ -- 640 / 874 --
+mean loss: 0.196762
+accuracy: 0.929977
+ -- 650 / 874 --
+mean loss: 0.246780
+accuracy: 0.917123
+ -- 660 / 874 --
+mean loss: 0.215749
+accuracy: 0.933820
+ -- 670 / 874 --
+mean loss: 0.288166
+accuracy: 0.910764
+ -- 680 / 874 --
+mean loss: 0.230670
+accuracy: 0.925345
+ -- 690 / 874 --
+mean loss: 0.236040
+accuracy: 0.919141
+ -- 700 / 874 --
+mean loss: 0.205750
+accuracy: 0.933243
+ -- 710 / 874 --
+mean loss: 0.207593
+accuracy: 0.928384
+ -- 720 / 874 --
+mean loss: 0.206649
+accuracy: 0.929437
+ -- 730 / 874 --
+mean loss: 0.179916
+accuracy: 0.942334
+ -- 740 / 874 --
+mean loss: 0.196969
+accuracy: 0.934158
+ -- 750 / 874 --
+mean loss: 0.230388
+accuracy: 0.925705
+ -- 760 / 874 --
+mean loss: 0.222747
+accuracy: 0.929602
+ -- 770 / 874 --
+mean loss: 0.343474
+accuracy: 0.911279
+ -- 780 / 874 --
+mean loss: 0.228572
+accuracy: 0.930853
+ -- 790 / 874 --
+mean loss: 0.184065
+accuracy: 0.937277
+ -- 800 / 874 --
+mean loss: 0.176376
+accuracy: 0.940936
+ -- 810 / 874 --
+mean loss: 0.179527
+accuracy: 0.938550
+ -- 820 / 874 --
+mean loss: 0.224559
+accuracy: 0.922433
+ -- 830 / 874 --
+mean loss: 0.211732
+accuracy: 0.924728
+ -- 840 / 874 --
+mean loss: 0.205261
+accuracy: 0.927789
+ -- 850 / 874 --
+mean loss: 0.174044
+accuracy: 0.940344
+ -- 860 / 874 --
+mean loss: 0.186659
+accuracy: 0.936710
+ -- 870 / 874 --
+mean loss: 0.292012
+accuracy: 0.908163
+2019-06-28 10:27:28.243774
+---- EPOCH 015 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.263233
+eval accuracy: 0.925726
+eval avg class acc: 0.781939
+eval mIoU of Airplane:	 0.772040
+eval mIoU of Bag:	 0.704014
+eval mIoU of Cap:	 0.825827
+eval mIoU of Car:	 0.729759
+eval mIoU of Chair:	 0.895267
+eval mIoU of Earphone:	 0.628015
+eval mIoU of Guitar:	 0.887644
+eval mIoU of Knife:	 0.844014
+eval mIoU of Lamp:	 0.815510
+eval mIoU of Laptop:	 0.955310
+eval mIoU of Motorbike:	 0.437532
+eval mIoU of Mug:	 0.836455
+eval mIoU of Pistol:	 0.724440
+eval mIoU of Rocket:	 0.467567
+eval mIoU of Skateboard:	 0.673522
+eval mIoU of Table:	 0.800051
+eval mean mIoU: 0.749810
+eval mean mIoU (all shapes): 0.817209
+**** EPOCH 016 ****
+2019-06-28 10:27:39.393859
+ -- 010 / 874 --
+mean loss: 0.210187
+accuracy: 0.929385
+ -- 020 / 874 --
+mean loss: 0.191406
+accuracy: 0.933466
+ -- 030 / 874 --
+mean loss: 0.239717
+accuracy: 0.916785
+ -- 040 / 874 --
+mean loss: 0.194840
+accuracy: 0.933633
+ -- 050 / 874 --
+mean loss: 0.225471
+accuracy: 0.919647
+ -- 060 / 874 --
+mean loss: 0.198510
+accuracy: 0.933060
+ -- 070 / 874 --
+mean loss: 0.195908
+accuracy: 0.932410
+ -- 080 / 874 --
+mean loss: 0.232967
+accuracy: 0.917307
+ -- 090 / 874 --
+mean loss: 0.193328
+accuracy: 0.939767
+ -- 100 / 874 --
+mean loss: 0.184935
+accuracy: 0.935931
+ -- 110 / 874 --
+mean loss: 0.189334
+accuracy: 0.937024
+ -- 120 / 874 --
+mean loss: 0.218434
+accuracy: 0.929605
+ -- 130 / 874 --
+mean loss: 0.266832
+accuracy: 0.908865
+ -- 140 / 874 --
+mean loss: 0.215832
+accuracy: 0.928317
+ -- 150 / 874 --
+mean loss: 0.205907
+accuracy: 0.930124
+ -- 160 / 874 --
+mean loss: 0.210966
+accuracy: 0.926614
+ -- 170 / 874 --
+mean loss: 0.191261
+accuracy: 0.933807
+ -- 180 / 874 --
+mean loss: 0.183403
+accuracy: 0.939874
+ -- 190 / 874 --
+mean loss: 0.219928
+accuracy: 0.930640
+ -- 200 / 874 --
+mean loss: 0.199882
+accuracy: 0.933243
+ -- 210 / 874 --
+mean loss: 0.271565
+accuracy: 0.915115
+ -- 220 / 874 --
+mean loss: 0.192068
+accuracy: 0.930984
+ -- 230 / 874 --
+mean loss: 0.205512
+accuracy: 0.926031
+ -- 240 / 874 --
+mean loss: 0.183764
+accuracy: 0.936218
+ -- 250 / 874 --
+mean loss: 0.209302
+accuracy: 0.931085
+ -- 260 / 874 --
+mean loss: 0.169289
+accuracy: 0.941202
+ -- 270 / 874 --
+mean loss: 0.159760
+accuracy: 0.944125
+ -- 280 / 874 --
+mean loss: 0.192934
+accuracy: 0.930945
+ -- 290 / 874 --
+mean loss: 0.182370
+accuracy: 0.934818
+ -- 300 / 874 --
+mean loss: 0.185098
+accuracy: 0.938797
+ -- 310 / 874 --
+mean loss: 0.182763
+accuracy: 0.934579
+ -- 320 / 874 --
+mean loss: 0.193148
+accuracy: 0.931851
+ -- 330 / 874 --
+mean loss: 0.226196
+accuracy: 0.926425
+ -- 340 / 874 --
+mean loss: 0.201047
+accuracy: 0.933563
+ -- 350 / 874 --
+mean loss: 0.241115
+accuracy: 0.919519
+ -- 360 / 874 --
+mean loss: 0.231682
+accuracy: 0.926556
+ -- 370 / 874 --
+mean loss: 0.216473
+accuracy: 0.921744
+ -- 380 / 874 --
+mean loss: 0.218037
+accuracy: 0.938934
+ -- 390 / 874 --
+mean loss: 0.214036
+accuracy: 0.927039
+ -- 400 / 874 --
+mean loss: 0.199870
+accuracy: 0.928656
+ -- 410 / 874 --
+mean loss: 0.188366
+accuracy: 0.938507
+ -- 420 / 874 --
+mean loss: 0.209311
+accuracy: 0.932553
+ -- 430 / 874 --
+mean loss: 0.267734
+accuracy: 0.910333
+ -- 440 / 874 --
+mean loss: 0.221834
+accuracy: 0.931946
+ -- 450 / 874 --
+mean loss: 0.180614
+accuracy: 0.937485
+ -- 460 / 874 --
+mean loss: 0.186792
+accuracy: 0.937387
+ -- 470 / 874 --
+mean loss: 0.219325
+accuracy: 0.926657
+ -- 480 / 874 --
+mean loss: 0.187282
+accuracy: 0.933887
+ -- 490 / 874 --
+mean loss: 0.273223
+accuracy: 0.912811
+ -- 500 / 874 --
+mean loss: 0.257004
+accuracy: 0.919568
+ -- 510 / 874 --
+mean loss: 0.206940
+accuracy: 0.930966
+ -- 520 / 874 --
+mean loss: 0.170014
+accuracy: 0.942725
+ -- 530 / 874 --
+mean loss: 0.189553
+accuracy: 0.936981
+ -- 540 / 874 --
+mean loss: 0.205191
+accuracy: 0.926736
+ -- 550 / 874 --
+mean loss: 0.206588
+accuracy: 0.930032
+ -- 560 / 874 --
+mean loss: 0.185451
+accuracy: 0.935809
+ -- 570 / 874 --
+mean loss: 0.226794
+accuracy: 0.927728
+ -- 580 / 874 --
+mean loss: 0.223068
+accuracy: 0.923923
+ -- 590 / 874 --
+mean loss: 0.225994
+accuracy: 0.930954
+ -- 600 / 874 --
+mean loss: 0.176939
+accuracy: 0.939468
+ -- 610 / 874 --
+mean loss: 0.258160
+accuracy: 0.919543
+ -- 620 / 874 --
+mean loss: 0.174308
+accuracy: 0.939075
+ -- 630 / 874 --
+mean loss: 0.165930
+accuracy: 0.940778
+ -- 640 / 874 --
+mean loss: 0.191426
+accuracy: 0.932520
+ -- 650 / 874 --
+mean loss: 0.267759
+accuracy: 0.906067
+ -- 660 / 874 --
+mean loss: 0.213781
+accuracy: 0.930838
+ -- 670 / 874 --
+mean loss: 0.269995
+accuracy: 0.919116
+ -- 680 / 874 --
+mean loss: 0.224924
+accuracy: 0.928525
+ -- 690 / 874 --
+mean loss: 0.178921
+accuracy: 0.940433
+ -- 700 / 874 --
+mean loss: 0.190031
+accuracy: 0.935977
+ -- 710 / 874 --
+mean loss: 0.217623
+accuracy: 0.928699
+ -- 720 / 874 --
+mean loss: 0.190169
+accuracy: 0.930884
+ -- 730 / 874 --
+mean loss: 0.239645
+accuracy: 0.920639
+ -- 740 / 874 --
+mean loss: 0.232956
+accuracy: 0.927469
+ -- 750 / 874 --
+mean loss: 0.283710
+accuracy: 0.912640
+ -- 760 / 874 --
+mean loss: 0.241133
+accuracy: 0.923486
+ -- 770 / 874 --
+mean loss: 0.187643
+accuracy: 0.937540
+ -- 780 / 874 --
+mean loss: 0.192423
+accuracy: 0.932321
+ -- 790 / 874 --
+mean loss: 0.257055
+accuracy: 0.925961
+ -- 800 / 874 --
+mean loss: 0.195724
+accuracy: 0.929901
+ -- 810 / 874 --
+mean loss: 0.235005
+accuracy: 0.925391
+ -- 820 / 874 --
+mean loss: 0.251167
+accuracy: 0.920157
+ -- 830 / 874 --
+mean loss: 0.240889
+accuracy: 0.927277
+ -- 840 / 874 --
+mean loss: 0.274479
+accuracy: 0.917599
+ -- 850 / 874 --
+mean loss: 0.199525
+accuracy: 0.935318
+ -- 860 / 874 --
+mean loss: 0.201579
+accuracy: 0.931473
+ -- 870 / 874 --
+mean loss: 0.220965
+accuracy: 0.928256
+2019-06-28 10:30:33.501727
+---- EPOCH 016 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.252228
+eval accuracy: 0.930333
+eval avg class acc: 0.796991
+eval mIoU of Airplane:	 0.782184
+eval mIoU of Bag:	 0.760609
+eval mIoU of Cap:	 0.841233
+eval mIoU of Car:	 0.730695
+eval mIoU of Chair:	 0.894004
+eval mIoU of Earphone:	 0.669400
+eval mIoU of Guitar:	 0.894391
+eval mIoU of Knife:	 0.843831
+eval mIoU of Lamp:	 0.812235
+eval mIoU of Laptop:	 0.950882
+eval mIoU of Motorbike:	 0.457087
+eval mIoU of Mug:	 0.908393
+eval mIoU of Pistol:	 0.771239
+eval mIoU of Rocket:	 0.453436
+eval mIoU of Skateboard:	 0.698165
+eval mIoU of Table:	 0.812451
+eval mean mIoU: 0.767515
+eval mean mIoU (all shapes): 0.824486
+**** EPOCH 017 ****
+2019-06-28 10:30:44.644913
+ -- 010 / 874 --
+mean loss: 0.213341
+accuracy: 0.921497
+ -- 020 / 874 --
+mean loss: 0.191484
+accuracy: 0.933990
+ -- 030 / 874 --
+mean loss: 0.197912
+accuracy: 0.930960
+ -- 040 / 874 --
+mean loss: 0.219365
+accuracy: 0.926239
+ -- 050 / 874 --
+mean loss: 0.179878
+accuracy: 0.938986
+ -- 060 / 874 --
+mean loss: 0.204840
+accuracy: 0.930676
+ -- 070 / 874 --
+mean loss: 0.197434
+accuracy: 0.934903
+ -- 080 / 874 --
+mean loss: 0.190079
+accuracy: 0.933377
+ -- 090 / 874 --
+mean loss: 0.182648
+accuracy: 0.935919
+ -- 100 / 874 --
+mean loss: 0.197882
+accuracy: 0.929977
+ -- 110 / 874 --
+mean loss: 0.186272
+accuracy: 0.932608
+ -- 120 / 874 --
+mean loss: 0.182644
+accuracy: 0.936533
+ -- 130 / 874 --
+mean loss: 0.181484
+accuracy: 0.935849
+ -- 140 / 874 --
+mean loss: 0.185415
+accuracy: 0.939554
+ -- 150 / 874 --
+mean loss: 0.157243
+accuracy: 0.946341
+ -- 160 / 874 --
+mean loss: 0.220179
+accuracy: 0.926938
+ -- 170 / 874 --
+mean loss: 0.170936
+accuracy: 0.940332
+ -- 180 / 874 --
+mean loss: 0.194266
+accuracy: 0.932767
+ -- 190 / 874 --
+mean loss: 0.225007
+accuracy: 0.927878
+ -- 200 / 874 --
+mean loss: 0.165338
+accuracy: 0.942368
+ -- 210 / 874 --
+mean loss: 0.187247
+accuracy: 0.936792
+ -- 220 / 874 --
+mean loss: 0.221297
+accuracy: 0.930347
+ -- 230 / 874 --
+mean loss: 0.198251
+accuracy: 0.932590
+ -- 240 / 874 --
+mean loss: 0.241295
+accuracy: 0.920871
+ -- 250 / 874 --
+mean loss: 0.185526
+accuracy: 0.934250
+ -- 260 / 874 --
+mean loss: 0.185151
+accuracy: 0.936368
+ -- 270 / 874 --
+mean loss: 0.235402
+accuracy: 0.928238
+ -- 280 / 874 --
+mean loss: 0.234555
+accuracy: 0.927277
+ -- 290 / 874 --
+mean loss: 0.235935
+accuracy: 0.932083
+ -- 300 / 874 --
+mean loss: 0.193159
+accuracy: 0.935837
+ -- 310 / 874 --
+mean loss: 0.239025
+accuracy: 0.918222
+ -- 320 / 874 --
+mean loss: 0.200104
+accuracy: 0.935956
+ -- 330 / 874 --
+mean loss: 0.195856
+accuracy: 0.933820
+ -- 340 / 874 --
+mean loss: 0.198432
+accuracy: 0.929242
+ -- 350 / 874 --
+mean loss: 0.174031
+accuracy: 0.942596
+ -- 360 / 874 --
+mean loss: 0.179350
+accuracy: 0.937631
+ -- 370 / 874 --
+mean loss: 0.218604
+accuracy: 0.928995
+ -- 380 / 874 --
+mean loss: 0.172155
+accuracy: 0.940726
+ -- 390 / 874 --
+mean loss: 0.196812
+accuracy: 0.933762
+ -- 400 / 874 --
+mean loss: 0.240040
+accuracy: 0.919293
+ -- 410 / 874 --
+mean loss: 0.191257
+accuracy: 0.935229
+ -- 420 / 874 --
+mean loss: 0.198942
+accuracy: 0.926675
+ -- 430 / 874 --
+mean loss: 0.172225
+accuracy: 0.938565
+ -- 440 / 874 --
+mean loss: 0.218860
+accuracy: 0.927350
+ -- 450 / 874 --
+mean loss: 0.198414
+accuracy: 0.934589
+ -- 460 / 874 --
+mean loss: 0.258172
+accuracy: 0.919064
+ -- 470 / 874 --
+mean loss: 0.197254
+accuracy: 0.933014
+ -- 480 / 874 --
+mean loss: 0.202443
+accuracy: 0.932553
+ -- 490 / 874 --
+mean loss: 0.171127
+accuracy: 0.942041
+ -- 500 / 874 --
+mean loss: 0.243474
+accuracy: 0.921582
+ -- 510 / 874 --
+mean loss: 0.185534
+accuracy: 0.936795
+ -- 520 / 874 --
+mean loss: 0.198485
+accuracy: 0.934369
+ -- 530 / 874 --
+mean loss: 0.198176
+accuracy: 0.931088
+ -- 540 / 874 --
+mean loss: 0.197758
+accuracy: 0.932169
+ -- 550 / 874 --
+mean loss: 0.263541
+accuracy: 0.919406
+ -- 560 / 874 --
+mean loss: 0.178443
+accuracy: 0.936084
+ -- 570 / 874 --
+mean loss: 0.276976
+accuracy: 0.911868
+ -- 580 / 874 --
+mean loss: 0.200004
+accuracy: 0.933569
+ -- 590 / 874 --
+mean loss: 0.234942
+accuracy: 0.930298
+ -- 600 / 874 --
+mean loss: 0.247477
+accuracy: 0.917029
+ -- 610 / 874 --
+mean loss: 0.184686
+accuracy: 0.938098
+ -- 620 / 874 --
+mean loss: 0.188958
+accuracy: 0.935541
+ -- 630 / 874 --
+mean loss: 0.196532
+accuracy: 0.935928
+ -- 640 / 874 --
+mean loss: 0.180360
+accuracy: 0.935727
+ -- 650 / 874 --
+mean loss: 0.243741
+accuracy: 0.925357
+ -- 660 / 874 --
+mean loss: 0.190020
+accuracy: 0.932104
+ -- 670 / 874 --
+mean loss: 0.197602
+accuracy: 0.932028
+ -- 680 / 874 --
+mean loss: 0.223741
+accuracy: 0.927625
+ -- 690 / 874 --
+mean loss: 0.177195
+accuracy: 0.938623
+ -- 700 / 874 --
+mean loss: 0.202285
+accuracy: 0.931403
+ -- 710 / 874 --
+mean loss: 0.251117
+accuracy: 0.915527
+ -- 720 / 874 --
+mean loss: 0.215961
+accuracy: 0.924680
+ -- 730 / 874 --
+mean loss: 0.201747
+accuracy: 0.932962
+ -- 740 / 874 --
+mean loss: 0.183674
+accuracy: 0.932877
+ -- 750 / 874 --
+mean loss: 0.211258
+accuracy: 0.929947
+ -- 760 / 874 --
+mean loss: 0.253681
+accuracy: 0.916769
+ -- 770 / 874 --
+mean loss: 0.215640
+accuracy: 0.926276
+ -- 780 / 874 --
+mean loss: 0.215665
+accuracy: 0.930682
+ -- 790 / 874 --
+mean loss: 0.168436
+accuracy: 0.942184
+ -- 800 / 874 --
+mean loss: 0.177312
+accuracy: 0.936670
+ -- 810 / 874 --
+mean loss: 0.258286
+accuracy: 0.914151
+ -- 820 / 874 --
+mean loss: 0.207740
+accuracy: 0.926160
+ -- 830 / 874 --
+mean loss: 0.216256
+accuracy: 0.930121
+ -- 840 / 874 --
+mean loss: 0.204221
+accuracy: 0.930328
+ -- 850 / 874 --
+mean loss: 0.181722
+accuracy: 0.935214
+ -- 860 / 874 --
+mean loss: 0.200597
+accuracy: 0.931442
+ -- 870 / 874 --
+mean loss: 0.192947
+accuracy: 0.934381
+2019-06-28 10:33:38.799611
+---- EPOCH 017 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.244378
+eval accuracy: 0.931445
+eval avg class acc: 0.796076
+eval mIoU of Airplane:	 0.779338
+eval mIoU of Bag:	 0.620514
+eval mIoU of Cap:	 0.825929
+eval mIoU of Car:	 0.734513
+eval mIoU of Chair:	 0.894167
+eval mIoU of Earphone:	 0.681114
+eval mIoU of Guitar:	 0.885098
+eval mIoU of Knife:	 0.827974
+eval mIoU of Lamp:	 0.805578
+eval mIoU of Laptop:	 0.950696
+eval mIoU of Motorbike:	 0.495810
+eval mIoU of Mug:	 0.774461
+eval mIoU of Pistol:	 0.754337
+eval mIoU of Rocket:	 0.517376
+eval mIoU of Skateboard:	 0.711987
+eval mIoU of Table:	 0.821647
+eval mean mIoU: 0.755034
+eval mean mIoU (all shapes): 0.823878
+**** EPOCH 018 ****
+2019-06-28 10:33:49.950793
+ -- 010 / 874 --
+mean loss: 0.174077
+accuracy: 0.938641
+ -- 020 / 874 --
+mean loss: 0.177040
+accuracy: 0.937357
+ -- 030 / 874 --
+mean loss: 0.182364
+accuracy: 0.937231
+ -- 040 / 874 --
+mean loss: 0.212318
+accuracy: 0.927023
+ -- 050 / 874 --
+mean loss: 0.198145
+accuracy: 0.929733
+ -- 060 / 874 --
+mean loss: 0.206724
+accuracy: 0.928735
+ -- 070 / 874 --
+mean loss: 0.230310
+accuracy: 0.920612
+ -- 080 / 874 --
+mean loss: 0.203446
+accuracy: 0.926532
+ -- 090 / 874 --
+mean loss: 0.183777
+accuracy: 0.940433
+ -- 100 / 874 --
+mean loss: 0.188600
+accuracy: 0.934726
+ -- 110 / 874 --
+mean loss: 0.175464
+accuracy: 0.938406
+ -- 120 / 874 --
+mean loss: 0.179830
+accuracy: 0.939050
+ -- 130 / 874 --
+mean loss: 0.185433
+accuracy: 0.939050
+ -- 140 / 874 --
+mean loss: 0.170949
+accuracy: 0.945364
+ -- 150 / 874 --
+mean loss: 0.161471
+accuracy: 0.944305
+ -- 160 / 874 --
+mean loss: 0.164826
+accuracy: 0.942624
+ -- 170 / 874 --
+mean loss: 0.191082
+accuracy: 0.933484
+ -- 180 / 874 --
+mean loss: 0.172439
+accuracy: 0.941394
+ -- 190 / 874 --
+mean loss: 0.182574
+accuracy: 0.937448
+ -- 200 / 874 --
+mean loss: 0.183586
+accuracy: 0.935760
+ -- 210 / 874 --
+mean loss: 0.183342
+accuracy: 0.931464
+ -- 220 / 874 --
+mean loss: 0.179370
+accuracy: 0.939731
+ -- 230 / 874 --
+mean loss: 0.179973
+accuracy: 0.934192
+ -- 240 / 874 --
+mean loss: 0.181556
+accuracy: 0.934341
+ -- 250 / 874 --
+mean loss: 0.219267
+accuracy: 0.930576
+ -- 260 / 874 --
+mean loss: 0.187123
+accuracy: 0.932513
+ -- 270 / 874 --
+mean loss: 0.193633
+accuracy: 0.931769
+ -- 280 / 874 --
+mean loss: 0.240130
+accuracy: 0.918707
+ -- 290 / 874 --
+mean loss: 0.244858
+accuracy: 0.921771
+ -- 300 / 874 --
+mean loss: 0.262627
+accuracy: 0.925153
+ -- 310 / 874 --
+mean loss: 0.177480
+accuracy: 0.939044
+ -- 320 / 874 --
+mean loss: 0.171788
+accuracy: 0.939828
+ -- 330 / 874 --
+mean loss: 0.188347
+accuracy: 0.934268
+ -- 340 / 874 --
+mean loss: 0.195502
+accuracy: 0.943326
+ -- 350 / 874 --
+mean loss: 0.216266
+accuracy: 0.927005
+ -- 360 / 874 --
+mean loss: 0.193416
+accuracy: 0.934052
+ -- 370 / 874 --
+mean loss: 0.250834
+accuracy: 0.919608
+ -- 380 / 874 --
+mean loss: 0.258959
+accuracy: 0.918591
+ -- 390 / 874 --
+mean loss: 0.254315
+accuracy: 0.914365
+ -- 400 / 874 --
+mean loss: 0.274368
+accuracy: 0.916507
+ -- 410 / 874 --
+mean loss: 0.243275
+accuracy: 0.925943
+ -- 420 / 874 --
+mean loss: 0.247585
+accuracy: 0.922717
+ -- 430 / 874 --
+mean loss: 0.240865
+accuracy: 0.923401
+ -- 440 / 874 --
+mean loss: 0.190182
+accuracy: 0.938019
+ -- 450 / 874 --
+mean loss: 0.214240
+accuracy: 0.930325
+ -- 460 / 874 --
+mean loss: 0.169224
+accuracy: 0.940851
+ -- 470 / 874 --
+mean loss: 0.191985
+accuracy: 0.934790
+ -- 480 / 874 --
+mean loss: 0.194249
+accuracy: 0.935187
+ -- 490 / 874 --
+mean loss: 0.199653
+accuracy: 0.932007
+ -- 500 / 874 --
+mean loss: 0.209439
+accuracy: 0.929099
+ -- 510 / 874 --
+mean loss: 0.233383
+accuracy: 0.927075
+ -- 520 / 874 --
+mean loss: 0.170802
+accuracy: 0.939734
+ -- 530 / 874 --
+mean loss: 0.221286
+accuracy: 0.929230
+ -- 540 / 874 --
+mean loss: 0.177141
+accuracy: 0.936856
+ -- 550 / 874 --
+mean loss: 0.243472
+accuracy: 0.937503
+ -- 560 / 874 --
+mean loss: 0.190566
+accuracy: 0.936038
+ -- 570 / 874 --
+mean loss: 0.174120
+accuracy: 0.937790
+ -- 580 / 874 --
+mean loss: 0.174313
+accuracy: 0.938541
+ -- 590 / 874 --
+mean loss: 0.242199
+accuracy: 0.919690
+ -- 600 / 874 --
+mean loss: 0.285975
+accuracy: 0.914993
+ -- 610 / 874 --
+mean loss: 0.189851
+accuracy: 0.933551
+ -- 620 / 874 --
+mean loss: 0.198683
+accuracy: 0.928204
+ -- 630 / 874 --
+mean loss: 0.265957
+accuracy: 0.911581
+ -- 640 / 874 --
+mean loss: 0.191436
+accuracy: 0.935587
+ -- 650 / 874 --
+mean loss: 0.214306
+accuracy: 0.927676
+ -- 660 / 874 --
+mean loss: 0.190375
+accuracy: 0.933060
+ -- 670 / 874 --
+mean loss: 0.204609
+accuracy: 0.932813
+ -- 680 / 874 --
+mean loss: 0.186944
+accuracy: 0.936252
+ -- 690 / 874 --
+mean loss: 0.196351
+accuracy: 0.928171
+ -- 700 / 874 --
+mean loss: 0.246080
+accuracy: 0.913400
+ -- 710 / 874 --
+mean loss: 0.204446
+accuracy: 0.923999
+ -- 720 / 874 --
+mean loss: 0.202928
+accuracy: 0.929538
+ -- 730 / 874 --
+mean loss: 0.203074
+accuracy: 0.931906
+ -- 740 / 874 --
+mean loss: 0.201166
+accuracy: 0.934335
+ -- 750 / 874 --
+mean loss: 0.173471
+accuracy: 0.937781
+ -- 760 / 874 --
+mean loss: 0.198822
+accuracy: 0.932248
+ -- 770 / 874 --
+mean loss: 0.197744
+accuracy: 0.935297
+ -- 780 / 874 --
+mean loss: 0.169720
+accuracy: 0.939398
+ -- 790 / 874 --
+mean loss: 0.191999
+accuracy: 0.934946
+ -- 800 / 874 --
+mean loss: 0.168018
+accuracy: 0.941376
+ -- 810 / 874 --
+mean loss: 0.218259
+accuracy: 0.930377
+ -- 820 / 874 --
+mean loss: 0.273477
+accuracy: 0.906802
+ -- 830 / 874 --
+mean loss: 0.139706
+accuracy: 0.952704
+ -- 840 / 874 --
+mean loss: 0.198733
+accuracy: 0.933994
+ -- 850 / 874 --
+mean loss: 0.226874
+accuracy: 0.926065
+ -- 860 / 874 --
+mean loss: 0.192547
+accuracy: 0.936530
+ -- 870 / 874 --
+mean loss: 0.177600
+accuracy: 0.936725
+2019-06-28 10:36:44.090239
+---- EPOCH 018 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.259337
+eval accuracy: 0.928752
+eval avg class acc: 0.808682
+eval mIoU of Airplane:	 0.778439
+eval mIoU of Bag:	 0.780292
+eval mIoU of Cap:	 0.854234
+eval mIoU of Car:	 0.733351
+eval mIoU of Chair:	 0.885537
+eval mIoU of Earphone:	 0.670536
+eval mIoU of Guitar:	 0.896778
+eval mIoU of Knife:	 0.727725
+eval mIoU of Lamp:	 0.814123
+eval mIoU of Laptop:	 0.945478
+eval mIoU of Motorbike:	 0.525514
+eval mIoU of Mug:	 0.905869
+eval mIoU of Pistol:	 0.721397
+eval mIoU of Rocket:	 0.481608
+eval mIoU of Skateboard:	 0.701977
+eval mIoU of Table:	 0.813645
+eval mean mIoU: 0.764781
+eval mean mIoU (all shapes): 0.820125
+**** EPOCH 019 ****
+2019-06-28 10:36:55.333644
+ -- 010 / 874 --
+mean loss: 0.167248
+accuracy: 0.941312
+ -- 020 / 874 --
+mean loss: 0.167089
+accuracy: 0.939157
+ -- 030 / 874 --
+mean loss: 0.181181
+accuracy: 0.935995
+ -- 040 / 874 --
+mean loss: 0.200930
+accuracy: 0.933685
+ -- 050 / 874 --
+mean loss: 0.177717
+accuracy: 0.939529
+ -- 060 / 874 --
+mean loss: 0.216503
+accuracy: 0.935849
+ -- 070 / 874 --
+mean loss: 0.221430
+accuracy: 0.931665
+ -- 080 / 874 --
+mean loss: 0.187142
+accuracy: 0.937531
+ -- 090 / 874 --
+mean loss: 0.204190
+accuracy: 0.927707
+ -- 100 / 874 --
+mean loss: 0.190456
+accuracy: 0.934344
+ -- 110 / 874 --
+mean loss: 0.169118
+accuracy: 0.943069
+ -- 120 / 874 --
+mean loss: 0.218428
+accuracy: 0.923633
+ -- 130 / 874 --
+mean loss: 0.191921
+accuracy: 0.935916
+ -- 140 / 874 --
+mean loss: 0.173517
+accuracy: 0.939972
+ -- 150 / 874 --
+mean loss: 0.183108
+accuracy: 0.942151
+ -- 160 / 874 --
+mean loss: 0.252513
+accuracy: 0.915109
+ -- 170 / 874 --
+mean loss: 0.226428
+accuracy: 0.923486
+ -- 180 / 874 --
+mean loss: 0.220991
+accuracy: 0.923697
+ -- 190 / 874 --
+mean loss: 0.180898
+accuracy: 0.937067
+ -- 200 / 874 --
+mean loss: 0.205179
+accuracy: 0.933682
+ -- 210 / 874 --
+mean loss: 0.287046
+accuracy: 0.923553
+ -- 220 / 874 --
+mean loss: 0.166627
+accuracy: 0.937277
+ -- 230 / 874 --
+mean loss: 0.154718
+accuracy: 0.946512
+ -- 240 / 874 --
+mean loss: 0.215766
+accuracy: 0.925336
+ -- 250 / 874 --
+mean loss: 0.263423
+accuracy: 0.915656
+ -- 260 / 874 --
+mean loss: 0.193450
+accuracy: 0.931482
+ -- 270 / 874 --
+mean loss: 0.170563
+accuracy: 0.938950
+ -- 280 / 874 --
+mean loss: 0.216645
+accuracy: 0.921237
+ -- 290 / 874 --
+mean loss: 0.171137
+accuracy: 0.940622
+ -- 300 / 874 --
+mean loss: 0.220238
+accuracy: 0.929276
+ -- 310 / 874 --
+mean loss: 0.171509
+accuracy: 0.941385
+ -- 320 / 874 --
+mean loss: 0.207781
+accuracy: 0.927789
+ -- 330 / 874 --
+mean loss: 0.194645
+accuracy: 0.934872
+ -- 340 / 874 --
+mean loss: 0.180990
+accuracy: 0.935547
+ -- 350 / 874 --
+mean loss: 0.202997
+accuracy: 0.932031
+ -- 360 / 874 --
+mean loss: 0.174973
+accuracy: 0.937854
+ -- 370 / 874 --
+mean loss: 0.231342
+accuracy: 0.921506
+ -- 380 / 874 --
+mean loss: 0.192169
+accuracy: 0.932590
+ -- 390 / 874 --
+mean loss: 0.177860
+accuracy: 0.939920
+ -- 400 / 874 --
+mean loss: 0.181203
+accuracy: 0.938223
+ -- 410 / 874 --
+mean loss: 0.238128
+accuracy: 0.919955
+ -- 420 / 874 --
+mean loss: 0.206987
+accuracy: 0.928760
+ -- 430 / 874 --
+mean loss: 0.208146
+accuracy: 0.936157
+ -- 440 / 874 --
+mean loss: 0.189361
+accuracy: 0.936279
+ -- 450 / 874 --
+mean loss: 0.182739
+accuracy: 0.934677
+ -- 460 / 874 --
+mean loss: 0.208269
+accuracy: 0.927005
+ -- 470 / 874 --
+mean loss: 0.211054
+accuracy: 0.932071
+ -- 480 / 874 --
+mean loss: 0.182069
+accuracy: 0.934119
+ -- 490 / 874 --
+mean loss: 0.195784
+accuracy: 0.932507
+ -- 500 / 874 --
+mean loss: 0.263937
+accuracy: 0.923413
+ -- 510 / 874 --
+mean loss: 0.194573
+accuracy: 0.932275
+ -- 520 / 874 --
+mean loss: 0.199255
+accuracy: 0.934357
+ -- 530 / 874 --
+mean loss: 0.216628
+accuracy: 0.925259
+ -- 540 / 874 --
+mean loss: 0.238267
+accuracy: 0.920959
+ -- 550 / 874 --
+mean loss: 0.227696
+accuracy: 0.924399
+ -- 560 / 874 --
+mean loss: 0.280717
+accuracy: 0.908685
+ -- 570 / 874 --
+mean loss: 0.214913
+accuracy: 0.924915
+ -- 580 / 874 --
+mean loss: 0.234220
+accuracy: 0.927676
+ -- 590 / 874 --
+mean loss: 0.208722
+accuracy: 0.921558
+ -- 600 / 874 --
+mean loss: 0.192777
+accuracy: 0.934402
+ -- 610 / 874 --
+mean loss: 0.196003
+accuracy: 0.933719
+ -- 620 / 874 --
+mean loss: 0.249532
+accuracy: 0.921118
+ -- 630 / 874 --
+mean loss: 0.216467
+accuracy: 0.932935
+ -- 640 / 874 --
+mean loss: 0.201971
+accuracy: 0.932016
+ -- 650 / 874 --
+mean loss: 0.203423
+accuracy: 0.934378
+ -- 660 / 874 --
+mean loss: 0.178707
+accuracy: 0.940741
+ -- 670 / 874 --
+mean loss: 0.211934
+accuracy: 0.923047
+ -- 680 / 874 --
+mean loss: 0.227185
+accuracy: 0.925128
+ -- 690 / 874 --
+mean loss: 0.213534
+accuracy: 0.925345
+ -- 700 / 874 --
+mean loss: 0.237104
+accuracy: 0.913400
+ -- 710 / 874 --
+mean loss: 0.175971
+accuracy: 0.939569
+ -- 720 / 874 --
+mean loss: 0.263412
+accuracy: 0.926898
+ -- 730 / 874 --
+mean loss: 0.199703
+accuracy: 0.933963
+ -- 740 / 874 --
+mean loss: 0.172285
+accuracy: 0.941916
+ -- 750 / 874 --
+mean loss: 0.197069
+accuracy: 0.931363
+ -- 760 / 874 --
+mean loss: 0.279974
+accuracy: 0.906625
+ -- 770 / 874 --
+mean loss: 0.194818
+accuracy: 0.933521
+ -- 780 / 874 --
+mean loss: 0.198235
+accuracy: 0.935352
+ -- 790 / 874 --
+mean loss: 0.158967
+accuracy: 0.942633
+ -- 800 / 874 --
+mean loss: 0.178574
+accuracy: 0.940231
+ -- 810 / 874 --
+mean loss: 0.161487
+accuracy: 0.943967
+ -- 820 / 874 --
+mean loss: 0.172286
+accuracy: 0.935300
+ -- 830 / 874 --
+mean loss: 0.282793
+accuracy: 0.924234
+ -- 840 / 874 --
+mean loss: 0.144481
+accuracy: 0.950824
+ -- 850 / 874 --
+mean loss: 0.195530
+accuracy: 0.928220
+ -- 860 / 874 --
+mean loss: 0.296523
+accuracy: 0.914182
+ -- 870 / 874 --
+mean loss: 0.228323
+accuracy: 0.918951
+2019-06-28 10:39:49.602618
+---- EPOCH 019 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.253488
+eval accuracy: 0.931346
+eval avg class acc: 0.794536
+eval mIoU of Airplane:	 0.791509
+eval mIoU of Bag:	 0.745357
+eval mIoU of Cap:	 0.825253
+eval mIoU of Car:	 0.721446
+eval mIoU of Chair:	 0.898112
+eval mIoU of Earphone:	 0.675334
+eval mIoU of Guitar:	 0.879429
+eval mIoU of Knife:	 0.839640
+eval mIoU of Lamp:	 0.832453
+eval mIoU of Laptop:	 0.953553
+eval mIoU of Motorbike:	 0.476169
+eval mIoU of Mug:	 0.943818
+eval mIoU of Pistol:	 0.776350
+eval mIoU of Rocket:	 0.440610
+eval mIoU of Skateboard:	 0.719271
+eval mIoU of Table:	 0.813428
+eval mean mIoU: 0.770733
+eval mean mIoU (all shapes): 0.828476
+**** EPOCH 020 ****
+2019-06-28 10:40:00.762652
+ -- 010 / 874 --
+mean loss: 0.184364
+accuracy: 0.936838
+ -- 020 / 874 --
+mean loss: 0.212158
+accuracy: 0.931906
+ -- 030 / 874 --
+mean loss: 0.151029
+accuracy: 0.948077
+ -- 040 / 874 --
+mean loss: 0.216974
+accuracy: 0.923312
+ -- 050 / 874 --
+mean loss: 0.194763
+accuracy: 0.935254
+ -- 060 / 874 --
+mean loss: 0.214831
+accuracy: 0.935071
+ -- 070 / 874 --
+mean loss: 0.190909
+accuracy: 0.934384
+ -- 080 / 874 --
+mean loss: 0.185500
+accuracy: 0.934482
+ -- 090 / 874 --
+mean loss: 0.226861
+accuracy: 0.930310
+ -- 100 / 874 --
+mean loss: 0.188563
+accuracy: 0.939981
+ -- 110 / 874 --
+mean loss: 0.217725
+accuracy: 0.925800
+ -- 120 / 874 --
+mean loss: 0.222888
+accuracy: 0.925366
+ -- 130 / 874 --
+mean loss: 0.231997
+accuracy: 0.918494
+ -- 140 / 874 --
+mean loss: 0.176642
+accuracy: 0.943768
+ -- 150 / 874 --
+mean loss: 0.237860
+accuracy: 0.920840
+ -- 160 / 874 --
+mean loss: 0.222772
+accuracy: 0.922064
+ -- 170 / 874 --
+mean loss: 0.187104
+accuracy: 0.937421
+ -- 180 / 874 --
+mean loss: 0.195810
+accuracy: 0.929706
+ -- 190 / 874 --
+mean loss: 0.173655
+accuracy: 0.938678
+ -- 200 / 874 --
+mean loss: 0.180123
+accuracy: 0.939114
+ -- 210 / 874 --
+mean loss: 0.197520
+accuracy: 0.930698
+ -- 220 / 874 --
+mean loss: 0.167653
+accuracy: 0.941171
+ -- 230 / 874 --
+mean loss: 0.166498
+accuracy: 0.942728
+ -- 240 / 874 --
+mean loss: 0.246401
+accuracy: 0.927335
+ -- 250 / 874 --
+mean loss: 0.186341
+accuracy: 0.935089
+ -- 260 / 874 --
+mean loss: 0.192025
+accuracy: 0.936902
+ -- 270 / 874 --
+mean loss: 0.202034
+accuracy: 0.932373
+ -- 280 / 874 --
+mean loss: 0.188810
+accuracy: 0.933615
+ -- 290 / 874 --
+mean loss: 0.199852
+accuracy: 0.934415
+ -- 300 / 874 --
+mean loss: 0.232450
+accuracy: 0.929358
+ -- 310 / 874 --
+mean loss: 0.227884
+accuracy: 0.924554
+ -- 320 / 874 --
+mean loss: 0.181359
+accuracy: 0.940900
+ -- 330 / 874 --
+mean loss: 0.180973
+accuracy: 0.937717
+ -- 340 / 874 --
+mean loss: 0.192067
+accuracy: 0.931281
+ -- 350 / 874 --
+mean loss: 0.195350
+accuracy: 0.933173
+ -- 360 / 874 --
+mean loss: 0.220806
+accuracy: 0.925494
+ -- 370 / 874 --
+mean loss: 0.199112
+accuracy: 0.934528
+ -- 380 / 874 --
+mean loss: 0.191790
+accuracy: 0.934531
+ -- 390 / 874 --
+mean loss: 0.201104
+accuracy: 0.929187
+ -- 400 / 874 --
+mean loss: 0.212602
+accuracy: 0.926196
+ -- 410 / 874 --
+mean loss: 0.187961
+accuracy: 0.934879
+ -- 420 / 874 --
+mean loss: 0.205825
+accuracy: 0.930255
+ -- 430 / 874 --
+mean loss: 0.294194
+accuracy: 0.906543
+ -- 440 / 874 --
+mean loss: 0.232824
+accuracy: 0.922906
+ -- 450 / 874 --
+mean loss: 0.206604
+accuracy: 0.931183
+ -- 460 / 874 --
+mean loss: 0.239672
+accuracy: 0.924915
+ -- 470 / 874 --
+mean loss: 0.174307
+accuracy: 0.938535
+ -- 480 / 874 --
+mean loss: 0.196747
+accuracy: 0.935953
+ -- 490 / 874 --
+mean loss: 0.251075
+accuracy: 0.930563
+ -- 500 / 874 --
+mean loss: 0.183942
+accuracy: 0.937146
+ -- 510 / 874 --
+mean loss: 0.195850
+accuracy: 0.932736
+ -- 520 / 874 --
+mean loss: 0.162691
+accuracy: 0.943768
+ -- 530 / 874 --
+mean loss: 0.167080
+accuracy: 0.940131
+ -- 540 / 874 --
+mean loss: 0.193938
+accuracy: 0.931799
+ -- 550 / 874 --
+mean loss: 0.146100
+accuracy: 0.949176
+ -- 560 / 874 --
+mean loss: 0.191849
+accuracy: 0.933289
+ -- 570 / 874 --
+mean loss: 0.207775
+accuracy: 0.931290
+ -- 580 / 874 --
+mean loss: 0.177262
+accuracy: 0.938629
+ -- 590 / 874 --
+mean loss: 0.159511
+accuracy: 0.944424
+ -- 600 / 874 --
+mean loss: 0.196108
+accuracy: 0.931406
+ -- 610 / 874 --
+mean loss: 0.197874
+accuracy: 0.931750
+ -- 620 / 874 --
+mean loss: 0.210941
+accuracy: 0.926727
+ -- 630 / 874 --
+mean loss: 0.204066
+accuracy: 0.927286
+ -- 640 / 874 --
+mean loss: 0.165615
+accuracy: 0.942599
+ -- 650 / 874 --
+mean loss: 0.235079
+accuracy: 0.920480
+ -- 660 / 874 --
+mean loss: 0.180927
+accuracy: 0.935373
+ -- 670 / 874 --
+mean loss: 0.175604
+accuracy: 0.935574
+ -- 680 / 874 --
+mean loss: 0.237392
+accuracy: 0.927780
+ -- 690 / 874 --
+mean loss: 0.194050
+accuracy: 0.937326
+ -- 700 / 874 --
+mean loss: 0.210736
+accuracy: 0.932217
+ -- 710 / 874 --
+mean loss: 0.225235
+accuracy: 0.928912
+ -- 720 / 874 --
+mean loss: 0.203382
+accuracy: 0.931326
+ -- 730 / 874 --
+mean loss: 0.173428
+accuracy: 0.940643
+ -- 740 / 874 --
+mean loss: 0.186097
+accuracy: 0.938947
+ -- 750 / 874 --
+mean loss: 0.211993
+accuracy: 0.927490
+ -- 760 / 874 --
+mean loss: 0.207709
+accuracy: 0.932877
+ -- 770 / 874 --
+mean loss: 0.167907
+accuracy: 0.938666
+ -- 780 / 874 --
+mean loss: 0.203484
+accuracy: 0.926593
+ -- 790 / 874 --
+mean loss: 0.199550
+accuracy: 0.933981
+ -- 800 / 874 --
+mean loss: 0.162419
+accuracy: 0.940875
+ -- 810 / 874 --
+mean loss: 0.198575
+accuracy: 0.931909
+ -- 820 / 874 --
+mean loss: 0.236567
+accuracy: 0.920901
+ -- 830 / 874 --
+mean loss: 0.205263
+accuracy: 0.933810
+ -- 840 / 874 --
+mean loss: 0.239811
+accuracy: 0.914600
+ -- 850 / 874 --
+mean loss: 0.223519
+accuracy: 0.936868
+ -- 860 / 874 --
+mean loss: 0.207080
+accuracy: 0.926718
+ -- 870 / 874 --
+mean loss: 0.203236
+accuracy: 0.926843
+2019-06-28 10:42:55.216538
+---- EPOCH 020 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.270347
+eval accuracy: 0.925750
+eval avg class acc: 0.797433
+eval mIoU of Airplane:	 0.788649
+eval mIoU of Bag:	 0.690094
+eval mIoU of Cap:	 0.844809
+eval mIoU of Car:	 0.722994
+eval mIoU of Chair:	 0.890683
+eval mIoU of Earphone:	 0.716030
+eval mIoU of Guitar:	 0.893249
+eval mIoU of Knife:	 0.797386
+eval mIoU of Lamp:	 0.773683
+eval mIoU of Laptop:	 0.953442
+eval mIoU of Motorbike:	 0.485562
+eval mIoU of Mug:	 0.939604
+eval mIoU of Pistol:	 0.751942
+eval mIoU of Rocket:	 0.522650
+eval mIoU of Skateboard:	 0.689879
+eval mIoU of Table:	 0.818973
+eval mean mIoU: 0.767477
+eval mean mIoU (all shapes): 0.821541
+Model saved in file: log_part_segmentation/model.ckpt
+**** EPOCH 021 ****
+2019-06-28 10:43:06.651302
+ -- 010 / 874 --
+mean loss: 0.176094
+accuracy: 0.936343
+ -- 020 / 874 --
+mean loss: 0.239937
+accuracy: 0.929221
+ -- 030 / 874 --
+mean loss: 0.177025
+accuracy: 0.937946
+ -- 040 / 874 --
+mean loss: 0.203542
+accuracy: 0.930838
+ -- 050 / 874 --
+mean loss: 0.233398
+accuracy: 0.926898
+ -- 060 / 874 --
+mean loss: 0.193250
+accuracy: 0.933411
+ -- 070 / 874 --
+mean loss: 0.193436
+accuracy: 0.929257
+ -- 080 / 874 --
+mean loss: 0.175351
+accuracy: 0.939883
+ -- 090 / 874 --
+mean loss: 0.167181
+accuracy: 0.942813
+ -- 100 / 874 --
+mean loss: 0.191609
+accuracy: 0.934622
+ -- 110 / 874 --
+mean loss: 0.234880
+accuracy: 0.924402
+ -- 120 / 874 --
+mean loss: 0.180222
+accuracy: 0.938840
+ -- 130 / 874 --
+mean loss: 0.196847
+accuracy: 0.934882
+ -- 140 / 874 --
+mean loss: 0.164129
+accuracy: 0.942740
+ -- 150 / 874 --
+mean loss: 0.167721
+accuracy: 0.942627
+ -- 160 / 874 --
+mean loss: 0.186112
+accuracy: 0.934302
+ -- 170 / 874 --
+mean loss: 0.201694
+accuracy: 0.930988
+ -- 180 / 874 --
+mean loss: 0.194362
+accuracy: 0.932321
+ -- 190 / 874 --
+mean loss: 0.194481
+accuracy: 0.934045
+ -- 200 / 874 --
+mean loss: 0.250891
+accuracy: 0.919708
+ -- 210 / 874 --
+mean loss: 0.155393
+accuracy: 0.951044
+ -- 220 / 874 --
+mean loss: 0.188269
+accuracy: 0.935666
+ -- 230 / 874 --
+mean loss: 0.166534
+accuracy: 0.943945
+ -- 240 / 874 --
+mean loss: 0.182741
+accuracy: 0.936438
+ -- 250 / 874 --
+mean loss: 0.175957
+accuracy: 0.939954
+ -- 260 / 874 --
+mean loss: 0.206834
+accuracy: 0.932880
+ -- 270 / 874 --
+mean loss: 0.184495
+accuracy: 0.936932
+ -- 280 / 874 --
+mean loss: 0.174047
+accuracy: 0.935541
+ -- 290 / 874 --
+mean loss: 0.222396
+accuracy: 0.928192
+ -- 300 / 874 --
+mean loss: 0.196384
+accuracy: 0.928577
+ -- 310 / 874 --
+mean loss: 0.179135
+accuracy: 0.938303
+ -- 320 / 874 --
+mean loss: 0.154751
+accuracy: 0.947800
+ -- 330 / 874 --
+mean loss: 0.184488
+accuracy: 0.933823
+ -- 340 / 874 --
+mean loss: 0.173809
+accuracy: 0.941165
+ -- 350 / 874 --
+mean loss: 0.188928
+accuracy: 0.933444
+ -- 360 / 874 --
+mean loss: 0.186535
+accuracy: 0.931616
+ -- 370 / 874 --
+mean loss: 0.185181
+accuracy: 0.937375
+ -- 380 / 874 --
+mean loss: 0.171289
+accuracy: 0.940442
+ -- 390 / 874 --
+mean loss: 0.219957
+accuracy: 0.926990
+ -- 400 / 874 --
+mean loss: 0.196768
+accuracy: 0.929190
+ -- 410 / 874 --
+mean loss: 0.200032
+accuracy: 0.928503
+ -- 420 / 874 --
+mean loss: 0.208455
+accuracy: 0.926410
+ -- 430 / 874 --
+mean loss: 0.224364
+accuracy: 0.929193
+ -- 440 / 874 --
+mean loss: 0.182458
+accuracy: 0.937878
+ -- 450 / 874 --
+mean loss: 0.198862
+accuracy: 0.928818
+ -- 460 / 874 --
+mean loss: 0.259055
+accuracy: 0.930173
+ -- 470 / 874 --
+mean loss: 0.229284
+accuracy: 0.920816
+ -- 480 / 874 --
+mean loss: 0.174445
+accuracy: 0.941406
+ -- 490 / 874 --
+mean loss: 0.185155
+accuracy: 0.937045
+ -- 500 / 874 --
+mean loss: 0.197603
+accuracy: 0.934683
+ -- 510 / 874 --
+mean loss: 0.221494
+accuracy: 0.924341
+ -- 520 / 874 --
+mean loss: 0.167813
+accuracy: 0.940848
+ -- 530 / 874 --
+mean loss: 0.195194
+accuracy: 0.934805
+ -- 540 / 874 --
+mean loss: 0.191426
+accuracy: 0.933585
+ -- 550 / 874 --
+mean loss: 0.184478
+accuracy: 0.938354
+ -- 560 / 874 --
+mean loss: 0.259248
+accuracy: 0.920111
+ -- 570 / 874 --
+mean loss: 0.229646
+accuracy: 0.919077
+ -- 580 / 874 --
+mean loss: 0.177797
+accuracy: 0.938696
+ -- 590 / 874 --
+mean loss: 0.181265
+accuracy: 0.930246
+ -- 600 / 874 --
+mean loss: 0.285076
+accuracy: 0.911884
+ -- 610 / 874 --
+mean loss: 0.224285
+accuracy: 0.927484
+ -- 620 / 874 --
+mean loss: 0.238726
+accuracy: 0.922568
+ -- 630 / 874 --
+mean loss: 0.212212
+accuracy: 0.932181
+ -- 640 / 874 --
+mean loss: 0.239666
+accuracy: 0.923816
+ -- 650 / 874 --
+mean loss: 0.199007
+accuracy: 0.932108
+ -- 660 / 874 --
+mean loss: 0.173522
+accuracy: 0.940454
+ -- 670 / 874 --
+mean loss: 0.224419
+accuracy: 0.934271
+ -- 680 / 874 --
+mean loss: 0.218475
+accuracy: 0.923358
+ -- 690 / 874 --
+mean loss: 0.220582
+accuracy: 0.925137
+ -- 700 / 874 --
+mean loss: 0.185361
+accuracy: 0.935452
+ -- 710 / 874 --
+mean loss: 0.269611
+accuracy: 0.918506
+ -- 720 / 874 --
+mean loss: 0.177317
+accuracy: 0.937091
+ -- 730 / 874 --
+mean loss: 0.202604
+accuracy: 0.933136
+ -- 740 / 874 --
+mean loss: 0.201179
+accuracy: 0.933310
+ -- 750 / 874 --
+mean loss: 0.220864
+accuracy: 0.925073
+ -- 760 / 874 --
+mean loss: 0.230868
+accuracy: 0.927744
+ -- 770 / 874 --
+mean loss: 0.205141
+accuracy: 0.934033
+ -- 780 / 874 --
+mean loss: 0.224492
+accuracy: 0.932861
+ -- 790 / 874 --
+mean loss: 0.228707
+accuracy: 0.921350
+ -- 800 / 874 --
+mean loss: 0.208054
+accuracy: 0.931018
+ -- 810 / 874 --
+mean loss: 0.162263
+accuracy: 0.944775
+ -- 820 / 874 --
+mean loss: 0.195871
+accuracy: 0.931467
+ -- 830 / 874 --
+mean loss: 0.213035
+accuracy: 0.928357
+ -- 840 / 874 --
+mean loss: 0.190224
+accuracy: 0.933838
+ -- 850 / 874 --
+mean loss: 0.181478
+accuracy: 0.938904
+ -- 860 / 874 --
+mean loss: 0.208520
+accuracy: 0.926578
+ -- 870 / 874 --
+mean loss: 0.186681
+accuracy: 0.935709
+2019-06-28 10:46:01.179326
+---- EPOCH 021 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.302899
+eval accuracy: 0.928287
+eval avg class acc: 0.784296
+eval mIoU of Airplane:	 0.786595
+eval mIoU of Bag:	 0.749133
+eval mIoU of Cap:	 0.734814
+eval mIoU of Car:	 0.714232
+eval mIoU of Chair:	 0.896485
+eval mIoU of Earphone:	 0.703778
+eval mIoU of Guitar:	 0.899597
+eval mIoU of Knife:	 0.838524
+eval mIoU of Lamp:	 0.822061
+eval mIoU of Laptop:	 0.942089
+eval mIoU of Motorbike:	 0.368930
+eval mIoU of Mug:	 0.934423
+eval mIoU of Pistol:	 0.758688
+eval mIoU of Rocket:	 0.489653
+eval mIoU of Skateboard:	 0.702545
+eval mIoU of Table:	 0.820082
+eval mean mIoU: 0.760102
+eval mean mIoU (all shapes): 0.826318
+**** EPOCH 022 ****
+2019-06-28 10:46:12.469310
+ -- 010 / 874 --
+mean loss: 0.192585
+accuracy: 0.929663
+ -- 020 / 874 --
+mean loss: 0.192028
+accuracy: 0.938074
+ -- 030 / 874 --
+mean loss: 0.181595
+accuracy: 0.938998
+ -- 040 / 874 --
+mean loss: 0.201904
+accuracy: 0.926700
+ -- 050 / 874 --
+mean loss: 0.178128
+accuracy: 0.938794
+ -- 060 / 874 --
+mean loss: 0.175025
+accuracy: 0.937280
+ -- 070 / 874 --
+mean loss: 0.240724
+accuracy: 0.919949
+ -- 080 / 874 --
+mean loss: 0.162923
+accuracy: 0.940073
+ -- 090 / 874 --
+mean loss: 0.180638
+accuracy: 0.939224
+ -- 100 / 874 --
+mean loss: 0.199287
+accuracy: 0.932166
+ -- 110 / 874 --
+mean loss: 0.195857
+accuracy: 0.931171
+ -- 120 / 874 --
+mean loss: 0.196786
+accuracy: 0.934702
+ -- 130 / 874 --
+mean loss: 0.163200
+accuracy: 0.945856
+ -- 140 / 874 --
+mean loss: 0.171855
+accuracy: 0.940424
+ -- 150 / 874 --
+mean loss: 0.311283
+accuracy: 0.926834
+ -- 160 / 874 --
+mean loss: 0.184165
+accuracy: 0.938834
+ -- 170 / 874 --
+mean loss: 0.219198
+accuracy: 0.936844
+ -- 180 / 874 --
+mean loss: 0.214602
+accuracy: 0.927335
+ -- 190 / 874 --
+mean loss: 0.206976
+accuracy: 0.931787
+ -- 200 / 874 --
+mean loss: 0.163675
+accuracy: 0.942703
+ -- 210 / 874 --
+mean loss: 0.167669
+accuracy: 0.943414
+ -- 220 / 874 --
+mean loss: 0.197812
+accuracy: 0.936371
+ -- 230 / 874 --
+mean loss: 0.203631
+accuracy: 0.928317
+ -- 240 / 874 --
+mean loss: 0.198395
+accuracy: 0.932196
+ -- 250 / 874 --
+mean loss: 0.194940
+accuracy: 0.933701
+ -- 260 / 874 --
+mean loss: 0.160697
+accuracy: 0.944556
+ -- 270 / 874 --
+mean loss: 0.139584
+accuracy: 0.947226
+ -- 280 / 874 --
+mean loss: 0.194433
+accuracy: 0.928671
+ -- 290 / 874 --
+mean loss: 0.178822
+accuracy: 0.932501
+ -- 300 / 874 --
+mean loss: 0.185589
+accuracy: 0.934747
+ -- 310 / 874 --
+mean loss: 0.206792
+accuracy: 0.928143
+ -- 320 / 874 --
+mean loss: 0.180027
+accuracy: 0.938422
+ -- 330 / 874 --
+mean loss: 0.247841
+accuracy: 0.914233
+ -- 340 / 874 --
+mean loss: 0.173662
+accuracy: 0.944110
+ -- 350 / 874 --
+mean loss: 0.204254
+accuracy: 0.929660
+ -- 360 / 874 --
+mean loss: 0.179260
+accuracy: 0.942783
+ -- 370 / 874 --
+mean loss: 0.187956
+accuracy: 0.936554
+ -- 380 / 874 --
+mean loss: 0.214832
+accuracy: 0.928406
+ -- 390 / 874 --
+mean loss: 0.194595
+accuracy: 0.931281
+ -- 400 / 874 --
+mean loss: 0.188496
+accuracy: 0.936316
+ -- 410 / 874 --
+mean loss: 0.201345
+accuracy: 0.926511
+ -- 420 / 874 --
+mean loss: 0.170789
+accuracy: 0.941379
+ -- 430 / 874 --
+mean loss: 0.157685
+accuracy: 0.945435
+ -- 440 / 874 --
+mean loss: 0.170773
+accuracy: 0.939468
+ -- 450 / 874 --
+mean loss: 0.193061
+accuracy: 0.929199
+ -- 460 / 874 --
+mean loss: 0.168124
+accuracy: 0.940582
+ -- 470 / 874 --
+mean loss: 0.155015
+accuracy: 0.945248
+ -- 480 / 874 --
+mean loss: 0.165269
+accuracy: 0.938602
+ -- 490 / 874 --
+mean loss: 0.158707
+accuracy: 0.944760
+ -- 500 / 874 --
+mean loss: 0.189191
+accuracy: 0.935382
+ -- 510 / 874 --
+mean loss: 0.220186
+accuracy: 0.932632
+ -- 520 / 874 --
+mean loss: 0.190429
+accuracy: 0.931644
+ -- 530 / 874 --
+mean loss: 0.209292
+accuracy: 0.932065
+ -- 540 / 874 --
+mean loss: 0.177848
+accuracy: 0.938281
+ -- 550 / 874 --
+mean loss: 0.165567
+accuracy: 0.940332
+ -- 560 / 874 --
+mean loss: 0.169608
+accuracy: 0.940042
+ -- 570 / 874 --
+mean loss: 0.169297
+accuracy: 0.943546
+ -- 580 / 874 --
+mean loss: 0.187327
+accuracy: 0.935760
+ -- 590 / 874 --
+mean loss: 0.219481
+accuracy: 0.930695
+ -- 600 / 874 --
+mean loss: 0.171771
+accuracy: 0.938535
+ -- 610 / 874 --
+mean loss: 0.200587
+accuracy: 0.934683
+ -- 620 / 874 --
+mean loss: 0.198660
+accuracy: 0.931168
+ -- 630 / 874 --
+mean loss: 0.193076
+accuracy: 0.935962
+ -- 640 / 874 --
+mean loss: 0.189601
+accuracy: 0.933545
+ -- 650 / 874 --
+mean loss: 0.194082
+accuracy: 0.930435
+ -- 660 / 874 --
+mean loss: 0.191848
+accuracy: 0.931256
+ -- 670 / 874 --
+mean loss: 0.203962
+accuracy: 0.932175
+ -- 680 / 874 --
+mean loss: 0.172768
+accuracy: 0.941415
+ -- 690 / 874 --
+mean loss: 0.167677
+accuracy: 0.940521
+ -- 700 / 874 --
+mean loss: 0.159841
+accuracy: 0.943448
+ -- 710 / 874 --
+mean loss: 0.183522
+accuracy: 0.936951
+ -- 720 / 874 --
+mean loss: 0.188704
+accuracy: 0.929013
+ -- 730 / 874 --
+mean loss: 0.178325
+accuracy: 0.937354
+ -- 740 / 874 --
+mean loss: 0.194447
+accuracy: 0.934729
+ -- 750 / 874 --
+mean loss: 0.160531
+accuracy: 0.942395
+ -- 760 / 874 --
+mean loss: 0.204086
+accuracy: 0.932443
+ -- 770 / 874 --
+mean loss: 0.187611
+accuracy: 0.931732
+ -- 780 / 874 --
+mean loss: 0.199579
+accuracy: 0.929446
+ -- 790 / 874 --
+mean loss: 0.182658
+accuracy: 0.934290
+ -- 800 / 874 --
+mean loss: 0.212569
+accuracy: 0.930219
+ -- 810 / 874 --
+mean loss: 0.214383
+accuracy: 0.927417
+ -- 820 / 874 --
+mean loss: 0.194738
+accuracy: 0.933804
+ -- 830 / 874 --
+mean loss: 0.181598
+accuracy: 0.936639
+ -- 840 / 874 --
+mean loss: 0.212720
+accuracy: 0.927362
+ -- 850 / 874 --
+mean loss: 0.190745
+accuracy: 0.932120
+ -- 860 / 874 --
+mean loss: 0.177261
+accuracy: 0.935797
+ -- 870 / 874 --
+mean loss: 0.221499
+accuracy: 0.928687
+2019-06-28 10:49:06.697721
+---- EPOCH 022 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.265584
+eval accuracy: 0.928103
+eval avg class acc: 0.827663
+eval mIoU of Airplane:	 0.752101
+eval mIoU of Bag:	 0.758415
+eval mIoU of Cap:	 0.853277
+eval mIoU of Car:	 0.638904
+eval mIoU of Chair:	 0.897920
+eval mIoU of Earphone:	 0.695012
+eval mIoU of Guitar:	 0.896581
+eval mIoU of Knife:	 0.844145
+eval mIoU of Lamp:	 0.819017
+eval mIoU of Laptop:	 0.944548
+eval mIoU of Motorbike:	 0.560255
+eval mIoU of Mug:	 0.928578
+eval mIoU of Pistol:	 0.768197
+eval mIoU of Rocket:	 0.502412
+eval mIoU of Skateboard:	 0.704358
+eval mIoU of Table:	 0.813467
+eval mean mIoU: 0.773574
+eval mean mIoU (all shapes): 0.820233
+**** EPOCH 023 ****
+2019-06-28 10:49:17.974292
+ -- 010 / 874 --
+mean loss: 0.150081
+accuracy: 0.946921
+ -- 020 / 874 --
+mean loss: 0.185053
+accuracy: 0.941812
+ -- 030 / 874 --
+mean loss: 0.205713
+accuracy: 0.935013
+ -- 040 / 874 --
+mean loss: 0.228788
+accuracy: 0.928296
+ -- 050 / 874 --
+mean loss: 0.191297
+accuracy: 0.937595
+ -- 060 / 874 --
+mean loss: 0.190627
+accuracy: 0.930984
+ -- 070 / 874 --
+mean loss: 0.200129
+accuracy: 0.928098
+ -- 080 / 874 --
+mean loss: 0.196052
+accuracy: 0.929135
+ -- 090 / 874 --
+mean loss: 0.181517
+accuracy: 0.932474
+ -- 100 / 874 --
+mean loss: 0.171541
+accuracy: 0.941766
+ -- 110 / 874 --
+mean loss: 0.179656
+accuracy: 0.933685
+ -- 120 / 874 --
+mean loss: 0.179369
+accuracy: 0.938132
+ -- 130 / 874 --
+mean loss: 0.191788
+accuracy: 0.931622
+ -- 140 / 874 --
+mean loss: 0.152691
+accuracy: 0.943759
+ -- 150 / 874 --
+mean loss: 0.194411
+accuracy: 0.937476
+ -- 160 / 874 --
+mean loss: 0.195878
+accuracy: 0.939108
+ -- 170 / 874 --
+mean loss: 0.185537
+accuracy: 0.940387
+ -- 180 / 874 --
+mean loss: 0.177950
+accuracy: 0.938550
+ -- 190 / 874 --
+mean loss: 0.220968
+accuracy: 0.926898
+ -- 200 / 874 --
+mean loss: 0.181586
+accuracy: 0.935400
+ -- 210 / 874 --
+mean loss: 0.211314
+accuracy: 0.929755
+ -- 220 / 874 --
+mean loss: 0.202152
+accuracy: 0.930713
+ -- 230 / 874 --
+mean loss: 0.226746
+accuracy: 0.922589
+ -- 240 / 874 --
+mean loss: 0.207078
+accuracy: 0.931345
+ -- 250 / 874 --
+mean loss: 0.173796
+accuracy: 0.938547
+ -- 260 / 874 --
+mean loss: 0.176086
+accuracy: 0.940067
+ -- 270 / 874 --
+mean loss: 0.224820
+accuracy: 0.928531
+ -- 280 / 874 --
+mean loss: 0.193968
+accuracy: 0.929236
+ -- 290 / 874 --
+mean loss: 0.218656
+accuracy: 0.926590
+ -- 300 / 874 --
+mean loss: 0.183775
+accuracy: 0.937692
+ -- 310 / 874 --
+mean loss: 0.209064
+accuracy: 0.927676
+ -- 320 / 874 --
+mean loss: 0.179679
+accuracy: 0.938632
+ -- 330 / 874 --
+mean loss: 0.177007
+accuracy: 0.940341
+ -- 340 / 874 --
+mean loss: 0.184655
+accuracy: 0.938516
+ -- 350 / 874 --
+mean loss: 0.161821
+accuracy: 0.946112
+ -- 360 / 874 --
+mean loss: 0.193521
+accuracy: 0.933975
+ -- 370 / 874 --
+mean loss: 0.199608
+accuracy: 0.941046
+ -- 380 / 874 --
+mean loss: 0.178510
+accuracy: 0.935898
+ -- 390 / 874 --
+mean loss: 0.165541
+accuracy: 0.941113
+ -- 400 / 874 --
+mean loss: 0.175519
+accuracy: 0.934796
+ -- 410 / 874 --
+mean loss: 0.165596
+accuracy: 0.939899
+ -- 420 / 874 --
+mean loss: 0.184884
+accuracy: 0.931906
+ -- 430 / 874 --
+mean loss: 0.195586
+accuracy: 0.940152
+ -- 440 / 874 --
+mean loss: 0.173839
+accuracy: 0.942844
+ -- 450 / 874 --
+mean loss: 0.203526
+accuracy: 0.928641
+ -- 460 / 874 --
+mean loss: 0.195021
+accuracy: 0.936609
+ -- 470 / 874 --
+mean loss: 0.183251
+accuracy: 0.934290
+ -- 480 / 874 --
+mean loss: 0.158769
+accuracy: 0.941956
+ -- 490 / 874 --
+mean loss: 0.204198
+accuracy: 0.939706
+ -- 500 / 874 --
+mean loss: 0.219467
+accuracy: 0.930862
+ -- 510 / 874 --
+mean loss: 0.232672
+accuracy: 0.922586
+ -- 520 / 874 --
+mean loss: 0.214277
+accuracy: 0.926572
+ -- 530 / 874 --
+mean loss: 0.210651
+accuracy: 0.925085
+ -- 540 / 874 --
+mean loss: 0.177629
+accuracy: 0.938272
+ -- 550 / 874 --
+mean loss: 0.166540
+accuracy: 0.942923
+ -- 560 / 874 --
+mean loss: 0.210027
+accuracy: 0.929041
+ -- 570 / 874 --
+mean loss: 0.171561
+accuracy: 0.937335
+ -- 580 / 874 --
+mean loss: 0.249497
+accuracy: 0.918216
+ -- 590 / 874 --
+mean loss: 0.162445
+accuracy: 0.945096
+ -- 600 / 874 --
+mean loss: 0.215834
+accuracy: 0.927878
+ -- 610 / 874 --
+mean loss: 0.209613
+accuracy: 0.928046
+ -- 620 / 874 --
+mean loss: 0.173046
+accuracy: 0.940897
+ -- 630 / 874 --
+mean loss: 0.153428
+accuracy: 0.944934
+ -- 640 / 874 --
+mean loss: 0.237736
+accuracy: 0.935950
+ -- 650 / 874 --
+mean loss: 0.215167
+accuracy: 0.924722
+ -- 660 / 874 --
+mean loss: 0.193619
+accuracy: 0.932285
+ -- 670 / 874 --
+mean loss: 0.244586
+accuracy: 0.927057
+ -- 680 / 874 --
+mean loss: 0.180022
+accuracy: 0.939294
+ -- 690 / 874 --
+mean loss: 0.187931
+accuracy: 0.938593
+ -- 700 / 874 --
+mean loss: 0.189664
+accuracy: 0.932840
+ -- 710 / 874 --
+mean loss: 0.235677
+accuracy: 0.926407
+ -- 720 / 874 --
+mean loss: 0.166990
+accuracy: 0.938593
+ -- 730 / 874 --
+mean loss: 0.166697
+accuracy: 0.943839
+ -- 740 / 874 --
+mean loss: 0.171257
+accuracy: 0.941055
+ -- 750 / 874 --
+mean loss: 0.176457
+accuracy: 0.939984
+ -- 760 / 874 --
+mean loss: 0.175301
+accuracy: 0.935608
+ -- 770 / 874 --
+mean loss: 0.206623
+accuracy: 0.927347
+ -- 780 / 874 --
+mean loss: 0.157380
+accuracy: 0.943585
+ -- 790 / 874 --
+mean loss: 0.191923
+accuracy: 0.937561
+ -- 800 / 874 --
+mean loss: 0.180504
+accuracy: 0.935828
+ -- 810 / 874 --
+mean loss: 0.183570
+accuracy: 0.938992
+ -- 820 / 874 --
+mean loss: 0.221072
+accuracy: 0.927039
+ -- 830 / 874 --
+mean loss: 0.250027
+accuracy: 0.923364
+ -- 840 / 874 --
+mean loss: 0.177146
+accuracy: 0.938699
+ -- 850 / 874 --
+mean loss: 0.178118
+accuracy: 0.936880
+ -- 860 / 874 --
+mean loss: 0.177216
+accuracy: 0.937622
+ -- 870 / 874 --
+mean loss: 0.208098
+accuracy: 0.931369
+2019-06-28 10:52:12.427249
+---- EPOCH 023 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.267529
+eval accuracy: 0.930767
+eval avg class acc: 0.804417
+eval mIoU of Airplane:	 0.786607
+eval mIoU of Bag:	 0.705659
+eval mIoU of Cap:	 0.841638
+eval mIoU of Car:	 0.683679
+eval mIoU of Chair:	 0.898570
+eval mIoU of Earphone:	 0.685746
+eval mIoU of Guitar:	 0.899938
+eval mIoU of Knife:	 0.835398
+eval mIoU of Lamp:	 0.822240
+eval mIoU of Laptop:	 0.954818
+eval mIoU of Motorbike:	 0.528268
+eval mIoU of Mug:	 0.866350
+eval mIoU of Pistol:	 0.778456
+eval mIoU of Rocket:	 0.476979
+eval mIoU of Skateboard:	 0.709149
+eval mIoU of Table:	 0.819024
+eval mean mIoU: 0.768282
+eval mean mIoU (all shapes): 0.827513
+**** EPOCH 024 ****
+2019-06-28 10:52:23.752159
+ -- 010 / 874 --
+mean loss: 0.243431
+accuracy: 0.923035
+ -- 020 / 874 --
+mean loss: 0.217804
+accuracy: 0.928754
+ -- 030 / 874 --
+mean loss: 0.172007
+accuracy: 0.942151
+ -- 040 / 874 --
+mean loss: 0.249399
+accuracy: 0.921265
+ -- 050 / 874 --
+mean loss: 0.190015
+accuracy: 0.934552
+ -- 060 / 874 --
+mean loss: 0.189478
+accuracy: 0.930746
+ -- 070 / 874 --
+mean loss: 0.177305
+accuracy: 0.935342
+ -- 080 / 874 --
+mean loss: 0.146751
+accuracy: 0.947495
+ -- 090 / 874 --
+mean loss: 0.171094
+accuracy: 0.938217
+ -- 100 / 874 --
+mean loss: 0.211488
+accuracy: 0.928342
+ -- 110 / 874 --
+mean loss: 0.184590
+accuracy: 0.937036
+ -- 120 / 874 --
+mean loss: 0.185284
+accuracy: 0.931268
+ -- 130 / 874 --
+mean loss: 0.230359
+accuracy: 0.924762
+ -- 140 / 874 --
+mean loss: 0.169002
+accuracy: 0.942264
+ -- 150 / 874 --
+mean loss: 0.219469
+accuracy: 0.927377
+ -- 160 / 874 --
+mean loss: 0.175070
+accuracy: 0.939389
+ -- 170 / 874 --
+mean loss: 0.224584
+accuracy: 0.934775
+ -- 180 / 874 --
+mean loss: 0.188195
+accuracy: 0.936447
+ -- 190 / 874 --
+mean loss: 0.183401
+accuracy: 0.936264
+ -- 200 / 874 --
+mean loss: 0.160384
+accuracy: 0.942627
+ -- 210 / 874 --
+mean loss: 0.178861
+accuracy: 0.936096
+ -- 220 / 874 --
+mean loss: 0.157368
+accuracy: 0.945697
+ -- 230 / 874 --
+mean loss: 0.175344
+accuracy: 0.938434
+ -- 240 / 874 --
+mean loss: 0.238107
+accuracy: 0.928851
+ -- 250 / 874 --
+mean loss: 0.218795
+accuracy: 0.932953
+ -- 260 / 874 --
+mean loss: 0.199587
+accuracy: 0.934421
+ -- 270 / 874 --
+mean loss: 0.176911
+accuracy: 0.941763
+ -- 280 / 874 --
+mean loss: 0.194107
+accuracy: 0.924847
+ -- 290 / 874 --
+mean loss: 0.213937
+accuracy: 0.923727
+ -- 300 / 874 --
+mean loss: 0.181862
+accuracy: 0.935535
+ -- 310 / 874 --
+mean loss: 0.195580
+accuracy: 0.933148
+ -- 320 / 874 --
+mean loss: 0.216339
+accuracy: 0.919366
+ -- 330 / 874 --
+mean loss: 0.194085
+accuracy: 0.931384
+ -- 340 / 874 --
+mean loss: 0.281631
+accuracy: 0.931549
+ -- 350 / 874 --
+mean loss: 0.208949
+accuracy: 0.926505
+ -- 360 / 874 --
+mean loss: 0.164921
+accuracy: 0.940970
+ -- 370 / 874 --
+mean loss: 0.181265
+accuracy: 0.936295
+ -- 380 / 874 --
+mean loss: 0.153187
+accuracy: 0.945721
+ -- 390 / 874 --
+mean loss: 0.180423
+accuracy: 0.936670
+ -- 400 / 874 --
+mean loss: 0.163298
+accuracy: 0.942471
+ -- 410 / 874 --
+mean loss: 0.193635
+accuracy: 0.933209
+ -- 420 / 874 --
+mean loss: 0.242013
+accuracy: 0.922504
+ -- 430 / 874 --
+mean loss: 0.165931
+accuracy: 0.939136
+ -- 440 / 874 --
+mean loss: 0.173299
+accuracy: 0.941745
+ -- 450 / 874 --
+mean loss: 0.196722
+accuracy: 0.931525
+ -- 460 / 874 --
+mean loss: 0.173896
+accuracy: 0.940253
+ -- 470 / 874 --
+mean loss: 0.178469
+accuracy: 0.939563
+ -- 480 / 874 --
+mean loss: 0.179656
+accuracy: 0.940115
+ -- 490 / 874 --
+mean loss: 0.161714
+accuracy: 0.945773
+ -- 500 / 874 --
+mean loss: 0.159974
+accuracy: 0.942709
+ -- 510 / 874 --
+mean loss: 0.170184
+accuracy: 0.941647
+ -- 520 / 874 --
+mean loss: 0.159402
+accuracy: 0.945285
+ -- 530 / 874 --
+mean loss: 0.177819
+accuracy: 0.939728
+ -- 540 / 874 --
+mean loss: 0.186106
+accuracy: 0.937418
+ -- 550 / 874 --
+mean loss: 0.185751
+accuracy: 0.932617
+ -- 560 / 874 --
+mean loss: 0.234589
+accuracy: 0.923120
+ -- 570 / 874 --
+mean loss: 0.168645
+accuracy: 0.943231
+ -- 580 / 874 --
+mean loss: 0.166687
+accuracy: 0.942209
+ -- 590 / 874 --
+mean loss: 0.197341
+accuracy: 0.934589
+ -- 600 / 874 --
+mean loss: 0.181345
+accuracy: 0.935825
+ -- 610 / 874 --
+mean loss: 0.188362
+accuracy: 0.932397
+ -- 620 / 874 --
+mean loss: 0.185766
+accuracy: 0.934827
+ -- 630 / 874 --
+mean loss: 0.206752
+accuracy: 0.924658
+ -- 640 / 874 --
+mean loss: 0.196176
+accuracy: 0.935110
+ -- 650 / 874 --
+mean loss: 0.202391
+accuracy: 0.928357
+ -- 660 / 874 --
+mean loss: 0.207612
+accuracy: 0.925089
+ -- 670 / 874 --
+mean loss: 0.157385
+accuracy: 0.943927
+ -- 680 / 874 --
+mean loss: 0.228350
+accuracy: 0.938354
+ -- 690 / 874 --
+mean loss: 0.196418
+accuracy: 0.933710
+ -- 700 / 874 --
+mean loss: 0.211195
+accuracy: 0.928561
+ -- 710 / 874 --
+mean loss: 0.182656
+accuracy: 0.939337
+ -- 720 / 874 --
+mean loss: 0.187247
+accuracy: 0.935092
+ -- 730 / 874 --
+mean loss: 0.198197
+accuracy: 0.930402
+ -- 740 / 874 --
+mean loss: 0.208466
+accuracy: 0.933817
+ -- 750 / 874 --
+mean loss: 0.167308
+accuracy: 0.941714
+ -- 760 / 874 --
+mean loss: 0.194022
+accuracy: 0.931732
+ -- 770 / 874 --
+mean loss: 0.171294
+accuracy: 0.939090
+ -- 780 / 874 --
+mean loss: 0.162833
+accuracy: 0.939044
+ -- 790 / 874 --
+mean loss: 0.167280
+accuracy: 0.939560
+ -- 800 / 874 --
+mean loss: 0.170089
+accuracy: 0.940759
+ -- 810 / 874 --
+mean loss: 0.180395
+accuracy: 0.934955
+ -- 820 / 874 --
+mean loss: 0.177528
+accuracy: 0.936951
+ -- 830 / 874 --
+mean loss: 0.207368
+accuracy: 0.927866
+ -- 840 / 874 --
+mean loss: 0.244149
+accuracy: 0.923730
+ -- 850 / 874 --
+mean loss: 0.134068
+accuracy: 0.951743
+ -- 860 / 874 --
+mean loss: 0.176422
+accuracy: 0.943439
+ -- 870 / 874 --
+mean loss: 0.180101
+accuracy: 0.941443
+2019-06-28 10:55:17.938822
+---- EPOCH 024 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.265231
+eval accuracy: 0.929498
+eval avg class acc: 0.801356
+eval mIoU of Airplane:	 0.796917
+eval mIoU of Bag:	 0.766700
+eval mIoU of Cap:	 0.793896
+eval mIoU of Car:	 0.714143
+eval mIoU of Chair:	 0.887626
+eval mIoU of Earphone:	 0.710409
+eval mIoU of Guitar:	 0.895966
+eval mIoU of Knife:	 0.845895
+eval mIoU of Lamp:	 0.806279
+eval mIoU of Laptop:	 0.954743
+eval mIoU of Motorbike:	 0.457176
+eval mIoU of Mug:	 0.933915
+eval mIoU of Pistol:	 0.718169
+eval mIoU of Rocket:	 0.498871
+eval mIoU of Skateboard:	 0.705143
+eval mIoU of Table:	 0.807180
+eval mean mIoU: 0.768314
+eval mean mIoU (all shapes): 0.821709
+**** EPOCH 025 ****
+2019-06-28 10:55:29.109155
+ -- 010 / 874 --
+mean loss: 0.154717
+accuracy: 0.948538
+ -- 020 / 874 --
+mean loss: 0.175066
+accuracy: 0.937259
+ -- 030 / 874 --
+mean loss: 0.166975
+accuracy: 0.944504
+ -- 040 / 874 --
+mean loss: 0.154592
+accuracy: 0.944888
+ -- 050 / 874 --
+mean loss: 0.164183
+accuracy: 0.943185
+ -- 060 / 874 --
+mean loss: 0.168888
+accuracy: 0.943530
+ -- 070 / 874 --
+mean loss: 0.154465
+accuracy: 0.946558
+ -- 080 / 874 --
+mean loss: 0.139453
+accuracy: 0.949332
+ -- 090 / 874 --
+mean loss: 0.176057
+accuracy: 0.939920
+ -- 100 / 874 --
+mean loss: 0.183368
+accuracy: 0.938425
+ -- 110 / 874 --
+mean loss: 0.188648
+accuracy: 0.938220
+ -- 120 / 874 --
+mean loss: 0.175408
+accuracy: 0.937943
+ -- 130 / 874 --
+mean loss: 0.151971
+accuracy: 0.947803
+ -- 140 / 874 --
+mean loss: 0.204783
+accuracy: 0.929059
+ -- 150 / 874 --
+mean loss: 0.235184
+accuracy: 0.926685
+ -- 160 / 874 --
+mean loss: 0.326706
+accuracy: 0.910504
+ -- 170 / 874 --
+mean loss: 0.224085
+accuracy: 0.921317
+ -- 180 / 874 --
+mean loss: 0.216004
+accuracy: 0.924133
+ -- 190 / 874 --
+mean loss: 0.166738
+accuracy: 0.938644
+ -- 200 / 874 --
+mean loss: 0.247953
+accuracy: 0.914587
+ -- 210 / 874 --
+mean loss: 0.195660
+accuracy: 0.929782
+ -- 220 / 874 --
+mean loss: 0.179011
+accuracy: 0.935498
+ -- 230 / 874 --
+mean loss: 0.184946
+accuracy: 0.934479
+ -- 240 / 874 --
+mean loss: 0.256990
+accuracy: 0.922186
+ -- 250 / 874 --
+mean loss: 0.182996
+accuracy: 0.933804
+ -- 260 / 874 --
+mean loss: 0.193226
+accuracy: 0.932187
+ -- 270 / 874 --
+mean loss: 0.295417
+accuracy: 0.907147
+ -- 280 / 874 --
+mean loss: 0.172063
+accuracy: 0.939465
+ -- 290 / 874 --
+mean loss: 0.191679
+accuracy: 0.936502
+ -- 300 / 874 --
+mean loss: 0.171220
+accuracy: 0.940521
+ -- 310 / 874 --
+mean loss: 0.241641
+accuracy: 0.918365
+ -- 320 / 874 --
+mean loss: 0.204148
+accuracy: 0.934552
+ -- 330 / 874 --
+mean loss: 0.202152
+accuracy: 0.932034
+ -- 340 / 874 --
+mean loss: 0.234795
+accuracy: 0.924854
+ -- 350 / 874 --
+mean loss: 0.178882
+accuracy: 0.940793
+ -- 360 / 874 --
+mean loss: 0.201754
+accuracy: 0.928033
+ -- 370 / 874 --
+mean loss: 0.220072
+accuracy: 0.920712
+ -- 380 / 874 --
+mean loss: 0.187196
+accuracy: 0.935291
+ -- 390 / 874 --
+mean loss: 0.187295
+accuracy: 0.933456
+ -- 400 / 874 --
+mean loss: 0.239243
+accuracy: 0.922736
+ -- 410 / 874 --
+mean loss: 0.261813
+accuracy: 0.920187
+ -- 420 / 874 --
+mean loss: 0.197313
+accuracy: 0.934003
+ -- 430 / 874 --
+mean loss: 0.221724
+accuracy: 0.927249
+ -- 440 / 874 --
+mean loss: 0.159754
+accuracy: 0.946231
+ -- 450 / 874 --
+mean loss: 0.211493
+accuracy: 0.933710
+ -- 460 / 874 --
+mean loss: 0.241417
+accuracy: 0.926978
+ -- 470 / 874 --
+mean loss: 0.224277
+accuracy: 0.926816
+ -- 480 / 874 --
+mean loss: 0.155928
+accuracy: 0.945285
+ -- 490 / 874 --
+mean loss: 0.238851
+accuracy: 0.918314
+ -- 500 / 874 --
+mean loss: 0.190989
+accuracy: 0.938721
+ -- 510 / 874 --
+mean loss: 0.227629
+accuracy: 0.919632
+ -- 520 / 874 --
+mean loss: 0.190504
+accuracy: 0.934839
+ -- 530 / 874 --
+mean loss: 0.172171
+accuracy: 0.939917
+ -- 540 / 874 --
+mean loss: 0.187236
+accuracy: 0.933380
+ -- 550 / 874 --
+mean loss: 0.246013
+accuracy: 0.918829
+ -- 560 / 874 --
+mean loss: 0.246170
+accuracy: 0.918011
+ -- 570 / 874 --
+mean loss: 0.242755
+accuracy: 0.920978
+ -- 580 / 874 --
+mean loss: 0.271454
+accuracy: 0.923364
+ -- 590 / 874 --
+mean loss: 0.257974
+accuracy: 0.921655
+ -- 600 / 874 --
+mean loss: 0.221403
+accuracy: 0.925110
+ -- 610 / 874 --
+mean loss: 0.247365
+accuracy: 0.918137
+ -- 620 / 874 --
+mean loss: 0.197363
+accuracy: 0.936414
+ -- 630 / 874 --
+mean loss: 0.213796
+accuracy: 0.926956
+ -- 640 / 874 --
+mean loss: 0.232726
+accuracy: 0.924774
+ -- 650 / 874 --
+mean loss: 0.191629
+accuracy: 0.935922
+ -- 660 / 874 --
+mean loss: 0.224787
+accuracy: 0.933704
+ -- 670 / 874 --
+mean loss: 0.204171
+accuracy: 0.931091
+ -- 680 / 874 --
+mean loss: 0.185586
+accuracy: 0.935141
+ -- 690 / 874 --
+mean loss: 0.163559
+accuracy: 0.941428
+ -- 700 / 874 --
+mean loss: 0.173203
+accuracy: 0.938586
+ -- 710 / 874 --
+mean loss: 0.184856
+accuracy: 0.936923
+ -- 720 / 874 --
+mean loss: 0.159560
+accuracy: 0.947208
+ -- 730 / 874 --
+mean loss: 0.200117
+accuracy: 0.933661
+ -- 740 / 874 --
+mean loss: 0.198951
+accuracy: 0.926587
+ -- 750 / 874 --
+mean loss: 0.184480
+accuracy: 0.938507
+ -- 760 / 874 --
+mean loss: 0.156448
+accuracy: 0.946478
+ -- 770 / 874 --
+mean loss: 0.163683
+accuracy: 0.941235
+ -- 780 / 874 --
+mean loss: 0.173962
+accuracy: 0.937775
+ -- 790 / 874 --
+mean loss: 0.243547
+accuracy: 0.935782
+ -- 800 / 874 --
+mean loss: 0.171855
+accuracy: 0.943442
+ -- 810 / 874 --
+mean loss: 0.277398
+accuracy: 0.918951
+ -- 820 / 874 --
+mean loss: 0.163350
+accuracy: 0.944116
+ -- 830 / 874 --
+mean loss: 0.188731
+accuracy: 0.933936
+ -- 840 / 874 --
+mean loss: 0.225387
+accuracy: 0.925735
+ -- 850 / 874 --
+mean loss: 0.184025
+accuracy: 0.933328
+ -- 860 / 874 --
+mean loss: 0.166249
+accuracy: 0.942642
+ -- 870 / 874 --
+mean loss: 0.159413
+accuracy: 0.944434
+2019-06-28 10:58:23.391604
+---- EPOCH 025 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.253101
+eval accuracy: 0.931372
+eval avg class acc: 0.816978
+eval mIoU of Airplane:	 0.780078
+eval mIoU of Bag:	 0.787721
+eval mIoU of Cap:	 0.841071
+eval mIoU of Car:	 0.740069
+eval mIoU of Chair:	 0.892986
+eval mIoU of Earphone:	 0.678007
+eval mIoU of Guitar:	 0.896103
+eval mIoU of Knife:	 0.833195
+eval mIoU of Lamp:	 0.819817
+eval mIoU of Laptop:	 0.951938
+eval mIoU of Motorbike:	 0.553679
+eval mIoU of Mug:	 0.908701
+eval mIoU of Pistol:	 0.752644
+eval mIoU of Rocket:	 0.508466
+eval mIoU of Skateboard:	 0.690759
+eval mIoU of Table:	 0.818334
+eval mean mIoU: 0.778348
+eval mean mIoU (all shapes): 0.828578
+**** EPOCH 026 ****
+2019-06-28 10:58:34.644807
+ -- 010 / 874 --
+mean loss: 0.175321
+accuracy: 0.940430
+ -- 020 / 874 --
+mean loss: 0.178044
+accuracy: 0.938278
+ -- 030 / 874 --
+mean loss: 0.156656
+accuracy: 0.942752
+ -- 040 / 874 --
+mean loss: 0.163137
+accuracy: 0.941458
+ -- 050 / 874 --
+mean loss: 0.179799
+accuracy: 0.936417
+ -- 060 / 874 --
+mean loss: 0.174573
+accuracy: 0.937381
+ -- 070 / 874 --
+mean loss: 0.177515
+accuracy: 0.940036
+ -- 080 / 874 --
+mean loss: 0.166453
+accuracy: 0.944424
+ -- 090 / 874 --
+mean loss: 0.170041
+accuracy: 0.936984
+ -- 100 / 874 --
+mean loss: 0.216299
+accuracy: 0.930438
+ -- 110 / 874 --
+mean loss: 0.194403
+accuracy: 0.930807
+ -- 120 / 874 --
+mean loss: 0.169893
+accuracy: 0.940497
+ -- 130 / 874 --
+mean loss: 0.163976
+accuracy: 0.945267
+ -- 140 / 874 --
+mean loss: 0.248191
+accuracy: 0.932458
+ -- 150 / 874 --
+mean loss: 0.165167
+accuracy: 0.940976
+ -- 160 / 874 --
+mean loss: 0.172306
+accuracy: 0.940735
+ -- 170 / 874 --
+mean loss: 0.180011
+accuracy: 0.936487
+ -- 180 / 874 --
+mean loss: 0.165613
+accuracy: 0.942868
+ -- 190 / 874 --
+mean loss: 0.155815
+accuracy: 0.946231
+ -- 200 / 874 --
+mean loss: 0.187188
+accuracy: 0.935983
+ -- 210 / 874 --
+mean loss: 0.178274
+accuracy: 0.933194
+ -- 220 / 874 --
+mean loss: 0.181160
+accuracy: 0.936298
+ -- 230 / 874 --
+mean loss: 0.199185
+accuracy: 0.930771
+ -- 240 / 874 --
+mean loss: 0.157598
+accuracy: 0.944531
+ -- 250 / 874 --
+mean loss: 0.165473
+accuracy: 0.942990
+ -- 260 / 874 --
+mean loss: 0.173233
+accuracy: 0.939825
+ -- 270 / 874 --
+mean loss: 0.168061
+accuracy: 0.942389
+ -- 280 / 874 --
+mean loss: 0.197988
+accuracy: 0.932275
+ -- 290 / 874 --
+mean loss: 0.213535
+accuracy: 0.929047
+ -- 300 / 874 --
+mean loss: 0.181512
+accuracy: 0.936057
+ -- 310 / 874 --
+mean loss: 0.189034
+accuracy: 0.934183
+ -- 320 / 874 --
+mean loss: 0.187111
+accuracy: 0.933759
+ -- 330 / 874 --
+mean loss: 0.186087
+accuracy: 0.935916
+ -- 340 / 874 --
+mean loss: 0.193491
+accuracy: 0.936292
+ -- 350 / 874 --
+mean loss: 0.181774
+accuracy: 0.935104
+ -- 360 / 874 --
+mean loss: 0.174227
+accuracy: 0.939749
+ -- 370 / 874 --
+mean loss: 0.160559
+accuracy: 0.946909
+ -- 380 / 874 --
+mean loss: 0.162130
+accuracy: 0.942474
+ -- 390 / 874 --
+mean loss: 0.179647
+accuracy: 0.939136
+ -- 400 / 874 --
+mean loss: 0.197379
+accuracy: 0.933453
+ -- 410 / 874 --
+mean loss: 0.177719
+accuracy: 0.938708
+ -- 420 / 874 --
+mean loss: 0.155186
+accuracy: 0.943970
+ -- 430 / 874 --
+mean loss: 0.168258
+accuracy: 0.942950
+ -- 440 / 874 --
+mean loss: 0.193076
+accuracy: 0.932217
+ -- 450 / 874 --
+mean loss: 0.214965
+accuracy: 0.925037
+ -- 460 / 874 --
+mean loss: 0.258611
+accuracy: 0.915894
+ -- 470 / 874 --
+mean loss: 0.212628
+accuracy: 0.927982
+ -- 480 / 874 --
+mean loss: 0.160009
+accuracy: 0.943445
+ -- 490 / 874 --
+mean loss: 0.193036
+accuracy: 0.934122
+ -- 500 / 874 --
+mean loss: 0.251675
+accuracy: 0.915714
+ -- 510 / 874 --
+mean loss: 0.215097
+accuracy: 0.922403
+ -- 520 / 874 --
+mean loss: 0.212104
+accuracy: 0.933981
+ -- 530 / 874 --
+mean loss: 0.186892
+accuracy: 0.936032
+ -- 540 / 874 --
+mean loss: 0.235451
+accuracy: 0.924835
+ -- 550 / 874 --
+mean loss: 0.195970
+accuracy: 0.935638
+ -- 560 / 874 --
+mean loss: 0.210278
+accuracy: 0.931711
+ -- 570 / 874 --
+mean loss: 0.194320
+accuracy: 0.929593
+ -- 580 / 874 --
+mean loss: 0.172180
+accuracy: 0.939725
+ -- 590 / 874 --
+mean loss: 0.176344
+accuracy: 0.939438
+ -- 600 / 874 --
+mean loss: 0.182646
+accuracy: 0.937958
+ -- 610 / 874 --
+mean loss: 0.209653
+accuracy: 0.930847
+ -- 620 / 874 --
+mean loss: 0.181059
+accuracy: 0.937924
+ -- 630 / 874 --
+mean loss: 0.221632
+accuracy: 0.930960
+ -- 640 / 874 --
+mean loss: 0.174953
+accuracy: 0.941223
+ -- 650 / 874 --
+mean loss: 0.197446
+accuracy: 0.935904
+ -- 660 / 874 --
+mean loss: 0.166981
+accuracy: 0.940521
+ -- 670 / 874 --
+mean loss: 0.187659
+accuracy: 0.934805
+ -- 680 / 874 --
+mean loss: 0.137647
+accuracy: 0.952097
+ -- 690 / 874 --
+mean loss: 0.217324
+accuracy: 0.930533
+ -- 700 / 874 --
+mean loss: 0.196694
+accuracy: 0.935782
+ -- 710 / 874 --
+mean loss: 0.224487
+accuracy: 0.928711
+ -- 720 / 874 --
+mean loss: 0.214527
+accuracy: 0.929199
+ -- 730 / 874 --
+mean loss: 0.184207
+accuracy: 0.935501
+ -- 740 / 874 --
+mean loss: 0.161750
+accuracy: 0.944809
+ -- 750 / 874 --
+mean loss: 0.180126
+accuracy: 0.939551
+ -- 760 / 874 --
+mean loss: 0.165660
+accuracy: 0.945505
+ -- 770 / 874 --
+mean loss: 0.171830
+accuracy: 0.946350
+ -- 780 / 874 --
+mean loss: 0.176611
+accuracy: 0.940546
+ -- 790 / 874 --
+mean loss: 0.185939
+accuracy: 0.934424
+ -- 800 / 874 --
+mean loss: 0.187626
+accuracy: 0.935376
+ -- 810 / 874 --
+mean loss: 0.182805
+accuracy: 0.935294
+ -- 820 / 874 --
+mean loss: 0.162456
+accuracy: 0.942694
+ -- 830 / 874 --
+mean loss: 0.160701
+accuracy: 0.944415
+ -- 840 / 874 --
+mean loss: 0.189632
+accuracy: 0.929996
+ -- 850 / 874 --
+mean loss: 0.161433
+accuracy: 0.943881
+ -- 860 / 874 --
+mean loss: 0.207243
+accuracy: 0.932535
+ -- 870 / 874 --
+mean loss: 0.213982
+accuracy: 0.920599
+2019-06-28 11:01:29.051092
+---- EPOCH 026 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.241653
+eval accuracy: 0.933425
+eval avg class acc: 0.831028
+eval mIoU of Airplane:	 0.791310
+eval mIoU of Bag:	 0.763110
+eval mIoU of Cap:	 0.873634
+eval mIoU of Car:	 0.734045
+eval mIoU of Chair:	 0.893274
+eval mIoU of Earphone:	 0.641615
+eval mIoU of Guitar:	 0.888327
+eval mIoU of Knife:	 0.826372
+eval mIoU of Lamp:	 0.821608
+eval mIoU of Laptop:	 0.957199
+eval mIoU of Motorbike:	 0.604575
+eval mIoU of Mug:	 0.947270
+eval mIoU of Pistol:	 0.784610
+eval mIoU of Rocket:	 0.499535
+eval mIoU of Skateboard:	 0.721719
+eval mIoU of Table:	 0.820541
+eval mean mIoU: 0.785547
+eval mean mIoU (all shapes): 0.832038
+**** EPOCH 027 ****
+2019-06-28 11:01:40.192357
+ -- 010 / 874 --
+mean loss: 0.200144
+accuracy: 0.935184
+ -- 020 / 874 --
+mean loss: 0.219413
+accuracy: 0.935727
+ -- 030 / 874 --
+mean loss: 0.186655
+accuracy: 0.931494
+ -- 040 / 874 --
+mean loss: 0.189649
+accuracy: 0.937561
+ -- 050 / 874 --
+mean loss: 0.259163
+accuracy: 0.937231
+ -- 060 / 874 --
+mean loss: 0.176670
+accuracy: 0.938699
+ -- 070 / 874 --
+mean loss: 0.191533
+accuracy: 0.934589
+ -- 080 / 874 --
+mean loss: 0.157529
+accuracy: 0.945572
+ -- 090 / 874 --
+mean loss: 0.159912
+accuracy: 0.944174
+ -- 100 / 874 --
+mean loss: 0.252580
+accuracy: 0.924146
+ -- 110 / 874 --
+mean loss: 0.158172
+accuracy: 0.943704
+ -- 120 / 874 --
+mean loss: 0.173804
+accuracy: 0.938489
+ -- 130 / 874 --
+mean loss: 0.147450
+accuracy: 0.946204
+ -- 140 / 874 --
+mean loss: 0.215928
+accuracy: 0.928848
+ -- 150 / 874 --
+mean loss: 0.176070
+accuracy: 0.936728
+ -- 160 / 874 --
+mean loss: 0.177089
+accuracy: 0.936963
+ -- 170 / 874 --
+mean loss: 0.185654
+accuracy: 0.935632
+ -- 180 / 874 --
+mean loss: 0.208486
+accuracy: 0.931732
+ -- 190 / 874 --
+mean loss: 0.154008
+accuracy: 0.945502
+ -- 200 / 874 --
+mean loss: 0.147464
+accuracy: 0.944818
+ -- 210 / 874 --
+mean loss: 0.188488
+accuracy: 0.931723
+ -- 220 / 874 --
+mean loss: 0.164185
+accuracy: 0.940118
+ -- 230 / 874 --
+mean loss: 0.220518
+accuracy: 0.926883
+ -- 240 / 874 --
+mean loss: 0.188578
+accuracy: 0.938217
+ -- 250 / 874 --
+mean loss: 0.156898
+accuracy: 0.947562
+ -- 260 / 874 --
+mean loss: 0.172173
+accuracy: 0.942123
+ -- 270 / 874 --
+mean loss: 0.181096
+accuracy: 0.937149
+ -- 280 / 874 --
+mean loss: 0.183053
+accuracy: 0.934225
+ -- 290 / 874 --
+mean loss: 0.204106
+accuracy: 0.935614
+ -- 300 / 874 --
+mean loss: 0.152429
+accuracy: 0.946591
+ -- 310 / 874 --
+mean loss: 0.195203
+accuracy: 0.929367
+ -- 320 / 874 --
+mean loss: 0.165820
+accuracy: 0.942740
+ -- 330 / 874 --
+mean loss: 0.155584
+accuracy: 0.944586
+ -- 340 / 874 --
+mean loss: 0.172870
+accuracy: 0.937772
+ -- 350 / 874 --
+mean loss: 0.194162
+accuracy: 0.932339
+ -- 360 / 874 --
+mean loss: 0.192385
+accuracy: 0.932001
+ -- 370 / 874 --
+mean loss: 0.232268
+accuracy: 0.920145
+ -- 380 / 874 --
+mean loss: 0.174278
+accuracy: 0.934692
+ -- 390 / 874 --
+mean loss: 0.258623
+accuracy: 0.930396
+ -- 400 / 874 --
+mean loss: 0.161116
+accuracy: 0.944501
+ -- 410 / 874 --
+mean loss: 0.213832
+accuracy: 0.932199
+ -- 420 / 874 --
+mean loss: 0.254764
+accuracy: 0.913052
+ -- 430 / 874 --
+mean loss: 0.195476
+accuracy: 0.931693
+ -- 440 / 874 --
+mean loss: 0.170434
+accuracy: 0.937985
+ -- 450 / 874 --
+mean loss: 0.180350
+accuracy: 0.935837
+ -- 460 / 874 --
+mean loss: 0.177999
+accuracy: 0.934915
+ -- 470 / 874 --
+mean loss: 0.154590
+accuracy: 0.944681
+ -- 480 / 874 --
+mean loss: 0.154108
+accuracy: 0.947522
+ -- 490 / 874 --
+mean loss: 0.221345
+accuracy: 0.932043
+ -- 500 / 874 --
+mean loss: 0.157736
+accuracy: 0.942303
+ -- 510 / 874 --
+mean loss: 0.162334
+accuracy: 0.942914
+ -- 520 / 874 --
+mean loss: 0.166158
+accuracy: 0.940732
+ -- 530 / 874 --
+mean loss: 0.193411
+accuracy: 0.933478
+ -- 540 / 874 --
+mean loss: 0.156705
+accuracy: 0.946286
+ -- 550 / 874 --
+mean loss: 0.170132
+accuracy: 0.937598
+ -- 560 / 874 --
+mean loss: 0.156426
+accuracy: 0.944626
+ -- 570 / 874 --
+mean loss: 0.186285
+accuracy: 0.939130
+ -- 580 / 874 --
+mean loss: 0.186726
+accuracy: 0.937210
+ -- 590 / 874 --
+mean loss: 0.179317
+accuracy: 0.937842
+ -- 600 / 874 --
+mean loss: 0.161319
+accuracy: 0.947433
+ -- 610 / 874 --
+mean loss: 0.203873
+accuracy: 0.930417
+ -- 620 / 874 --
+mean loss: 0.188279
+accuracy: 0.933566
+ -- 630 / 874 --
+mean loss: 0.184334
+accuracy: 0.935172
+ -- 640 / 874 --
+mean loss: 0.195482
+accuracy: 0.933136
+ -- 650 / 874 --
+mean loss: 0.185008
+accuracy: 0.933582
+ -- 660 / 874 --
+mean loss: 0.189330
+accuracy: 0.934882
+ -- 670 / 874 --
+mean loss: 0.205105
+accuracy: 0.937451
+ -- 680 / 874 --
+mean loss: 0.214251
+accuracy: 0.928946
+ -- 690 / 874 --
+mean loss: 0.203674
+accuracy: 0.938330
+ -- 700 / 874 --
+mean loss: 0.160418
+accuracy: 0.942462
+ -- 710 / 874 --
+mean loss: 0.203457
+accuracy: 0.930167
+ -- 720 / 874 --
+mean loss: 0.183650
+accuracy: 0.938202
+ -- 730 / 874 --
+mean loss: 0.210882
+accuracy: 0.930817
+ -- 740 / 874 --
+mean loss: 0.174866
+accuracy: 0.938889
+ -- 750 / 874 --
+mean loss: 0.198651
+accuracy: 0.929880
+ -- 760 / 874 --
+mean loss: 0.201099
+accuracy: 0.928952
+ -- 770 / 874 --
+mean loss: 0.203995
+accuracy: 0.929913
+ -- 780 / 874 --
+mean loss: 0.186317
+accuracy: 0.935953
+ -- 790 / 874 --
+mean loss: 0.312382
+accuracy: 0.915701
+ -- 800 / 874 --
+mean loss: 0.210932
+accuracy: 0.926038
+ -- 810 / 874 --
+mean loss: 0.219466
+accuracy: 0.927512
+ -- 820 / 874 --
+mean loss: 0.150653
+accuracy: 0.946051
+ -- 830 / 874 --
+mean loss: 0.176004
+accuracy: 0.939337
+ -- 840 / 874 --
+mean loss: 0.169308
+accuracy: 0.938797
+ -- 850 / 874 --
+mean loss: 0.166424
+accuracy: 0.940735
+ -- 860 / 874 --
+mean loss: 0.210298
+accuracy: 0.928198
+ -- 870 / 874 --
+mean loss: 0.276814
+accuracy: 0.925262
+2019-06-28 11:04:34.506586
+---- EPOCH 027 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.257625
+eval accuracy: 0.931293
+eval avg class acc: 0.807408
+eval mIoU of Airplane:	 0.798769
+eval mIoU of Bag:	 0.767121
+eval mIoU of Cap:	 0.871794
+eval mIoU of Car:	 0.723000
+eval mIoU of Chair:	 0.899955
+eval mIoU of Earphone:	 0.701409
+eval mIoU of Guitar:	 0.893637
+eval mIoU of Knife:	 0.825836
+eval mIoU of Lamp:	 0.824486
+eval mIoU of Laptop:	 0.956126
+eval mIoU of Motorbike:	 0.480387
+eval mIoU of Mug:	 0.941837
+eval mIoU of Pistol:	 0.772286
+eval mIoU of Rocket:	 0.510345
+eval mIoU of Skateboard:	 0.711814
+eval mIoU of Table:	 0.816788
+eval mean mIoU: 0.780974
+eval mean mIoU (all shapes): 0.831157
+**** EPOCH 028 ****
+2019-06-28 11:04:45.684155
+ -- 010 / 874 --
+mean loss: 0.181667
+accuracy: 0.934772
+ -- 020 / 874 --
+mean loss: 0.175046
+accuracy: 0.938687
+ -- 030 / 874 --
+mean loss: 0.189380
+accuracy: 0.934906
+ -- 040 / 874 --
+mean loss: 0.167224
+accuracy: 0.942178
+ -- 050 / 874 --
+mean loss: 0.203587
+accuracy: 0.923349
+ -- 060 / 874 --
+mean loss: 0.146648
+accuracy: 0.947534
+ -- 070 / 874 --
+mean loss: 0.224376
+accuracy: 0.929004
+ -- 080 / 874 --
+mean loss: 0.178614
+accuracy: 0.937814
+ -- 090 / 874 --
+mean loss: 0.153751
+accuracy: 0.945508
+ -- 100 / 874 --
+mean loss: 0.185595
+accuracy: 0.935455
+ -- 110 / 874 --
+mean loss: 0.176953
+accuracy: 0.941147
+ -- 120 / 874 --
+mean loss: 0.155519
+accuracy: 0.943314
+ -- 130 / 874 --
+mean loss: 0.195153
+accuracy: 0.932507
+ -- 140 / 874 --
+mean loss: 0.171817
+accuracy: 0.941040
+ -- 150 / 874 --
+mean loss: 0.184173
+accuracy: 0.937933
+ -- 160 / 874 --
+mean loss: 0.183370
+accuracy: 0.936133
+ -- 170 / 874 --
+mean loss: 0.186908
+accuracy: 0.933478
+ -- 180 / 874 --
+mean loss: 0.188016
+accuracy: 0.933447
+ -- 190 / 874 --
+mean loss: 0.194628
+accuracy: 0.940744
+ -- 200 / 874 --
+mean loss: 0.247476
+accuracy: 0.927060
+ -- 210 / 874 --
+mean loss: 0.167817
+accuracy: 0.944678
+ -- 220 / 874 --
+mean loss: 0.175950
+accuracy: 0.937912
+ -- 230 / 874 --
+mean loss: 0.167920
+accuracy: 0.943695
+ -- 240 / 874 --
+mean loss: 0.152949
+accuracy: 0.945312
+ -- 250 / 874 --
+mean loss: 0.156483
+accuracy: 0.945917
+ -- 260 / 874 --
+mean loss: 0.151719
+accuracy: 0.946194
+ -- 270 / 874 --
+mean loss: 0.165570
+accuracy: 0.941742
+ -- 280 / 874 --
+mean loss: 0.161544
+accuracy: 0.944354
+ -- 290 / 874 --
+mean loss: 0.228227
+accuracy: 0.927515
+ -- 300 / 874 --
+mean loss: 0.229252
+accuracy: 0.920361
+ -- 310 / 874 --
+mean loss: 0.193807
+accuracy: 0.933591
+ -- 320 / 874 --
+mean loss: 0.175962
+accuracy: 0.939133
+ -- 330 / 874 --
+mean loss: 0.178013
+accuracy: 0.937582
+ -- 340 / 874 --
+mean loss: 0.174252
+accuracy: 0.934772
+ -- 350 / 874 --
+mean loss: 0.173764
+accuracy: 0.941205
+ -- 360 / 874 --
+mean loss: 0.192631
+accuracy: 0.938651
+ -- 370 / 874 --
+mean loss: 0.151132
+accuracy: 0.947659
+ -- 380 / 874 --
+mean loss: 0.221748
+accuracy: 0.920206
+ -- 390 / 874 --
+mean loss: 0.173699
+accuracy: 0.944144
+ -- 400 / 874 --
+mean loss: 0.206428
+accuracy: 0.935004
+ -- 410 / 874 --
+mean loss: 0.179514
+accuracy: 0.939401
+ -- 420 / 874 --
+mean loss: 0.199529
+accuracy: 0.932861
+ -- 430 / 874 --
+mean loss: 0.165604
+accuracy: 0.941263
+ -- 440 / 874 --
+mean loss: 0.216291
+accuracy: 0.935284
+ -- 450 / 874 --
+mean loss: 0.214742
+accuracy: 0.928772
+ -- 460 / 874 --
+mean loss: 0.181552
+accuracy: 0.938611
+ -- 470 / 874 --
+mean loss: 0.284519
+accuracy: 0.923383
+ -- 480 / 874 --
+mean loss: 0.226167
+accuracy: 0.923492
+ -- 490 / 874 --
+mean loss: 0.205363
+accuracy: 0.925781
+ -- 500 / 874 --
+mean loss: 0.182597
+accuracy: 0.939590
+ -- 510 / 874 --
+mean loss: 0.194091
+accuracy: 0.932767
+ -- 520 / 874 --
+mean loss: 0.205956
+accuracy: 0.930518
+ -- 530 / 874 --
+mean loss: 0.183642
+accuracy: 0.937579
+ -- 540 / 874 --
+mean loss: 0.141794
+accuracy: 0.950146
+ -- 550 / 874 --
+mean loss: 0.204272
+accuracy: 0.929578
+ -- 560 / 874 --
+mean loss: 0.139916
+accuracy: 0.952133
+ -- 570 / 874 --
+mean loss: 0.195598
+accuracy: 0.937482
+ -- 580 / 874 --
+mean loss: 0.253936
+accuracy: 0.928302
+ -- 590 / 874 --
+mean loss: 0.198810
+accuracy: 0.937888
+ -- 600 / 874 --
+mean loss: 0.199767
+accuracy: 0.937640
+ -- 610 / 874 --
+mean loss: 0.185779
+accuracy: 0.935953
+ -- 620 / 874 --
+mean loss: 0.166639
+accuracy: 0.941904
+ -- 630 / 874 --
+mean loss: 0.191275
+accuracy: 0.932971
+ -- 640 / 874 --
+mean loss: 0.187146
+accuracy: 0.937094
+ -- 650 / 874 --
+mean loss: 0.191891
+accuracy: 0.940723
+ -- 660 / 874 --
+mean loss: 0.227994
+accuracy: 0.926892
+ -- 670 / 874 --
+mean loss: 0.160292
+accuracy: 0.944540
+ -- 680 / 874 --
+mean loss: 0.158952
+accuracy: 0.943756
+ -- 690 / 874 --
+mean loss: 0.181290
+accuracy: 0.938776
+ -- 700 / 874 --
+mean loss: 0.149079
+accuracy: 0.947119
+ -- 710 / 874 --
+mean loss: 0.193872
+accuracy: 0.936322
+ -- 720 / 874 --
+mean loss: 0.172724
+accuracy: 0.939206
+ -- 730 / 874 --
+mean loss: 0.239653
+accuracy: 0.917999
+ -- 740 / 874 --
+mean loss: 0.192360
+accuracy: 0.934012
+ -- 750 / 874 --
+mean loss: 0.138221
+accuracy: 0.952347
+ -- 760 / 874 --
+mean loss: 0.168365
+accuracy: 0.937277
+ -- 770 / 874 --
+mean loss: 0.176075
+accuracy: 0.942126
+ -- 780 / 874 --
+mean loss: 0.158801
+accuracy: 0.941220
+ -- 790 / 874 --
+mean loss: 0.149796
+accuracy: 0.946619
+ -- 800 / 874 --
+mean loss: 0.167969
+accuracy: 0.940659
+ -- 810 / 874 --
+mean loss: 0.168583
+accuracy: 0.939688
+ -- 820 / 874 --
+mean loss: 0.195698
+accuracy: 0.928790
+ -- 830 / 874 --
+mean loss: 0.190503
+accuracy: 0.930118
+ -- 840 / 874 --
+mean loss: 0.171022
+accuracy: 0.937494
+ -- 850 / 874 --
+mean loss: 0.156156
+accuracy: 0.948306
+ -- 860 / 874 --
+mean loss: 0.152254
+accuracy: 0.945691
+ -- 870 / 874 --
+mean loss: 0.179453
+accuracy: 0.934537
+2019-06-28 11:07:39.990833
+---- EPOCH 028 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.239310
+eval accuracy: 0.934690
+eval avg class acc: 0.822758
+eval mIoU of Airplane:	 0.797596
+eval mIoU of Bag:	 0.801350
+eval mIoU of Cap:	 0.848962
+eval mIoU of Car:	 0.746653
+eval mIoU of Chair:	 0.898782
+eval mIoU of Earphone:	 0.710262
+eval mIoU of Guitar:	 0.896040
+eval mIoU of Knife:	 0.836559
+eval mIoU of Lamp:	 0.831688
+eval mIoU of Laptop:	 0.954729
+eval mIoU of Motorbike:	 0.548477
+eval mIoU of Mug:	 0.941957
+eval mIoU of Pistol:	 0.765164
+eval mIoU of Rocket:	 0.536176
+eval mIoU of Skateboard:	 0.715485
+eval mIoU of Table:	 0.821025
+eval mean mIoU: 0.790682
+eval mean mIoU (all shapes): 0.835759
+**** EPOCH 029 ****
+2019-06-28 11:07:51.174606
+ -- 010 / 874 --
+mean loss: 0.155939
+accuracy: 0.946442
+ -- 020 / 874 --
+mean loss: 0.159326
+accuracy: 0.944943
+ -- 030 / 874 --
+mean loss: 0.176495
+accuracy: 0.939047
+ -- 040 / 874 --
+mean loss: 0.178187
+accuracy: 0.941104
+ -- 050 / 874 --
+mean loss: 0.193681
+accuracy: 0.931036
+ -- 060 / 874 --
+mean loss: 0.186607
+accuracy: 0.932947
+ -- 070 / 874 --
+mean loss: 0.177145
+accuracy: 0.937253
+ -- 080 / 874 --
+mean loss: 0.158543
+accuracy: 0.944391
+ -- 090 / 874 --
+mean loss: 0.162566
+accuracy: 0.943103
+ -- 100 / 874 --
+mean loss: 0.157323
+accuracy: 0.943533
+ -- 110 / 874 --
+mean loss: 0.149588
+accuracy: 0.948514
+ -- 120 / 874 --
+mean loss: 0.239547
+accuracy: 0.921442
+ -- 130 / 874 --
+mean loss: 0.161423
+accuracy: 0.942017
+ -- 140 / 874 --
+mean loss: 0.152251
+accuracy: 0.945059
+ -- 150 / 874 --
+mean loss: 0.193986
+accuracy: 0.933945
+ -- 160 / 874 --
+mean loss: 0.212450
+accuracy: 0.931357
+ -- 170 / 874 --
+mean loss: 0.190471
+accuracy: 0.936230
+ -- 180 / 874 --
+mean loss: 0.165653
+accuracy: 0.941864
+ -- 190 / 874 --
+mean loss: 0.179945
+accuracy: 0.936435
+ -- 200 / 874 --
+mean loss: 0.168982
+accuracy: 0.939423
+ -- 210 / 874 --
+mean loss: 0.153558
+accuracy: 0.946475
+ -- 220 / 874 --
+mean loss: 0.179929
+accuracy: 0.935428
+ -- 230 / 874 --
+mean loss: 0.146834
+accuracy: 0.944016
+ -- 240 / 874 --
+mean loss: 0.153560
+accuracy: 0.946896
+ -- 250 / 874 --
+mean loss: 0.166455
+accuracy: 0.946472
+ -- 260 / 874 --
+mean loss: 0.176726
+accuracy: 0.937131
+ -- 270 / 874 --
+mean loss: 0.174524
+accuracy: 0.935867
+ -- 280 / 874 --
+mean loss: 0.187920
+accuracy: 0.930817
+ -- 290 / 874 --
+mean loss: 0.202459
+accuracy: 0.928116
+ -- 300 / 874 --
+mean loss: 0.217248
+accuracy: 0.923697
+ -- 310 / 874 --
+mean loss: 0.143940
+accuracy: 0.947485
+ -- 320 / 874 --
+mean loss: 0.211712
+accuracy: 0.926709
+ -- 330 / 874 --
+mean loss: 0.214371
+accuracy: 0.930783
+ -- 340 / 874 --
+mean loss: 0.145393
+accuracy: 0.947177
+ -- 350 / 874 --
+mean loss: 0.222315
+accuracy: 0.928720
+ -- 360 / 874 --
+mean loss: 0.167734
+accuracy: 0.938821
+ -- 370 / 874 --
+mean loss: 0.178304
+accuracy: 0.937613
+ -- 380 / 874 --
+mean loss: 0.192886
+accuracy: 0.932269
+ -- 390 / 874 --
+mean loss: 0.267648
+accuracy: 0.926752
+ -- 400 / 874 --
+mean loss: 0.186204
+accuracy: 0.934366
+ -- 410 / 874 --
+mean loss: 0.190477
+accuracy: 0.935046
+ -- 420 / 874 --
+mean loss: 0.161663
+accuracy: 0.943842
+ -- 430 / 874 --
+mean loss: 0.152713
+accuracy: 0.948605
+ -- 440 / 874 --
+mean loss: 0.183313
+accuracy: 0.938016
+ -- 450 / 874 --
+mean loss: 0.180425
+accuracy: 0.938995
+ -- 460 / 874 --
+mean loss: 0.179861
+accuracy: 0.938037
+ -- 470 / 874 --
+mean loss: 0.195337
+accuracy: 0.934720
+ -- 480 / 874 --
+mean loss: 0.169280
+accuracy: 0.938336
+ -- 490 / 874 --
+mean loss: 0.174203
+accuracy: 0.937729
+ -- 500 / 874 --
+mean loss: 0.139878
+accuracy: 0.948828
+ -- 510 / 874 --
+mean loss: 0.202705
+accuracy: 0.939505
+ -- 520 / 874 --
+mean loss: 0.139767
+accuracy: 0.950623
+ -- 530 / 874 --
+mean loss: 0.157271
+accuracy: 0.944135
+ -- 540 / 874 --
+mean loss: 0.160737
+accuracy: 0.945941
+ -- 550 / 874 --
+mean loss: 0.167565
+accuracy: 0.945633
+ -- 560 / 874 --
+mean loss: 0.155539
+accuracy: 0.946796
+ -- 570 / 874 --
+mean loss: 0.158296
+accuracy: 0.944812
+ -- 580 / 874 --
+mean loss: 0.151320
+accuracy: 0.947382
+ -- 590 / 874 --
+mean loss: 0.155929
+accuracy: 0.946490
+ -- 600 / 874 --
+mean loss: 0.152607
+accuracy: 0.943442
+ -- 610 / 874 --
+mean loss: 0.151528
+accuracy: 0.946774
+ -- 620 / 874 --
+mean loss: 0.163652
+accuracy: 0.940240
+ -- 630 / 874 --
+mean loss: 0.202762
+accuracy: 0.929898
+ -- 640 / 874 --
+mean loss: 0.164707
+accuracy: 0.941641
+ -- 650 / 874 --
+mean loss: 0.174070
+accuracy: 0.939594
+ -- 660 / 874 --
+mean loss: 0.170983
+accuracy: 0.939136
+ -- 670 / 874 --
+mean loss: 0.162233
+accuracy: 0.946011
+ -- 680 / 874 --
+mean loss: 0.162873
+accuracy: 0.946768
+ -- 690 / 874 --
+mean loss: 0.208520
+accuracy: 0.929037
+ -- 700 / 874 --
+mean loss: 0.183302
+accuracy: 0.937091
+ -- 710 / 874 --
+mean loss: 0.175425
+accuracy: 0.938364
+ -- 720 / 874 --
+mean loss: 0.179996
+accuracy: 0.935745
+ -- 730 / 874 --
+mean loss: 0.179389
+accuracy: 0.937643
+ -- 740 / 874 --
+mean loss: 0.160878
+accuracy: 0.943768
+ -- 750 / 874 --
+mean loss: 0.172905
+accuracy: 0.936639
+ -- 760 / 874 --
+mean loss: 0.153196
+accuracy: 0.947214
+ -- 770 / 874 --
+mean loss: 0.168500
+accuracy: 0.939386
+ -- 780 / 874 --
+mean loss: 0.189941
+accuracy: 0.929004
+ -- 790 / 874 --
+mean loss: 0.162183
+accuracy: 0.939511
+ -- 800 / 874 --
+mean loss: 0.165783
+accuracy: 0.943076
+ -- 810 / 874 --
+mean loss: 0.181054
+accuracy: 0.936847
+ -- 820 / 874 --
+mean loss: 0.184028
+accuracy: 0.932483
+ -- 830 / 874 --
+mean loss: 0.149222
+accuracy: 0.948166
+ -- 840 / 874 --
+mean loss: 0.157436
+accuracy: 0.943326
+ -- 850 / 874 --
+mean loss: 0.175929
+accuracy: 0.936475
+ -- 860 / 874 --
+mean loss: 0.154750
+accuracy: 0.942932
+ -- 870 / 874 --
+mean loss: 0.124778
+accuracy: 0.954010
+2019-06-28 11:10:45.370946
+---- EPOCH 029 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.245315
+eval accuracy: 0.934247
+eval avg class acc: 0.821046
+eval mIoU of Airplane:	 0.797380
+eval mIoU of Bag:	 0.759335
+eval mIoU of Cap:	 0.874765
+eval mIoU of Car:	 0.749050
+eval mIoU of Chair:	 0.900857
+eval mIoU of Earphone:	 0.686048
+eval mIoU of Guitar:	 0.892714
+eval mIoU of Knife:	 0.835656
+eval mIoU of Lamp:	 0.831478
+eval mIoU of Laptop:	 0.958338
+eval mIoU of Motorbike:	 0.498154
+eval mIoU of Mug:	 0.940084
+eval mIoU of Pistol:	 0.782476
+eval mIoU of Rocket:	 0.531546
+eval mIoU of Skateboard:	 0.727352
+eval mIoU of Table:	 0.816893
+eval mean mIoU: 0.786383
+eval mean mIoU (all shapes): 0.834261
+**** EPOCH 030 ****
+2019-06-28 11:10:56.565026
+ -- 010 / 874 --
+mean loss: 0.153937
+accuracy: 0.943823
+ -- 020 / 874 --
+mean loss: 0.172387
+accuracy: 0.939557
+ -- 030 / 874 --
+mean loss: 0.162610
+accuracy: 0.940097
+ -- 040 / 874 --
+mean loss: 0.142207
+accuracy: 0.949570
+ -- 050 / 874 --
+mean loss: 0.161063
+accuracy: 0.942520
+ -- 060 / 874 --
+mean loss: 0.139521
+accuracy: 0.950610
+ -- 070 / 874 --
+mean loss: 0.167767
+accuracy: 0.939145
+ -- 080 / 874 --
+mean loss: 0.185470
+accuracy: 0.937247
+ -- 090 / 874 --
+mean loss: 0.177040
+accuracy: 0.938736
+ -- 100 / 874 --
+mean loss: 0.238690
+accuracy: 0.935519
+ -- 110 / 874 --
+mean loss: 0.200642
+accuracy: 0.936591
+ -- 120 / 874 --
+mean loss: 0.219676
+accuracy: 0.929236
+ -- 130 / 874 --
+mean loss: 0.162148
+accuracy: 0.942526
+ -- 140 / 874 --
+mean loss: 0.191072
+accuracy: 0.934753
+ -- 150 / 874 --
+mean loss: 0.147137
+accuracy: 0.950195
+ -- 160 / 874 --
+mean loss: 0.189060
+accuracy: 0.932431
+ -- 170 / 874 --
+mean loss: 0.163739
+accuracy: 0.940479
+ -- 180 / 874 --
+mean loss: 0.191027
+accuracy: 0.940616
+ -- 190 / 874 --
+mean loss: 0.146136
+accuracy: 0.949591
+ -- 200 / 874 --
+mean loss: 0.165230
+accuracy: 0.942606
+ -- 210 / 874 --
+mean loss: 0.182552
+accuracy: 0.931686
+ -- 220 / 874 --
+mean loss: 0.172824
+accuracy: 0.938455
+ -- 230 / 874 --
+mean loss: 0.174710
+accuracy: 0.939240
+ -- 240 / 874 --
+mean loss: 0.147869
+accuracy: 0.947388
+ -- 250 / 874 --
+mean loss: 0.152413
+accuracy: 0.945508
+ -- 260 / 874 --
+mean loss: 0.158087
+accuracy: 0.945105
+ -- 270 / 874 --
+mean loss: 0.164145
+accuracy: 0.942169
+ -- 280 / 874 --
+mean loss: 0.151328
+accuracy: 0.946518
+ -- 290 / 874 --
+mean loss: 0.175375
+accuracy: 0.939340
+ -- 300 / 874 --
+mean loss: 0.147677
+accuracy: 0.947598
+ -- 310 / 874 --
+mean loss: 0.182754
+accuracy: 0.938947
+ -- 320 / 874 --
+mean loss: 0.153181
+accuracy: 0.948633
+ -- 330 / 874 --
+mean loss: 0.242493
+accuracy: 0.930249
+ -- 340 / 874 --
+mean loss: 0.180093
+accuracy: 0.938849
+ -- 350 / 874 --
+mean loss: 0.159562
+accuracy: 0.944455
+ -- 360 / 874 --
+mean loss: 0.144850
+accuracy: 0.949472
+ -- 370 / 874 --
+mean loss: 0.177686
+accuracy: 0.937106
+ -- 380 / 874 --
+mean loss: 0.162261
+accuracy: 0.948239
+ -- 390 / 874 --
+mean loss: 0.163598
+accuracy: 0.941925
+ -- 400 / 874 --
+mean loss: 0.204387
+accuracy: 0.927228
+ -- 410 / 874 --
+mean loss: 0.156814
+accuracy: 0.944098
+ -- 420 / 874 --
+mean loss: 0.168512
+accuracy: 0.945218
+ -- 430 / 874 --
+mean loss: 0.180869
+accuracy: 0.935266
+ -- 440 / 874 --
+mean loss: 0.151576
+accuracy: 0.947083
+ -- 450 / 874 --
+mean loss: 0.155171
+accuracy: 0.946695
+ -- 460 / 874 --
+mean loss: 0.169523
+accuracy: 0.939795
+ -- 470 / 874 --
+mean loss: 0.169002
+accuracy: 0.938953
+ -- 480 / 874 --
+mean loss: 0.148349
+accuracy: 0.946896
+ -- 490 / 874 --
+mean loss: 0.160848
+accuracy: 0.942871
+ -- 500 / 874 --
+mean loss: 0.220178
+accuracy: 0.927438
+ -- 510 / 874 --
+mean loss: 0.171727
+accuracy: 0.939401
+ -- 520 / 874 --
+mean loss: 0.182883
+accuracy: 0.935156
+ -- 530 / 874 --
+mean loss: 0.184478
+accuracy: 0.938263
+ -- 540 / 874 --
+mean loss: 0.155683
+accuracy: 0.947263
+ -- 550 / 874 --
+mean loss: 0.152666
+accuracy: 0.943506
+ -- 560 / 874 --
+mean loss: 0.161497
+accuracy: 0.939749
+ -- 570 / 874 --
+mean loss: 0.161909
+accuracy: 0.941531
+ -- 580 / 874 --
+mean loss: 0.154437
+accuracy: 0.947714
+ -- 590 / 874 --
+mean loss: 0.160653
+accuracy: 0.940836
+ -- 600 / 874 --
+mean loss: 0.197145
+accuracy: 0.931064
+ -- 610 / 874 --
+mean loss: 0.157677
+accuracy: 0.946097
+ -- 620 / 874 --
+mean loss: 0.198801
+accuracy: 0.936099
+ -- 630 / 874 --
+mean loss: 0.181168
+accuracy: 0.934183
+ -- 640 / 874 --
+mean loss: 0.175033
+accuracy: 0.939020
+ -- 650 / 874 --
+mean loss: 0.209264
+accuracy: 0.930215
+ -- 660 / 874 --
+mean loss: 0.142061
+accuracy: 0.950174
+ -- 670 / 874 --
+mean loss: 0.181858
+accuracy: 0.940454
+ -- 680 / 874 --
+mean loss: 0.153240
+accuracy: 0.945102
+ -- 690 / 874 --
+mean loss: 0.181649
+accuracy: 0.935593
+ -- 700 / 874 --
+mean loss: 0.204605
+accuracy: 0.930600
+ -- 710 / 874 --
+mean loss: 0.159385
+accuracy: 0.944250
+ -- 720 / 874 --
+mean loss: 0.179492
+accuracy: 0.937335
+ -- 730 / 874 --
+mean loss: 0.165976
+accuracy: 0.943967
+ -- 740 / 874 --
+mean loss: 0.190526
+accuracy: 0.932550
+ -- 750 / 874 --
+mean loss: 0.154427
+accuracy: 0.943460
+ -- 760 / 874 --
+mean loss: 0.190820
+accuracy: 0.933005
+ -- 770 / 874 --
+mean loss: 0.170007
+accuracy: 0.942200
+ -- 780 / 874 --
+mean loss: 0.179734
+accuracy: 0.936661
+ -- 790 / 874 --
+mean loss: 0.183865
+accuracy: 0.932956
+ -- 800 / 874 --
+mean loss: 0.151182
+accuracy: 0.947537
+ -- 810 / 874 --
+mean loss: 0.180313
+accuracy: 0.934784
+ -- 820 / 874 --
+mean loss: 0.160376
+accuracy: 0.944095
+ -- 830 / 874 --
+mean loss: 0.176570
+accuracy: 0.937628
+ -- 840 / 874 --
+mean loss: 0.156213
+accuracy: 0.945050
+ -- 850 / 874 --
+mean loss: 0.152213
+accuracy: 0.946603
+ -- 860 / 874 --
+mean loss: 0.198039
+accuracy: 0.930725
+ -- 870 / 874 --
+mean loss: 0.173241
+accuracy: 0.938632
+2019-06-28 11:13:50.820672
+---- EPOCH 030 EVALUATION ----
+000/180
+020/180
+040/180
+060/180
+080/180
+100/180
+120/180
+140/180
+160/180
+eval mean loss: 0.237075
+eval accuracy: 0.933685
+eval avg class acc: 0.815247
+eval mIoU of Airplane:	 0.796237
+eval mIoU of Bag:	 0.776741
+eval mIoU of Cap:	 0.882774
+eval mIoU of Car:	 0.744010
+eval mIoU of Chair:	 0.901249
+eval mIoU of Earphone:	 0.714175
+eval mIoU of Guitar:	 0.899076
+eval mIoU of Knife:	 0.819883
+eval mIoU of Lamp:	 0.832935
+eval mIoU of Laptop:	 0.953143
+eval mIoU of Motorbike:	 0.488487
+eval mIoU of Mug:	 0.907139
+eval mIoU of Pistol:	 0.776516
+eval mIoU of Rocket:	 0.551870
+eval mIoU of Skateboard:	 0.734545
+eval mIoU of Table:	 0.818402
+eval mean mIoU: 0.787324
+eval mean mIoU (all shapes): 0.834014
+Model saved in file: log_part_segmentation/model.ckpt
