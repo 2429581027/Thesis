@@ -39,28 +39,28 @@ def get_data():
     point_set = point_set[0:NUM_POINT,0:3]
 
     batch_data[0,...] = pc_normalize(point_set)
-    batch_label[0] = 0
+    batch_label[0] = 20
 
     # the second point cloud
     point_set2 = np.loadtxt(DATA_PATH + "/laptop/laptop_0002.txt",delimiter=',').astype(np.float32)
     point_set2 = point_set2[0:NUM_POINT,0:3]
     
     batch_data[1,...] = pc_normalize(point_set2)
-    batch_label[1] = 0
+    batch_label[1] = 20
   
     # the thrid point cloud
     point_set3 = np.loadtxt(DATA_PATH + "/laptop/laptop_0003.txt",delimiter=',').astype(np.float32)
     point_set3 = point_set3[0:NUM_POINT,0:3]
     
     batch_data[2,...] = pc_normalize(point_set3)
-    batch_label[2] = 0
+    batch_label[2] = 20
     
     # the fouth point cloud
     point_set4 = np.loadtxt(DATA_PATH + "/laptop/laptop_0004.txt",delimiter=',').astype(np.float32)
     point_set4 = point_set4[0:NUM_POINT,0:3]
     
     batch_data[3,...] = pc_normalize(point_set4)
-    batch_label[3] = 0
+    batch_label[3] = 20
     
     for i in range(1,10):
         fileName = DATA_PATH + "/laptop/laptop_000" + str(i) + ".txt"
@@ -69,7 +69,7 @@ def get_data():
         point_set = point_set[0:NUM_POINT,0:3]
 
         batch_data[i,...] = pc_normalize(point_set)
-        batch_label[i] = 0
+        batch_label[i] = 20
         
     for i in range(10,16):
         fileName = DATA_PATH + "/laptop/laptop_00" + str(i) + ".txt"
@@ -78,7 +78,7 @@ def get_data():
         point_set = point_set[0:NUM_POINT,0:3]
 
         batch_data[i,...] = pc_normalize(point_set)
-        batch_label[i] = 0
+        batch_label[i] = 20
         
     
     return batch_data,batch_label
